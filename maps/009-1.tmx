@@ -139,6 +139,7 @@
   </object>
   <object name="Clover patch" type="spawn" x="2336" y="1024" width="96" height="64">
    <properties>
+    <property name="eA_spawn" value="100000"/>
     <property name="eA_death" value="120000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="35"/>
@@ -149,6 +150,20 @@
     <property name="eA_death" value="250"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="12"/>
+   </properties>
+  </object>
+  <object name="Squirrel" type="spawn" x="2592" y="1568" width="512" height="160">
+   <properties>
+    <property name="eA_death" value="5000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="36"/>
+   </properties>
+  </object>
+  <object name="Squirrel" type="spawn" x="2496" y="1152" width="192" height="192">
+   <properties>
+    <property name="eA_death" value="5000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="36"/>
    </properties>
   </object>
  </objectgroup>
