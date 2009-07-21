@@ -109,4 +109,13 @@
    <particlefx>graphics/particles/hellblaze.particle.xml</particlefx>
 </npc>
 
+<npc id="901">
+   <!-- the MushroomLady ;) -->
+   <sprite>player_female_base.xml</sprite>
+   <sprite>feet-boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+   <sprite>chest-robe-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+   <sprite>hairstyle11.xml|#80280f,b04810,ef681f,ffb830</sprite>
+   <sprite>head-mushroom.xml</sprite>
+</npc>
+
 </npcs>
