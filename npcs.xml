@@ -118,4 +118,6 @@
    <sprite>head-mushroom.xml</sprite>
 </npc>
 
+<npc id="199"><sprite variant="1">npc-slicer.xml</sprite></npc><!-- Slicer -->
+
 </npcs>
