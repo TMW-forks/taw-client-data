@@ -567,6 +567,7 @@
 
     <monster id="19" name="Cave Snake">
         <sprite>monster-snake-cave.xml</sprite>
+        <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
         <drop item="612" percent="8"/>
         <drop item="610" percent="0.1"/>
         <attributes
@@ -880,6 +881,10 @@
 
     <monster id="36" name="Squirrel">
         <sprite>monster-squirrel.xml</sprite>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
         <attributes
             hp="20"
             size="4"
