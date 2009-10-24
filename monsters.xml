@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2009 The Mana World Development Team 
+monsters.xml parameters explanation:
+This file is used to describe the monsters the players will see all around the world.
+It can be used by both client and server, but some parameters are specific.
+
+id [integer]:      It is the id of the monster. This parameter has to be unique for each monster.
+                   The system will use the monster id to refer on it in many ways.
+name [string]:     Tells the monster name. (Used to ease configuration ease on server.)
+                   but displayed to players on the client side.
+sprite [xml file]: Tells the xml file used to display the monster sprites. (Client only).
+sound <TAG>:       This tag is used by the client to know which sound to play at what event.
+  event [string]:  Tells the event at which the corresponding sound should be played. ('die', 'miss', 'hit', 'strike' are some examples.)
+  <INNER>[string]: The ogg file to be played
+drop <TAG>:        Tells what kind of item the monster can drop. See items.xml to get the id correspondence.
+  item [integer]:  Tells the drop item Id.
+  percent[float]:  Tells the chance (8.0 = 8%) to see the drop after monster's death.
+attributes <TAG>:  Tells all the monsters attribute. These attribute, as for items, should not be left
+                   in players hands.
+  hp [integer]:    The monster hit points.
+  size[integer]:   The monster maximal amplitude in pixels. Used to compute player's hit area.
+  speed[float]:    The monster's speed in tiles per second.
+                       (A tile is the smallest square map unit: by default, a tile is 32 pixel long.)
+  attack-min[integer]: The minimal attack strength of the monster. If your hasn't got any armor,
+                          there are the minimal hit points he will lose when hit by the monster.
+  attack-delta[integer]:  The amplitude between minimal and maximal damages the monster can do.
+  attack-magic[integer]:  The magical attacks are removing hp when hit but are computed against magical defense instead.
+  mutation[integer]:      The mutation indicates the amplitude in percent where attributes get modified with.
+                          For instance, with a mutation of 50, each attribute can be altered to become 100% to 149% of what they are.
+vulnerability<TAG>:       Tells the monster specific vulnerability to an element.
+  element[string]:        Tells to which element the weakness is. ('fire', 'earth', 'ice', 'metal' are some examples.)
+  factor[float]:          Tells the defense against an element is reduced in percent. (A value of 0.7 indicates that the defense is lowered by 30%).
+exp<TAG>:                 Tells how much experience point a monster is giving upon victory.
+-->
+
 <monsters>
 
     <monster id="0" name="Maggot" targetCursor="small">
-        <sprite>monster-maggot.xml</sprite>
+        <sprite>monsters/monster-maggot.xml</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
@@ -16,7 +50,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -50,7 +84,7 @@
     </monster>
 
     <monster id="1" name="Scorpion">
-        <sprite>monster-scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
+        <sprite>monsters/monster-scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -64,7 +98,7 @@
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -104,7 +138,7 @@
     </monster>
 
     <monster id="2" name="Red Scorpion">
-        <sprite>monster-scorpion.xml|#791d0a,cd5d27,f28d54,ffffff</sprite>
+        <sprite>monsters/monster-scorpion.xml|#791d0a,cd5d27,f28d54,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -121,7 +155,7 @@
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="20"
             attack-delta="10"
             attack-magic="0"
@@ -151,7 +185,7 @@
     </monster>
 
     <monster id="3" name="Green Slime">
-        <sprite>monster-slime.xml|#72982c,ffffff</sprite>
+        <sprite>monsters/monster-slime.xml|#72982c,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <drop item="502" percent="2"/>
         <drop item="513" percent="1"/>
@@ -165,7 +199,7 @@
         <attributes
             hp="200"
             size="4"
-            speed="32"
+            speed="1.0"
             attack-min="2"
             attack-delta="10"
             attack-magic="0"
@@ -186,7 +220,7 @@
     </monster>
 
     <monster id="4" name="Giant Maggot" targetCursor="large">
-        <sprite>monster-maggot-giant.xml</sprite>
+        <sprite>monsters/monster-maggot-giant.xml</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
@@ -201,7 +235,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -214,7 +248,7 @@
     </monster>
 
     <monster id="5" name="Yellow Slime">
-        <sprite>monster-slime.xml|#b47f00,ffffff</sprite>
+        <sprite>monsters/monster-slime.xml|#b47f00,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <drop item="534" percent="2"/>
         <drop item="519" percent="1"/>
@@ -224,7 +258,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -237,7 +271,7 @@
     </monster>
 
     <monster id="6" name="Red Slime">
-        <sprite>monster-slime.xml|#7e0000,ffffff</sprite>
+        <sprite>monsters/monster-slime.xml|#7e0000,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <drop item="1201" percent="3"/>
         <drop item="509" percent="1.1"/>
@@ -250,7 +284,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -263,7 +297,7 @@
     </monster>
 
     <monster id="7" name="Black Scorpion">
-        <sprite>monster-scorpion.xml|#0d1313,435a5a,879999,ffffff</sprite>
+        <sprite>monsters/monster-scorpion.xml|#0d1313,435a5a,879999,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -275,7 +309,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -288,11 +322,11 @@
     </monster>
 
     <monster id="8" name="Snake">
-        <sprite>monster-snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
+        <sprite>monsters/monster-snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -305,7 +339,7 @@
     </monster>
 
     <monster id="9" name="Fire Goblin">
-        <sprite>monster-goblin-fire.xml</sprite>
+        <sprite>monsters/monster-goblin-fire.xml</sprite>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
@@ -319,7 +353,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -353,13 +387,13 @@
     </monster>
 
     <monster id="10" name="Spider">
-        <sprite>monster-spider.xml</sprite>
+        <sprite>monsters/monster-spider.xml</sprite>
         <drop item="537" percent="5"/>
         <drop item="535" percent="1"/>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -372,7 +406,7 @@
     </monster>
 
     <monster id="11" name="Evil Mushroom">
-        <sprite>monster-mushroom-red.xml</sprite>
+        <sprite>monsters/monster-mushroom-red.xml</sprite>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
         <drop item="535" percent="5"/>
         <drop item="540" percent="0.1"/>
@@ -381,7 +415,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -394,7 +428,7 @@
     </monster>
 
     <monster id="12" name="Flower">
-        <sprite>monster-flower.xml</sprite>
+        <sprite>monsters/monster-flower.xml</sprite>
         <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
         <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
         <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
@@ -408,7 +442,7 @@
         <attributes
             hp="2000"
             size="8"
-            speed="0"
+            speed="0.0"
             attack-min="0"
             attack-delta="0"
             attack-magic="0"
@@ -428,7 +462,7 @@
     </monster>
 
     <monster id="13" name="Santa Slime">
-        <sprite>monster-slime-santa.xml</sprite>
+        <sprite>monsters/monster-slime-santa.xml</sprite>
         <drop item="512" percent="8"/>
         <drop item="513" percent="7"/>
         <drop item="514" percent="6"/>
@@ -438,7 +472,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -451,7 +485,7 @@
     </monster>
 
     <monster id="14" name="Rudolph Slime">
-        <sprite>monster-slime-rudolph.xml</sprite>
+        <sprite>monsters/monster-slime-rudolph.xml</sprite>
         <drop item="504" percent="8"/>
         <drop item="506" percent="5"/>
         <drop item="508" percent="2"/>
@@ -462,7 +496,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -475,7 +509,7 @@
     </monster>
 
     <monster id="15" name="Bat">
-        <sprite>monster-bat.xml</sprite>
+        <sprite>monsters/monster-bat.xml</sprite>
         <sound event="die">monsters/bat/bat-dying1.ogg</sound>
         <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
         <drop item="505" percent="8"/>
@@ -487,7 +521,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -500,14 +534,14 @@
     </monster>
 
     <monster id="16" name="Pinkie" targetCursor="small">
-        <sprite>monster-pinkie.xml</sprite>
+        <sprite>monsters/monster-pinkie.xml</sprite>
         <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
         <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
         <drop item="614" percent="8"/>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -520,7 +554,7 @@
     </monster>
 
     <monster id="17" name="Spiky Mushroom">
-        <sprite>monster-mushroom-spiky.xml</sprite>
+        <sprite>monsters/monster-mushroom-spiky.xml</sprite>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
         <drop item="567" percent="8"/>
         <drop item="501" percent="1.5"/>
@@ -529,7 +563,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -542,7 +576,7 @@
     </monster>
 
     <monster id="18" name="Fluffy">
-        <sprite>monster-fluffy.xml</sprite>
+        <sprite>monsters/monster-fluffy.xml</sprite>
         <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
@@ -554,7 +588,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -567,14 +601,14 @@
     </monster>
 
     <monster id="19" name="Cave Snake">
-        <sprite>monster-snake-cave.xml</sprite>
+        <sprite>monsters/monster-snake-cave.xml</sprite>
         <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
         <drop item="612" percent="8"/>
         <drop item="610" percent="0.1"/>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -587,11 +621,11 @@
     </monster>
 
     <monster id="20" name="Jack O">
-        <sprite>monster-ghost-pumpkin.xml</sprite>
+        <sprite>monsters/monster-ghost-pumpkin.xml</sprite>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -604,13 +638,13 @@
     </monster>
 
     <monster id="21" name="Fire Skull">
-        <sprite>monster-skull-fire.xml</sprite>
+        <sprite>monsters/monster-skull-fire.xml</sprite>
         <drop item="621" percent="0.1"/>
         <drop item="540" percent="1.5"/>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -623,13 +657,13 @@
     </monster>
 
     <monster id="22" name="Poison Skull">
-        <sprite>monster-skull-poison.xml</sprite>
+        <sprite>monsters/monster-skull-poison.xml</sprite>
         <drop item="621" percent="0.1"/>
         <drop item="540" percent="1.5"/>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -642,7 +676,7 @@
     </monster>
 
     <monster id="23" name="Log Head">
-        <sprite>monster-logmonster.xml</sprite>
+        <sprite>monsters/monster-logmonster.xml</sprite>
         <sound event="hurt">monsters/loghead/loghead-hurt1.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt2.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
@@ -652,7 +686,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -665,11 +699,11 @@
     </monster>
 
     <monster id="24" name="Mountain Snake">
-        <sprite>monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
+        <sprite>monsters/monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -682,7 +716,7 @@
     </monster>
 
     <monster id="25" name="Easter Fluffy">
-        <sprite>monster-fluffy.xml</sprite>
+        <sprite>monsters/monster-fluffy.xml</sprite>
         <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
@@ -691,7 +725,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -704,11 +738,11 @@
     </monster>
 
     <monster id="26" name="Mouboo">
-        <sprite>monster-mouboo.xml</sprite>
+        <sprite>monsters/monster-mouboo.xml</sprite>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -725,7 +759,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -742,7 +776,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -759,7 +793,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -776,7 +810,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -789,12 +823,12 @@
     </monster>
     
     <monster id="31" name="Sea Slime">
-        <sprite>monster-slime.xml|#4ca1a0,ffffff</sprite>
+        <sprite>monsters/monster-slime.xml|#4ca1a0,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -807,11 +841,11 @@
     </monster>
 
     <monster id="32" name="Grass Snake">
-        <sprite>monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+        <sprite>monsters/monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -824,11 +858,11 @@
     </monster>
 
     <monster id="33" name="Silkworm">
-        <sprite>monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
+        <sprite>monsters/monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -841,7 +875,7 @@
     </monster>
 
     <monster id="34" name="Zombie">
-        <sprite>monster-zombie.xml</sprite>
+        <sprite>monsters/monster-zombie.xml</sprite>
         <sound event="move">monsters/zombie/zombie-move1.ogg</sound>
         <sound event="move">monsters/zombie/zombie-move2.ogg</sound>
         <sound event="hit">monsters/zombie/zombie-hit1.ogg</sound>
@@ -851,7 +885,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -868,7 +902,7 @@
         <attributes
             hp="1"
             size="4"
-            speed="0"
+            speed="0.0"
             attack-min="0"
             attack-delta="0"
             attack-magic="0"
@@ -881,7 +915,7 @@
     </monster>
 
     <monster id="36" name="Squirrel">
-        <sprite>monster-squirrel.xml</sprite>
+        <sprite>monsters/monster-squirrel.xml</sprite>
         <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
         <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
         <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
@@ -889,7 +923,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -902,7 +936,7 @@
     </monster>
 
     <monster id="37" name="Fire Lizard">
-        <sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+        <sprite>monsters/monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
@@ -910,7 +944,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -934,13 +968,13 @@
     </monster>
 
     <monster id="38" name="Wisp">
-        <sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
+        <sprite>monsters/monster-wisp.xml|#aadd44,ffff66</sprite>
 	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
         <exp>20</exp>
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -969,12 +1003,12 @@
     </monster>
 
     <monster id="39" name="Snail">
-        <sprite>monster-snail.xml</sprite>
+        <sprite>monsters/monster-snail.xml</sprite>
         <exp>200</exp>
         <attributes
             hp="220"
             size="8"
-            speed="42"
+            speed="1.3"
             attack-min="40"
             attack-delta="20"
             attack-magic="0"
@@ -1004,13 +1038,13 @@
     </monster>
 
     <monster id="40" name="Spectre">
-        <sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
+        <sprite>monsters/monster-wisp.xml|#ff77dd,dd77ff</sprite>
 	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
         <exp>20</exp>
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1039,12 +1073,12 @@
     </monster>
 
     <monster id="41" name="Skeleton">
-        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
         <!-- stats identical to maggot - change this when making up real monster stats -->
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1063,18 +1097,17 @@
             damage-factor="1"
             range="32"
             animation="attack"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
 
     <monster id="42" name="Lady Skeleton">
-        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
         <sprite>hairstyle8.xml</sprite>
         <!-- stats identical to maggot - change this when making up real monster stats -->
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1093,12 +1126,11 @@
             damage-factor="1"
             range="32"
             animation="attack"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
 
     <monster id="43" name="Fallen">
-        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
         <sprite>leg-chaps-male.xml</sprite>
         <sprite>chest-warlordplate-male.xml</sprite>
         <sprite>head-warlordhelm.xml</sprite>
@@ -1106,7 +1138,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1125,20 +1157,19 @@
             damage-factor="1"
             range="32"
             animation="attack"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
 
     <!-- Snake lord 44 -->
 
     <monster id="45" name="Poltergeist">
-        <sprite>monster-wisp.xml|#77ffdd,77ddff</sprite>
+        <sprite>monsters/monster-wisp.xml|#77ffdd,77ddff</sprite>
 	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
         <exp>20</exp>
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1163,6 +1194,42 @@
             aft-delay="5"
             damage-factor="3"
             range="64"
+            />
+    </monster>
+    <monster id="46" name="Duck" targetCursor="small">
+        <sprite>monsters/monster-duck.xml</sprite>
+        <attributes
+            hp="20"
+            size="4"
+            speed="1.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+        <vulnerability element="fire" factor="1.5"/>
+        <vulnerability element="earth" factor="0.7"/>
+        <exp>0</exp>
+        <!-- average stroll- and track range-->
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="5"
+            stroll-range="2"
+            attack-distance="32"
+            />
+        <attack id="1"
+            priority="1"
+            type="physical"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            animation="attack"
             />
     </monster>
 
