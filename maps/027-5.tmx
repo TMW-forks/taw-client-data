@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="146" height="70" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Woodland mining camp"/>
+ </properties>
+ <tileset name="Woodland Indoor" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="257" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="arena" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png"/>
+ </tileset>
+ <tileset name="Untitled" firstgid="515" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Graveyard_pillar.png"/>
+ </tileset>
+ <tileset name="Stainglass" firstgid="518" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/stainglass.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="table3" firstgid="534" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="braziers" firstgid="790" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+ </tileset>
+ <layer name="Ground" width="146" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Za07CQBSAUSBxAbgDdQUsAh8LEGUB8tj/BmzjNJk0NRaomTtwfpwUJ1VvOl9Q2tVsNlsBAAAAAAAAAADAlbibn6/07MRoY4qOammuGWG2SMfc0Fq+XnpuHcXqaNm4T8fc0Fq+XnruWjpaN8eXM7xV1tHDmUrPXVLbxvOAdv9fk7aDj8Z7Op5qm47r3s/uOsvXuuZKemw8pWNuaC1fLz13SWPa2M7Hn3vp93fnlu7oHKXn1pGOatft7T7RUZyOlsnixNclO/J+FK+j9npt5j+fBz/TtWlfb7L1zcA5t9JR/31vo6NBX8212KXrdWgc09dD8nNupSPvR3XNMbb5v/b2mI6Xfu7XUZ1zjDF2b6foqGu2ew/u/rff9ZrVUaw5puxo7Ln+rl3fHDqqe/+izKGjuvcvyhw6qnv/osyho7r3L8ocOqp7/6LMMUVHex3paIT83nv/Hnv/XvulHeW/a0jJ+/oR9y/KHFO7tKNaRNm/KHPoqO79izKHjurevyhz6Kju/Ysyh47sX0Q60pGOdBSFjnSkIx1FoSMd6UhHUbTPx7rncL89I+s/LztU2BEAAAAAAAAAAAAAAPyHbxgUC9ewnwAA
+  </data>
+ </layer>
+ <layer name="Layer 2" width="146" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Zy07UUBzH8TIVHGKiG+XiJJoYxYWJmmhgoTu37Nz6HF5ewMsLeHkNLy+gsgB2Cgtxh7pQd6Kw9dfMnAw202NP6fScU76f5Bca2k6b8pvOf0qSAAAAAAAAAAAAAAAAAAAAHD7HSmwzpRxVusr0IGbZrDPLdRyvaZMT/UwrJ5VTyowyq8wp88pppTcx3DYLdK0GP3vKXME2u50k2eu4ve7/9um5vVwjTC+yDp1XLijdEbmU6xLKmUp1r0n7y910+Pv9y/nf7d8nFqYX15TrBR3KckO5SY9QwPTilqVDJsv0yNlLfT69Ul4rb5QZZb5Eeo6fhb6ZXtwu0aM79MjZW/XhnfJeWVEWlIslshBZj3BwqeVv/kHrPiobyqayqCyVyKLlNW3HC0F2fqvKWi7rnfDP3acjlmuzrXVflK/Kt5quoe14IcjO75OylcvnTrPnnj1D6Q6WzXOVJBk+bwnNpOXa/NK6HeW38qema2g7Xgh89sj1OUuV5zIYnyuDXE36PS/q0bjfA67PTGJ8xnKYFPVo3Nrai7v6bnvP8fvtfW3/IOLvxKnlfsScXc1D9eGRYycea/snEfcolDk7Nrb32FP14VlBJ4r2e67tX1h6FPp7mh5VU/XaNL1fU3zO2WWd830CI1S9Nk3v1yRfc3ZZIfYI/4phzqZH4WM+Qh1i6tFx5YTvk8BIMczZxhnlrO+TOKBQZoVxCH3ONi4n/f/nxCy0e3xdYpizjTbcj0K7x9clpvmoDT1qq5h61IbPtbaKac5G2GKZsxGumOZshCum+QjhokeoA3M26vJdffmRy086BAAAAAAAAAAAAAAAAAAAAAAAPPgLhFfLe7CfAAA=
+  </data>
+ </layer>
+ <layer name="Layer 3" width="146" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bXUoCURgG4IOBVpba31WQtoG0FdXaWoJLaAfVCqoVVFC3fdAJC2rUQWYceR54Lw4z4mF4mfnmYlICAAAAAAAAAAAAgC/tVkqdyHZkp1X3bmiq3ehON7IX2dcjSupFd/qRQeRAjyjpMLpzFDmOnOgRJQ2jO6Occz2ipHF0Z5JzqUcsoJ8zqHsjNNowZxTpFpxXdAzGOZPIacF5Rceq9h7P2o81et6Otzb7/xZxlXNd8z6W6UY7rmNnDa8l9dMN4CdzNqvQlDkbgL+VfQ+v+nfQJOZsVsGczSa5idxF7iMPeQ3LmkYeI0+R57yGZd1GXiKvkbe8pjnM2dXa1Pd3czYAwG/z5uxemn0XAP+ZN2efpdl3AVDWRZp9FwBlfffI/QgAAAAAAAAAAAAAAKjCJ6gaAV2wnwAA
+  </data>
+ </layer>
+ <layer name="Layer 4" width="146" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WQQrCMBAAwNCCCj5B0Cf4TX/gwTfoZ3yJCHo1hxZzsCiWNLXOwLJJG8geFrIhAAAAAAAAAAAAAAB8b5npLP9lleksQF/HjjUAAGXcqhDuVekq6GNbf/Ytl0W8axZjXj/3aW7pNV7p6ou0f9J12mvQ0hcA5FB6zgYAgCkay5x9avJ5+KuZkH2MXYxDx/91jM1w5fCjLk2+Fq0C4D3v2riNZc4GAIApMWcDAAAAAAAAAAAAAAAwJQ9BFomtsJ8AAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="146" height="70" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3S0W3DMAwFwDQLZISO0P23629gRI4sWRZpnYBDi8StyOf3/Hk8ngAAAAAAAAAAAAAsp/XMnptY9GhOvp++e/9s9tx6FDezkSdrJrPnzpDZ9vkr7oqUScszK9EjPdKjsZkcmTnC3BEyq82o9ejRvdW+71E9Ks0QIRM9GtOjnpOpR7U5bT+/ao7tzwiZRTxZM7myw6Xfs2U28uhR3zyRM+vt3NG79CjOHGf3qGW/3rsiZzJ67ihznN2jnpO1R6Wc9p7Vo/L83/Zq/X7vHUXo0ZFz1zn0KPf7izLHmbP27HX07/Uo1hx6lPv9tdw/K7+jM7aerD0q5bT37Io9GrnXyIwj7jl6jm8z6lEsUXbc+/+l+zNk/S3DKzNesUc192fIumaHqzLWo8/3Z8i658yevXXP0u57z6JHPXvOnjsLPbrPjhnzzZbx0b1eCXfMku9KPfpNuGOWfO/So9Lu78//JdwxSr6r9KhmLz3So569Z88FAAAAAAAAAAAAAEAu//L9Fv6wnwAA
+  </data>
+ </layer>
+ <objectgroup name="Object Group 5" width="0" height="0">
+  <object name="Exit" type="warp" x="2503" y="816" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="027-5"/>
+    <property name="dest_x" value="720"/>
+    <property name="dest_y" value="816"/>
+   </properties>
+  </object>
+  <object name="outsidexit" type="warp" x="2624" y="1568" width="192" height="32">
+   <properties>
+    <property name="dest_map" value="027-2"/>
+    <property name="dest_x" value="912"/>
+    <property name="dest_y" value="2192"/>
+   </properties>
+  </object>
+  <object name="Exitup" type="warp" x="2874" y="1514" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="027-5"/>
+    <property name="dest_x" value="4016"/>
+    <property name="dest_y" value="1232"/>
+   </properties>
+  </object>
+  <object name="Exitdown" type="warp" x="3993" y="1256" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-5"/>
+    <property name="dest_x" value="2928"/>
+    <property name="dest_y" value="1488"/>
+   </properties>
+  </object>
+  <object name="exitup" type="warp" x="672" y="768" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="027-5"/>
+    <property name="dest_x" value="2544"/>
+    <property name="dest_y" value="784"/>
+   </properties>
+  </object>
+  <object name="Fireskull" type="spawn" x="288" y="1088" width="320" height="128">
+   <properties>
+    <property name="eA_death" value="25000"/>
+    <property name="eA_spawn" value="28000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="21"/>
+   </properties>
+  </object>
+  <object name="Poisonskull" type="spawn" x="1152" y="1088" width="320" height="128">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="22"/>
+   </properties>
+  </object>
+  <object name="Skelton" type="spawn" x="640" y="1024" width="480" height="352">
+   <properties>
+    <property name="eA_death" value="10000"/>
+    <property name="eA_spawn" value="900000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="41"/>
+   </properties>
+  </object>
+  <object name="ladyskelton" type="spawn" x="640" y="1184" width="480" height="416">
+   <properties>
+    <property name="eA-death" value="20000"/>
+    <property name="eA_spawn" value="900000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="42"/>
+   </properties>
+  </object>
+  <object name="Skeleton" type="spawn" x="2496" y="896" width="448" height="448">
+   <properties>
+    <property name="eA-death" value="10000"/>
+    <property name="eA_spawn" value="900000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="41"/>
+   </properties>
+  </object>
+  <object name="LadySkel" type="spawn" x="2496" y="928" width="480" height="448">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="900000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="42"/>
+   </properties>
+  </object>
+  <object name="poltergeist" type="spawn" x="3584" y="960" width="448" height="288">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="eA_spawn" value="120000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="45"/>
+   </properties>
+  </object>
+  <object name="fireskull" type="spawn" x="3584" y="992" width="416" height="288">
+   <properties>
+    <property name="eA_death" value="25000"/>
+    <property name="eA_spawn" value="28000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="21"/>
+   </properties>
+  </object>
+  <object name="Poisonskull" type="spawn" x="3584" y="992" width="416" height="320">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="22"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
