@@ -26,37 +26,37 @@
  <tileset name="Woodland x3" firstgid="291" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/Woodland_x3.png"/>
  </tileset>
- <tileset name="woodland-4" firstgid="323" tilewidth="32" tileheight="128">
+ <tileset firstgid="323" name="woodland-4" tilewidth="32" tileheight="128">
   <image source="../graphics/tiles/Woodland_x4.png"/>
  </tileset>
- <tileset name="woodland-5" firstgid="339" tilewidth="32" tileheight="160">
+ <tileset firstgid="339" name="woodland-5" tilewidth="32" tileheight="160">
   <image source="../graphics/tiles/Woodland_x5.png"/>
  </tileset>
- <tileset name="woodland-8" firstgid="355" tilewidth="32" tileheight="256">
+ <tileset firstgid="355" name="woodland-8" tilewidth="32" tileheight="256">
   <image source="../graphics/tiles/Woodland_x8.png"/>
  </tileset>
- <tileset name="forest-cover" firstgid="371" tilewidth="32" tileheight="32">
+ <tileset firstgid="371" name="forest-cover" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Forest_cover.png"/>
  </tileset>
- <tileset name="woodland-swamp" firstgid="471" tilewidth="32" tileheight="32">
+ <tileset firstgid="471" name="woodland-swamp" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_swamp.png"/>
  </tileset>
- <tileset name="Forest" firstgid="727" tilewidth="32" tileheight="32">
+ <tileset firstgid="727" name="Forest" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Forest.png"/>
  </tileset>
- <tileset name="Graveyard x3" firstgid="1126" tilewidth="32" tileheight="96">
+ <tileset firstgid="1126" name="Graveyard x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/Woodland_graveyard_x3.png"/>
  </tileset>
- <tileset name="Graveyard x4" firstgid="1206" tilewidth="32" tileheight="128">
+ <tileset firstgid="1206" name="Graveyard x4" tilewidth="32" tileheight="128">
   <image source="../graphics/tiles/Woodland_graveyard_x4.png"/>
  </tileset>
- <tileset name="Unbenannt" firstgid="1222" tilewidth="32" tileheight="32">
+ <tileset firstgid="1222" name="Unbenannt" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_graveyard_crypt.png"/>
  </tileset>
- <tileset name="graveyard_ground" firstgid="1285" tilewidth="32" tileheight="32">
+ <tileset firstgid="1285" name="graveyard_ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_graveyard_ground.png"/>
  </tileset>
- <tileset name="woodland village" firstgid="1349" tilewidth="32" tileheight="32">
+ <tileset firstgid="1349" name="woodland village" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_village.png"/>
  </tileset>
  <layer name="Ground 1" width="150" height="120">
@@ -66,7 +66,7 @@
  </layer>
  <layer name="Ground 2" width="150" height="120">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Fringe" width="150" height="120">
