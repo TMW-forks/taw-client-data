@@ -3154,6 +3154,60 @@
         <sprite>head-snowgoggles.xml</sprite>
     </item>
 
+    <item id="1243"
+        image="weapon-arrow-enchant.png"
+        name="Enchanted Arrow"
+        description="Used by Cupid."
+        effect=""
+        type="generic"
+        weight="0"
+        max-per-slot="1000"/>
+ 
+    <item id="1244"
+        image="generic-feather.png"
+        name="Duck Feather"
+        description="Just a Duck feather."
+        effect=""
+        type="generic"
+        weight="1"
+        max-per-slot="1000"/>
+
+    <item id="1245"
+        image="weapon-arrowhead-enchant.png"
+        name="Enchanted Arrowhead"
+        description="For Cupids Arrows."
+        effect=""
+        type="generic"
+        weight="0"
+        max-per-slot="1000"/>
+
+    <item id="1246"
+        image="generic-sinew.png"
+        name="Sinew Spool"
+        description="Snakeskin sinew cord."
+        effect=""
+        type="generic"
+        weight="10"
+        max-per-slot="1"/>
+    
+    <item id="1247"
+        image="generic-silkthread.png"
+        name="Silk Thread"
+        description="Skein of silk thread."
+        effect=""
+        type="generic"
+        weight="10"
+        max-per-slot="1"/>
+   
+    <item id="1248"
+        image="generic-tobacco.png"
+        name="Dried Herb"
+        description="Blended Peace Herb."
+        effect=""
+        type="generic"
+        weight="10"
+        max-per-slot="1"/>
+  
     <!-- The 2XXY IDs are used for recolored items on eAthena.
         XX = item
         Y = color variant
