@@ -95,16 +95,16 @@
 <npc id="181"><sprite variant="81">npcs/npc.xml</sprite></npc><!-- Green Savannah Man -->
 <npc id="182"><sprite variant="82">npcs/npc.xml</sprite></npc><!-- Young archer -->
 <npc id="183"><sprite variant="83">npcs/npc.xml</sprite></npc><!-- Skeleton man -->
-<npc id="184"><sprite variant="3">npcs/hitomb-npc.xml</sprite></npc><!-- Megorn-->
-<npc id="185"><sprite variant="20">npcs/hitomb-npc.xml</sprite></npc><!-- Hitomb ranger -->
-<npc id="186"><sprite variant="21">npcs/hitomb-npc.xml</sprite></npc><!-- Hitomb Soldier -->
-<npc id="187"><sprite variant="22">npcs/hitomb-npc.xml</sprite></npc><!-- Hitomb Soldier with sword and shield -->
-<npc id="188"><sprite variant="23">npcs/hitomb-npc.xml</sprite></npc><!-- Hitomb Soldier with sword, shield, and helmet -->
-<npc id="189"><sprite variant="34">npcs/hitomb-npc.xml</sprite></npc><!-- The metalman -->
-<npc id="190"><sprite variant="35">npcs/hitomb-npc.xml</sprite></npc><!-- Elric -->
-<npc id="191"><sprite variant="44">npcs/hitomb-npc.xml</sprite></npc><!-- The statue of Elric -->
-<npc id="192"><sprite variant="48">npcs/hitomb-npc.xml</sprite><particlefx>graphics/particles/manaseed.particle.xml</particlefx></npc><!-- Ancient's Book -->
-<npc id="193"><sprite variant="57">npcs/hitomb-npc.xml</sprite></npc><!-- Nerir -->
+<npc id="184"><sprite variant="3">npcs/npc-hitomb.xml</sprite></npc><!-- Megorn-->
+<npc id="185"><sprite variant="20">npcs/npc-hitomb.xml</sprite></npc><!-- Hitomb ranger -->
+<npc id="186"><sprite variant="21">npcs/npc-hitomb.xml</sprite></npc><!-- Hitomb Soldier -->
+<npc id="187"><sprite variant="22">npcs/npc-hitomb.xml</sprite></npc><!-- Hitomb Soldier with sword and shield -->
+<npc id="188"><sprite variant="23">npcs/npc-hitomb.xml</sprite></npc><!-- Hitomb Soldier with sword, shield, and helmet -->
+<npc id="189"><sprite variant="34">npcs/npc-hitomb.xml</sprite></npc><!-- The metalman -->
+<npc id="190"><sprite variant="35">npcs/npc-hitomb.xml</sprite></npc><!-- Elric -->
+<npc id="191"><sprite variant="44">npcs/npc-hitomb.xml</sprite></npc><!-- The statue of Elric -->
+<npc id="192"><sprite variant="48">npcs/npc-hitomb.xml</sprite><particlefx>graphics/particles/manaseed.particle.xml</particlefx></npc><!-- Ancient's Book -->
+<npc id="193"><sprite variant="57">npcs/npc-hitomb.xml</sprite></npc><!-- Nerir -->
 
 <npc id="198"><sprite>npc-miner-noob.xml</sprite></npc><!-- Noob in Miner Hat -->
 <npc id="199"><sprite>npc-slicer.xml</sprite></npc><!-- Slicer -->
