@@ -1314,10 +1314,10 @@
         image="armor-chest-chainmail.png"
         name="Chainmail Shirt"
         description="A shirt made of chains. It weighs a lot but offers excellent protection."
-        effect="+20% Defense"
+        effect="+12% Defense"
         type="equip-torso"
         weight="250"
-        defense="20"
+        defense="12"
         max-per-slot="1">
         <sprite gender="male">chest-chainmail-male.xml</sprite>
         <sprite gender="female">chest-chainmail-female.xml</sprite>
@@ -1326,10 +1326,10 @@
         image="armor-chest-lightplatemail.png|W:#ddeeff"
         name="Light Platemail"
         description="A light cuirass with shoulder pads made of iron, usually worn by foot soldiers."
-        effect="+25% Defense"
+        effect="+14% Defense"
         type="equip-torso"
         weight="240"
-        defense="25"
+        defense="14"
         max-per-slot="1">
         <sprite gender="male">chest-lightplatemail-male.xml|W:#ddeeff</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml|W:#ddeeff</sprite>
@@ -2402,7 +2402,7 @@
         image="generic-towel.png"
         name="Towel"
         description="You can dry yourself off with it if it still seems to be clean enough. - Douglas Adams"
-        type="equip-charm"
+        type="generic"
         weight="20"/>
     <item id="750"
         image="use-potion-c.png|G:#f0f040,ffffff"
@@ -3170,7 +3170,7 @@
         effect=""
         type="generic"
         weight="1"
-        max-per-slot="1000"/>
+        max-per-slot="100"/>
 
     <item id="1245"
         image="weapon-arrowhead-enchant.png"
@@ -3178,7 +3178,7 @@
         description="For Cupids Arrows."
         effect=""
         type="generic"
-        weight="0"
+        weight="1"
         max-per-slot="1000"/>
 
     <item id="1246"
@@ -3207,6 +3207,17 @@
         type="generic"
         weight="10"
         max-per-slot="1"/>
+
+    <item id="1249"
+        image="heartglasses.png"
+        name="Heart Glasses"
+        description="Love thru rose colored glasses."
+        effect="+5% Defense"
+        type="equip-head"
+        defense="5"
+        weight="10">
+        <sprite>head-heartglasses.xml</sprite>
+    </item>
   
     <!-- The 2XXY IDs are used for recolored items on eAthena.
         XX = item
