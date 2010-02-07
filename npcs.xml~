@@ -139,7 +139,6 @@
 <npc id="908"><sprite variant="44">npcs/npc-hitomb.xml</sprite></npc><!-- The statue of Elric -->
 <npc id="909"><sprite variant="48">npcs/npc-hitomb.xml</sprite><particlefx>graphics/particles/manaseed.particle.xml</particlefx></npc><!-- Ancient's Book -->
 <npc id="910"><sprite variant="57">npcs/npc-hitomb.xml</sprite></npc><!-- Nerir -->
-<npc id="911"><sprite variant="43">npcs/npc-hitomb.xml</sprite></npc><!-- Sceleton -->
-<npc id="912"><sprite variant="42">npcs/npc-hitomb.xml</sprite></npc><!-- Sceleton-side -->
+
 
 </npcs>
