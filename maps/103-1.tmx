@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+ <tileset name="Woodland_ground" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png"/>
+ </tileset>
+ <tileset name="Cave_bi" firstgid="257" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset name="Cave" firstgid="513" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset name="Des-Wood" firstgid="641" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/trans_woodland-desert.png"/>
+ </tileset>
+ <tileset name="Walls" firstgid="769" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/concrete_walls.png"/>
+ </tileset>
+ <layer name="Layer 2" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SMQoAMAgEQb/i/z+ZPkWKNII3A9cLaxUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADs19MHMKqvkeXV30/sp382/bPp/+cAmDuRAAAAAQA=
+  </data>
+ </layer>
+ <layer name="Layer 1" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YPW4TQRgG4C+ROECOwBFyhL1DCgSUFAi4VFLQAwnUIMJPi4BAAwghAQ0gKuj4LGHtej0TxxLKmt3nkV6tbM/Ilt6Z8doRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUXFwRxm1V/9bAuOl+OnYK0f906H/a1u2f8bgT5f6ZBv1P26x/Z/x0zfvvfufb/9PwKXM32s67a4BxO8jcjsXuu2uA8Srt+/5vvtI94b8Mw9mP03te1f9uJzuda/M3+t9ss3u+Un/9a637JhbXQC3630zz/s+yx0/b+7U0vbGlc4Hh1PrfjeWe+/8L1Pb+5cyVzNXCa00s31swnIdRPqtn3TzKHGaOMvczz6K+Brpr4UbmZuZW1NeO/5c2w5to+30Qi109zzzOHGeedMaWErF8xjed96nNOwqG9CXafp9Gu8fvZd5mXmZeZV53xpbS1/Qe1+aV5nJ+fkXb70m0e/xF5mtlbCmr1OadZS7n43O0e/xj5vcac/vnff81/g/zPf5zzXml7/yoPMd47W0tPr60VR7HOF3Lvt/l9X3mQ+a6/ifnW+Z75sfQH4RBHG5HXNge+lNsvj90Cxr9AAABAA==
+  </data>
+ </layer>
+ <layer name="Layer 0" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ay2oTYRiA4a/pFdQ7EEpdl4Lega3i2gPdisZbsFCpS2svwVtQSj3g1vPe004EF+60l+AXOiWTmIkDwswkeR54SfJnCD98P5MsEgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAHesVMT+q5lk1e2dgfkya68Vss2grO/sf0W2T5n+QXSs6FyfnYDe7VzzfieF865wVumvS/G9l52N4Bsa7G8OzsBZ/n5XyefA90V3TvtuvRvX863Y9zL/Lps1/cA+4HdPvAxeKa6quexjm32X/+n1fPgeDHmdPSq/7pevKvxkGPcj2w/znxV7WK1otPb9fvP8oRu8J+8W6+c+fMxPWTu8T/bF1858dvVLLFddczi5lV2p+pvnPpo0YPQ+n3ci2szsV7/fGPsf8F5v5w2x7lj3PXoytH2VPm98ODXubvcveZx+KtVfZ6+xNW5uiMZ+zL9nX7DBbyV5mH7NPLe6LZv2M0fn/aHc7tKA8fxbPYP57PfNfVN/i5D8d31veB827uRTxKx9/Z8dZf6nlDdEo86/vDxKOpIIAAAEA
+  </data>
+ </layer>
+ <layer name="Layer 3" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YWwqAIBAAwC7gEaIzFtH5+ynww+hhD8kZkEIkFtZdq6YBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYNUm5rrXowCelqrrVP3f4anncl2ck/BZFJQgbNzH+o35aRn8S27PHm+JglINXwdANud+ffb6uvfCeqzfgGfP+rP7wj76hyt59P+wHHH+9vq8mq1XOHg9up4yyQ8AAAAA5JkBjvc9RwAAAQA=
+  </data>
+ </layer>
+</map>

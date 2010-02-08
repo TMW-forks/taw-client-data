@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
+ <tileset name="Caves" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset name="Caves 2" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="385" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Bg" width="64" height="64" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3DQQ0AAAwDoTNZ/1YmYx9IWDVVVVVVVVVVVVVVVVVVVVX19QEX+IEiAEAAAA==
+  </data>
+ </layer>
+ <layer name="ground" width="64" height="64" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2YS07DMBRFXwcpLACxgpbPnE+ZAAO+E+gMWAGwgsIGWApLYAmshxEjBjxLQXmxasc1jT/1PdIZRJUrH8VKHBMBAAAAAAAAUmGbHVvcjTe1IByy+8I79p59qK+P4k0tCJfsufCRfWKf6+vreFP7N2pt73S4xVbCGfvCvtbXG8FnvTzU2p5Qe33rHlC7XzfnfrW2r6i9vnUvaHX7N8ne5iL680XvX6Oy+7taSu9fNfrsf3O0VFLufxea+BZ28aGZCmr/d8yesKfUfMt0zfWHHQ4a56E3m4yJ2v/dsLfslJpvmU/hPEz7hj8q7T9sxsT3+eeyb8rhXaI61qncfoVsQf/iY9CfRv/YU3m+M/IYY/pmCtn/RfYzHNfznT2PMSE7K9MPA/sZjk15vnPmMSZU/zLOKvoQ/WHoq1/uf1I+/3HtX3Q+Pu+/GKC/7H5FH/su9JfdH+NZnhI53X8AAAAAAAAAAAAAAHLjF39pnGgAQAAA
+  </data>
+ </layer>
+ <layer name="Layer 4" width="64" height="64" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YOU4DMRiGYVusoQYSDsdyAZYesRSQE4CgQVClhYojcAQ6NgkEDZtYG5bPSiyI5w8wyDOejL9HeqVkpAn+USJboxQREREREREREVGxzIdeQIZqPzQWcF1FUFHJ/8lQ0BXFZQWtorqnDv/Qfz87C2toHfV1QXnOv412UCNlW0IN529K9z0LHaFjdIJOvU79pdP8u2gP7adM4l6X7rtH/bq9a1y7QbfoDj14mNfVaf4NtIkOUiZxr0v3acw76vSG6+/ow9yE9z3ax8Ttfps/pHHMO4Em0VQGsxu+56/4W5qaxswzaBbNdcn8Pi1g5kW0hJYjnD8PMc9/puKe3+y5Zo+9UM2Z7bnDvLZ7bpnp1h5r57fnDvPa7rlld66a8xvfzx6XeH8VcF15eURPKnn2fkGvAdeVl17zfdfJs/cAGmx9/6tKfnZTBsOYcUQ4e1dRLYLfPxHFS3r+zOfRREREREREREREVFSfNJPZMABAAAA=
+  </data>
+ </layer>
+ <layer name="Layer 5" width="64" height="64" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OwQ1AABBFQa2jIlSACtCQPWyihH8wk7z7GwYAAAAAAAAAgP8Zq6mbwy8JS7V2W/glYa+O7gy/JFzV3T3hFwAAAAAAAODzApoHer4AQAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SQQ6EIBBFQb26J5+tC0MIA37A6qQ2JqP9YK7zOC4AAACYQGnSu+nXP6qtZtL7J/rvv0vv7/779becV3r/t/uZ575mHf3v96f/l/fdVuvvtfOK/a3vePq+/vX6W/fWXx79+r/QP6qz9N2aZ1/sT4z+eej/79zS+/e4X/379tecgX79O/ePPNP0HgAAAACwmx/oc8lJAEAAAA==
+  </data>
+ </layer>
+ <layer name="Objects" width="64" height="64" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
+  </data>
+ </layer>
+ <layer name="Above" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YMQqAMAwAQBcHfYDoG32Cn9dsDtIqaKtyBxlLkwwpTdMAAAAAAKWMiUBPSFtqJ/AC0YN5i/ZE/FHUH7Wd6QEA8E1Hf6W+0J0Ae6kdTm5/ceVsiTkHodtiqp0EVHZ1nucM96X2STFXvGUAAAAA8IwVMFj7WQBAAAA=
+  </data>
+ </layer>
+</map>
