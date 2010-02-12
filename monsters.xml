@@ -1217,6 +1217,36 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             animation="attack"
             />
     </monster>
+    <monster id="996" name="Razor Carver" targetCursor="large">
+        <sprite>player_male_base.xml</sprite>
+        <sprite>chest-warlordplate-male.xml|#CC0000</sprite>
+        <sprite>leg-assassin-male.xml</sprite>
+        <sprite>head-overlordhelm.xml</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+        <drop item="1199" percent="9"/>
+        <drop item="519" percent="1"/>
+        <drop item="518" percent="7.5"/>
+        <drop item="501" percent="50"/>
+        <drop item="502" percent="30"/>
+        <drop item="503" percent="0.1"/>
+        <drop item="526" percent="0.1"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
     <monster id="997" name="Bloody Maggot" targetCursor="large">
         <sprite>monsters/monster-maggot-bloody.xml</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>

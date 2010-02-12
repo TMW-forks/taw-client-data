@@ -76,5 +76,13 @@
     <property name="dest_y" value="672"/>
    </properties>
   </object>
+  <object name="Ducks" type="SPAWN" x="1376" y="800" width="800" height="480">
+   <properties>
+    <property name="MONSTER_ID" value="1048"/>
+    <property name="eA_death" value="30000"/>
+    <property name="ea_spawn" value="100000"/>
+    <property name="max_beings" value="15"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

@@ -112,5 +112,13 @@
     <property name="monster_id" value="2"/>
    </properties>
   </object>
+  <object name="Ducks" type="SPAWN" x="3908" y="2044" width="576" height="480">
+   <properties>
+    <property name="MONSTER_ID" value="1048"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
