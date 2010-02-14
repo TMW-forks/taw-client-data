@@ -154,5 +154,6 @@
 <npc id="910"><sprite variant="57">npcs/npc-hitomb.xml</sprite></npc><!-- Nerir -->
 <npc id="911"><sprite variant="43">npcs/npc-hitomb.xml</sprite></npc><!-- Sceleton -->
 <npc id="912"><sprite variant="42">npcs/npc-hitomb.xml</sprite></npc><!-- Sceleton-side -->
+<npc id="913"><sprite variant="33">npcs/npc-hitomb.xml</sprite></npc><!-- The potionmaster -->
 
 </npcs>
