@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+
+	<imageset name="base" src="graphics/sprites/equipment/hands/hands-gloves-assassin-male.png|R" width="64" height="64" />
+
+	<include file="equipment/hands/hands-gloves-generic-male.xml" />
+
+</sprite>
+
+
