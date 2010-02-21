@@ -1217,6 +1217,377 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             animation="attack"
             />
     </monster>
+    
+    <!-- taw files -->
+    
+    <monster id="969" name="Lizzard">
+	    <sprite>monsters/monster-lizard.xml</sprite>
+    </monster>
+    
+    <monster id="970" name="White Golem">
+	    <sprite>monsters/monster-golem.xml</sprite>
+	    <sprite>equipment/chest/chest-robe-male.xml|#333333,444444,555555,666666,777777</sprite>
+	    <sprite>weapon-staff-white.xml</sprite>
+    </monster>
+    
+    <monster id="971" name="Golden Golem">
+	    <sprite>monsters/monster-golem.xml|#573f10,ffdd22</sprite>
+	    <!--<sprite>equipment/chest/chest-robe-male.xml|#111111,222222,333333,444444,555555</sprite>//-->
+	    <!--<sprite>equipment/chest/chest-warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>//-->
+	    <sprite>equipment/head/head-paladinhelm.xml</sprite>
+	    <sprite>equipment/leg/leg-blackjeans-male.xml</sprite>
+    </monster>
+    
+    <monster id="972" name="Dark Golem">
+	    <sprite>monsters/monster-golem.xml|#665555</sprite>
+	    <sprite>equipment/chest/chest-robe-male.xml</sprite>
+	    <sprite>weapon-scythe.xml</sprite>
+    </monster>
+    
+    <monster id="973" name="Red Golem">
+	    <sprite>monsters/monster-golem.xml|#ff4515</sprite>
+	    <sprite>equipment/chest/chest-assassin-male.xml|#aa2505</sprite>//-->
+	    
+	    <sprite>equipment/leg/leg-blackjeans-male.xml</sprite>
+	    <sprite>weapon-staff-red.xml</sprite>
+    </monster>
+    
+    <monster id="974" name="White Ghost">
+	    <sprite>monsters/monster-ghost.xml</sprite>
+	    <sprite>equipment/chest/chest-robe-male.xml|#111111,222222,333333,444444,555555</sprite>
+	    <sprite>equipment/head/head-silkheadband2.xml</sprite>
+	    <sprite>weapon-staff-white.xml</sprite>
+    </monster>
+    
+    <monster id="975" name="Cobalt Ghost">
+	    <sprite>monsters/monster-ghost.xml|#0044ff</sprite>
+	    <sprite>equipment/chest/chest-cotton-male.xml|#0044ff</sprite>
+	    <sprite>equipment/leg/leg-shorts-male.xml|#444444</sprite>
+	    <sprite>weapon-staff-blue.xml</sprite>
+    </monster>
+    
+    <monster id="976" name="Mauve Ghost">
+	    <sprite>monsters/monster-ghost.xml|#a030e0</sprite>
+	    <sprite>equipment/chest/chest-cotton-male.xml|#a030e0</sprite>
+	    <sprite>equipment/leg/leg-shorts-male.xml|#e050f0</sprite>
+	    <sprite>weapon-staff-purple.xml</sprite>
+    </monster>
+    
+    <monster id="977" name="Alizarin Ghost">
+	    <sprite>monsters/monster-ghost.xml|#ff4515</sprite>
+	    <sprite>equipment/chest/chest-shortrobe-male.xml|#bbbbbb</sprite>
+	    <sprite>equipment/head/head-silkheadband2.xml|#580000,A40000,C02020,ff6060</sprite>
+	    <sprite>weapon-staff-red.xml</sprite>
+    </monster>
+    
+    <monster id="978" name="Gamboge Ghost">
+	    <sprite>monsters/monster-ghost.xml|#573f10,ffdd22</sprite>
+	    <sprite>equipment/chest/chest-cotton-male.xml|#f73f10,eedd22</sprite>
+	    <sprite>equipment/leg/leg-shorts-male.xml</sprite>
+	    <sprite>weapon-staff-yellow.xml</sprite>
+    </monster>
+    
+    <monster id="979" name="Fire Maggot" targetCursor="small">
+	    <sprite>monsters/monster-maggot.xml</sprite>
+	    <particlefx>graphics/particles/fireslime.xml</particlefx>
+    </monster>
+    
+    <monster id="980" name="White Scorpion">
+	    <sprite>monsters/monster-scorpion.xml|#444444,dddddd,cccccc,99a9db,ccadff</sprite>
+	    
+    </monster>
+    
+    <monster id="981" name="Ice Lizard">
+	    <sprite>monsters/monster-lizard.xml|#221dea,275ded,54bdf2,ffffff</sprite>
+    </monster>
+    
+    <monster id="982" name="Blue Fairy">
+	    <sprite>monsters/monster-fairy-blue.xml</sprite>
+    </monster>
+    <monster id="983" name="Red Fairy">
+	    <sprite>monsters/monster-fairy-red.xml</sprite>
+    </monster>
+
+    <!-- end -->
+    
+    <monster id="984" name="Terranite Mask">
+        <sprite>monsters/monster-terranite-mask.xml</sprite>
+        <drop item="621" percent="0.1"/>
+        <drop item="540" percent="1.5"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+   <monster id="985" name="Fire Skull Lord">
+        <sprite>monsters/monster-skull-firelord.xml</sprite>
+        <drop item="621" percent="0.1"/>
+        <drop item="540" percent="1.5"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    
+    <monster id="986" name="Ice Snake">
+        <sprite>monsters/monster-snake.xml|#ccddff,ddefff,99a9db,ccadff</sprite>
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    <monster id="987" name="Ice Scorpion">
+        <sprite>monsters/monster-scorpion.xml|#791dca,275dcd,54bdf2,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <drop item="517" percent="20"/>
+        <drop item="509" percent="1"/>
+        <drop item="518" percent="5"/>
+        <drop item="1200" percent="0.1"/>
+        <drop item="1199" percent="7.6"/>
+        <drop item="1201" percent="5.4"/>
+        <drop item="524" percent="0.1"/>
+        <exp>50</exp>
+        <attributes
+            hp="20"
+            size="8"
+            speed="192"
+            attack-min="20"
+            attack-delta="10"
+            attack-magic="0"
+            hit="30"
+            evade="30"
+            physical-defence="5"
+            magical-defence="0"
+            />
+        <!-- also quite lazy when unprovoked but much more territorial
+        than the normal one-->
+        <behavior
+            aggressive="true"
+            cowardly="false"
+            track-range="6"
+            stroll-range="1"
+            attack-distance="64"
+            />
+        <attack id="1"
+            priority="1"
+            type="physical"
+            element="fire"
+            pre-delay="5"
+            aft-delay="10"
+            damage-factor="1"
+            range="64"
+            angle="10"
+            />
+    </monster>
+    
+    <monster id="988" name="Evil Pinkie">
+        <sprite>monsters/monster-evilpinkie.xml</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <drop item="535" percent="5"/>
+        <drop item="540" percent="0.1"/>
+        <drop item="534" percent="1"/>
+        <drop item="614" percent="25"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    
+    <monster id="989" name="Iron Flower">
+        <sprite>monsters/monster-ironflower.xml</sprite>
+        <particlefx>graphics/particles/iron-flower.xml</particlefx>
+        <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
+        <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
+        <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
+        <drop item="535" percent="1"/>
+        <drop item="540" percent="0.1"/>
+        <drop item="1199" percent="1"/>
+        <drop item="526" percent="4"/>
+        <drop item="565" percent="5"/>
+        <exp>10</exp>
+        <!-- Passive monster for testing stuff-->
+        <attributes
+            hp="2000"
+            size="8"
+            speed="0"
+            attack-min="0"
+            attack-delta="0"
+            attack-magic="0"
+            hit="0"
+            evade="0"
+            physical-defence="0"
+            magical-defence="0"
+            mutation="0"
+            />
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="0"
+            stroll-range="0"
+            attack-distance="0"
+            />
+    </monster>
+    
+	<monster id="990" name="Ant">
+        <sprite>monsters/monster-arachnide.xml|#aa2222</sprite>
+        <drop item="537" percent="5"/>
+        <drop item="535" percent="1"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    
+    <monster id="991" name="Golden Scorpion">
+        <sprite>monsters/monster-scorpion.xml|#cd725d,a28262,e8d2a2,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <drop item="507" percent="7"/>
+        <drop item="510" percent="1"/>
+        <drop item="509" percent="0.5"/>
+        <drop item="518" percent="7"/>
+        <exp>20</exp>
+        <attributes
+            hp="20"
+            size="8"
+            speed="6.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            />
+        <!-- doesn't move much, but attacks when you are comming too close. -->
+        <behavior
+            aggressive="true"
+            cowardly="false"
+            track-range="2"
+            stroll-range="1"
+            attack-distance="64"
+            />
+        <!-- slow, strong, long-range tail attack-->
+        <attack id="1"
+            priority="1"
+            type="physical"
+            pre-delay="5"
+            aft-delay="15"
+            damage-factor="3"
+            range="64"
+            particle-effect="graphics/particles/attack.particle.xml"
+            action="special1"
+            />
+        <!-- fast, weak, short-range scissor attack -->
+        <attack id="2"
+            priority="4"
+            type="physical"
+            pre-delay="3"
+            aft-delay="3"
+            damage-factor="1"
+            range="32"
+            />
+    </monster>
+    
+    <monster id="992" name="Black Slime">
+        <sprite>monsters/monster-slime.xml|#000000,bbbbbb</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <drop item="1201" percent="3"/>
+        <drop item="509" percent="1.1"/>
+        <drop item="521" percent="2"/>
+        <drop item="523" percent="0.4"/>
+        <drop item="525" percent="0.8"/>
+        <drop item="535" percent="7.5"/>
+        <drop item="528" percent="2.5"/>
+        <drop item="531" percent="1.5"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    
+    <monster id="993" name="Fire Slime">
+        <sprite>monsters/monster-slime.xml|#ff6600,ffaa55</sprite>
+        <particlefx>graphics/particles/fireslime.xml</particlefx>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <drop item="704" percent="5"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    
+    
     <monster id="994" name="Thunder Fist" targetCursor="large">
         <sprite>player_male_base.xml</sprite>
         <sprite>chest-warlordplate-male.xml|#3300AA</sprite>
