@@ -156,5 +156,5 @@
 <npc id="912"><sprite variant="42">npcs/npc-hitomb.xml</sprite></npc><!-- Sceleton-side -->
 <npc id="913"><sprite variant="33">npcs/npc-hitomb.xml</sprite></npc><!-- The potionmaster -->
 <npc id="914"><sprite variant="17">npcs/npc-hitomb.xml</sprite></npc><!-- The magican -->
-
+<npc id="915"><sprite>npcs/npc-flying-beast.xml</sprite></npc><!-- The flying beast -->
 </npcs>
