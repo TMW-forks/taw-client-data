@@ -4665,8 +4665,11 @@
         name="Mining Pick"
         description="Required item for every miner."
         effect=""
-        type="generic"
         weight="100"
+	type="equip-1hand"
+	weapon_type="1"
+	weapon-type="special"
+        attack-range="10"
 	   max-per-slot="1"/>
     <item id="5007"
         image="generic-claylump_small.png|W:#101010"
