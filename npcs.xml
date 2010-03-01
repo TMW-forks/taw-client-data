@@ -95,22 +95,6 @@
 <npc id="181"><sprite variant="81">npcs/npc.xml</sprite></npc><!-- Green Savannah Man -->
 <npc id="182"><sprite variant="82">npcs/npc.xml</sprite></npc><!-- Young archer -->
 <npc id="183"><sprite variant="83">npcs/npc.xml</sprite></npc><!-- Skeleton man -->
-<npc id="184"><sprite variant="84">npcs/npc.xml</sprite></npc><!-- bald backwards -->
-<npc id="185"><sprite variant="85">npcs/npc.xml</sprite></npc><!-- guy black hair dark clothes -->
-<npc id="186"><sprite variant="86">npcs/npc.xml</sprite></npc><!-- Elegant girl -->
-<npc id="187"><sprite variant="87">npcs/npc.xml</sprite></npc><!-- miner noob -->
-<npc id="188"><sprite variant="88">npcs/npc.xml</sprite></npc><!-- dark clothes gray hair -->
-<npc id="189"><sprite variant="89">npcs/npc.xml</sprite></npc><!-- Cupid -->
-<npc id="190"><sprite variant="90">npcs/npc.xml</sprite></npc><!-- Spinner -->
-<npc id="191"><sprite variant="91">npcs/npc.xml</sprite></npc><!-- empty c(Invisible NPC) -->
-<npc id="192"><sprite variant="92">npcs/npc.xml</sprite></npc><!-- empty d(Invisible NPC) -->
-<npc id="193"><sprite variant="93">npcs/npc.xml</sprite></npc><!-- empty e(Invisible NPC) -->
-<npc id="194"><sprite variant="94">npcs/npc.xml</sprite></npc><!-- empty f(Invisible NPC) -->
-<npc id="195"><sprite variant="95">npcs/npc.xml</sprite></npc><!-- empty g(Invisible NPC) -->
-<npc id="196"><sprite variant="96">npcs/npc.xml</sprite></npc><!-- empty h(Invisible NPC) -->
-<npc id="197"><sprite variant="97">npcs/npc.xml</sprite></npc><!-- empty j(Invisible NPC) -->
-<npc id="198"><sprite variant="98">npcs/npc.xml</sprite></npc><!-- empty k(Invisible NPC) -->
-<npc id="199"><sprite variant="99">npcs/npc.xml</sprite></npc><!-- empty i(Invisible NPC) -->
 
 <npc id="200">
    <sprite>npcs/npc-test.xml</sprite>
