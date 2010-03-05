@@ -1,56 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
  <properties>
   <property name="name" value="Hitomb Cave"/>
  </properties>
- <tileset name="Caves" firstgid="1" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset name="Caves 2" firstgid="129" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="Cave2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
- <tileset name="Collision" firstgid="385" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <layer name="Bg" width="64" height="64" visible="0">
+ <layer name="Bg" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3DQQ0AAAwDoTNZ/1YmYx9IWDVVVVVVVVVVVVVVVVVVVVX19QEX+IEiAEAAAA==
+   H4sIAAAAAAAAA+3DQQ0AAAwDoTNZ/1YmYx9IWDVVVVVVVVVVVVVVVVVVVVX19QEX+IEiAEAAAA==
   </data>
  </layer>
  <layer name="ground" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO2YT04CMRSHH4tRDmA4gSjuBXWjLhB0o9wGvYBH8QgewfO4cuXC12QmvGlop1Smf+jvS77FhJT0C83QlggAAAAAAACQCufs2OJFvKkF4YqdCm/ZO/a+fr6JNrMwLNkH4TP7wq7q56d4U/s3am1POjxjK+GafWXf6ueT4LPeH2ptX1N7fevOqN2vm3O/WtuP1F7fugs63P4R2dtcRH++6P3HVHZ/V0vp/YdGn/3vjpZKyv0fQhM/wi4+NVNB7f/keaY5y3TN9Zc9Gmzcht5sMiZq/yfPM81Z5ku4DdO+oaHSvsNmTHzffy77phz+S1THkMrtV8gW9O8+Bv1p9I89lfc7px5jTGemkP3fZL/Dcb3fufQYE7KzMn0wsN/h2JT3O3OPMaH693FX0YfoD0Nf/XL/k/L9j2v/rvPx+f+LAfrL7lf0se9Cf9n9Md7lKZHT7w8AAAAAAAAAAAAAQG78Afpw1xQAQAAA
+   H4sIAAAAAAAAA+2YT04CMRSHH4tRDmA4gSjuBXWjLhB0o9wGvYBH8QgewfO4cuXC12QmvGlop1Smf+jvS77FhJT0C83QlggAAAAAAACQCufs2OJFvKkF4YqdCm/ZO/a+fr6JNrMwLNkH4TP7wq7q56d4U/s3am1POjxjK+GafWXf6ueT4LPeH2ptX1N7fevOqN2vm3O/WtuP1F7fugs63P4R2dtcRH++6P3HVHZ/V0vp/YdGn/3vjpZKyv0fQhM/wi4+NVNB7f/keaY5y3TN9Zc9Gmzcht5sMiZq/yfPM81Z5ku4DdO+oaHSvsNmTHzffy77phz+S1THkMrtV8gW9O8+Bv1p9I89lfc7px5jTGemkP3fZL/Dcb3fufQYE7KzMn0wsN/h2JT3O3OPMaH693FX0YfoD0Nf/XL/k/L9j2v/rvPx+f+LAfrL7lf0se9Cf9n9Md7lKZHT7w8AAAAAAAAAAAAAQG78Afpw1xQAQAAA
   </data>
  </layer>
  <layer name="Layer 4" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3YOU4DMRiGYVusoQYSDsdyAZYesRSQE4CgQVClhYojcAQ6NgkEDZtYG5bPSiyI5w8wyDOejL9HeqVkpAn+USJboxQREREREREREVGxzIdeQIZqPzQWcF1FUFHJ/8lQ0BXFZQWtorqnDv/Qfz87C2toHfV1QXnOv412UCNlW0IN529K9z0LHaFjdIJOvU79pdP8u2gP7adM4l6X7rtH/bq9a1y7QbfoDj14mNfVaf4NtIkOUiZxr0v3acw76vSG6+/ow9yE9z3ax8Ttfps/pHHMO4Em0VQGsxu+56/4W5qaxswzaBbNdcn8Pi1g5kW0hJYjnD8PMc9/puKe3+y5Zo+9UM2Z7bnDvLZ7bpnp1h5r57fnDvPa7rlld66a8xvfzx6XeH8VcF15eURPKnn2fkGvAdeVl17zfdfJs/cAGmx9/6tKfnZTBsOYcUQ4e1dRLYLfPxHFS3r+zOfRREREREREREREVFSfNJPZMABAAAA=
+   H4sIAAAAAAAAA+3YOU4DMRiGYVusoQYSDsdyAZYesRSQE4CgQVClhYojcAQ6NgkEDZtYG5bPSiyI5w8wyDOejL9HeqVkpAn+USJboxQREREREREREVGxzIdeQIZqPzQWcF1FUFHJ/8lQ0BXFZQWtorqnDv/Qfz87C2toHfV1QXnOv412UCNlW0IN529K9z0LHaFjdIJOvU79pdP8u2gP7adM4l6X7rtH/bq9a1y7QbfoDj14mNfVaf4NtIkOUiZxr0v3acw76vSG6+/ow9yE9z3ax8Ttfps/pHHMO4Em0VQGsxu+56/4W5qaxswzaBbNdcn8Pi1g5kW0hJYjnD8PMc9/puKe3+y5Zo+9UM2Z7bnDvLZ7bpnp1h5r57fnDvPa7rlld66a8xvfzx6XeH8VcF15eURPKnn2fkGvAdeVl17zfdfJs/cAGmx9/6tKfnZTBsOYcUQ4e1dRLYLfPxHFS3r+zOfRREREREREREREVFSfNJPZMABAAAA=
   </data>
  </layer>
  <layer name="Layer 5" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3OwQ1AABBFQa2jIlSACtCQPWyihH8wk7z7GwYAAAAAAAAAgP8Zq6mbwy8JS7V2W/glYa+O7gy/JFzV3T3hFwAAAAAAAODzApoHer4AQAAA
+   H4sIAAAAAAAAA+3OwQ1AABBFQa2jIlSACtCQPWyihH8wk7z7GwYAAAAAAAAAgP8Zq6mbwy8JS7V2W/glYa+O7gy/JFzV3T3hFwAAAAAAAODzApoHer4AQAAA
   </data>
  </layer>
  <layer name="Collision" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3SQQ6EIBBFQb26J5+tC0MIA37A6qQ2JqP9YK7zOC4AAACYQGnSu+nXP6qtZtL7J/rvv0vv7/779becV3r/t/uZ575mHf3v96f/l/fdVuvvtfOK/a3vePq+/vX6W/fWXx79+r/QP6qz9N2aZ1/sT4z+eej/79zS+/e4X/379tecgX79O/ePPNP0HgAAAACwmx/oc8lJAEAAAA==
+   H4sIAAAAAAAAA+3SwQ7CIBRFwfrr/XLjrgttCAIX6LxkNk1s3wHP13GcAAAATOkz6R1G9/6a9G769fdqK5n0/on+6+/S+7v/dv0155Xef3Q/89zXrKN/fH/6f3ndbbX+Vjuv2F/7jm/f179ef+3e+u9Hv/4n9PfqvPtuybMn9idG/zz0/3du6f1b3K/+fftLzkC//p37e55peg8AAAAA2M0bzHRoAgBAAAA=
   </data>
  </layer>
  <layer name="Objects" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
   </data>
  </layer>
  <layer name="Fringe" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
   </data>
  </layer>
  <layer name="Above" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3YMQqAMAwAQBcHfYDoG32Cn9dsDtIqaKtyBxlLkwwpTdMAAAAAAKWMiUBPSFtqJ/AC0YN5i/ZE/FHUH7Wd6QEA8E1Hf6W+0J0Ae6kdTm5/ceVsiTkHodtiqp0EVHZ1nucM96X2STFXvGUAAAAA8IwVMFj7WQBAAAA=
+   H4sIAAAAAAAAA+3YMQqAMAwAQBcHfYDoG32Cn9dsDtIqaKtyBxlLkwwpTdMAAAAAAKWMiUBPSFtqJ/AC0YN5i/ZE/FHUH7Wd6QEA8E1Hf6W+0J0Ae6kdTm5/ceVsiTkHodtiqp0EVHZ1nucM96X2STFXvGUAAAAA8IwVMFj7WQBAAAA=
   </data>
  </layer>
+ <objectgroup name="Obj" width="64" height="64">
+  <object name="Hitomb" type="warp" x="1056" y="1408" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="901-1"/>
+    <property name="dest_x" value="1472"/>
+    <property name="dest_y" value="1504"/>
+   </properties>
+  </object>
+  <object name="Woodland" type="warp" x="416" y="1056" width="129" height="32">
+   <properties>
+    <property name="dest_map" value="012-3"/>
+    <property name="dest_x" value="14336"/>
+    <property name="dest_y" value="1984"/>
+   </properties>
+  </object>
+  <object name="cont_up" type="warp" x="1056" y="832" width="33" height="32">
+   <properties>
+    <property name="dest_map" value="901-3"/>
+    <property name="dest_x" value="1056"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="cont_down" type="warp" x="1024" y="672" width="97" height="32">
+   <properties>
+    <property name="dest_map" value="901-3"/>
+    <property name="dest_x" value="1056"/>
+    <property name="dest_y" value="864"/>
+   </properties>
+  </object>
+  <object name="level2" type="warp" x="1440" y="416" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="902-3"/>
+    <property name="dest_x" value="2336"/>
+    <property name="dest_y" value="3584"/>
+   </properties>
+  </object>
+  <object name="mineral" type="spawn" x="416" y="1248" width="160" height="128">
+   <properties>
+    <property name="eA_death" value="180000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="995"/>
+   </properties>
+  </object>
+  <object name="mineral" type="spawn" x="1472" y="863" width="128" height="128">
+   <properties>
+    <property name="eA_death" value="180000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="995"/>
+   </properties>
+  </object>
+  <object name="mineral" type="spawn" x="1408" y="511" width="128" height="128">
+   <properties>
+    <property name="eA_death" value="180000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="995"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

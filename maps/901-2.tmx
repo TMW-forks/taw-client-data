@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
  <properties>
   <property name="name" value="HiTomb indoors"/>
+  <property name="tmwcon" value="skip"/>
  </properties>
- <tileset name="Indoor" firstgid="1" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png"/>
  </tileset>
- <tileset name="Cave" firstgid="257" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset name="collision" firstgid="385" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <tileset name="Untitled" firstgid="387" tilewidth="32" tileheight="32">
+ <tileset firstgid="387" name="Untitled" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Pots_x2.png"/>
  </tileset>
  <layer name="Ground" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3cwUpCURAG4OvCBwiifW2sJ4j2ZbTPnqB6/0foSAiiHu4xuzjO+cAPEVwM/ps7ML+r2TCsAAAAAAAAAAAAAABOsCjuD3gIMBvTeyzKa89TgNmY3mtxNex7CzAb07sp5gdcB5gN+SN/5M+0trM/9yx/Vdtla+y4udR22Ro7bi61XbbGjpvL+lnmdmjnGSeXdf53Jdfn4qVYDr+fa+Sfyyb/92JVfMi/K/Lvm/z7Jv++yZ+1z5LtV/E9nH8WAAAAAAAAIL9F4/eidRRaOxbR5o6mtasQraNwqXNH09pViNZRuNS5o2ntKkS7Uar1RfVHj/8da3dp81ncGzX5T59/5BtF+ctf/vKX///azvzcs8ifY2T47xAAAAAAAAAAAGJq6SvpKuXV0lfSVcqrpa+kq5RXy72qW9W85N83+fdN/uzSVwAAAAAAAAAAAADgVGM9RR3F3MZ6ijqKuY31FHUUcxvrqeio5Cb/vsm/b/JnY77zDgAAAAAAxPQDKH0aFgAAAQA=
+   H4sIAAAAAAAAA+3cwUpCURAG4OvCBwiifW2sJ4j2ZbTPnqB6/0foSAiiHu4xuzjO+cAPEVwM/ps7ML+r2TCsAAAAAAAAAAAAAABOsCjuD3gIMBvTeyzKa89TgNmY3mtxNex7CzAb07sp5gdcB5gN+SN/5M+0trM/9yx/Vdtla+y4udR22Ro7bi61XbbGjpvL+lnmdmjnGSeXdf53Jdfn4qVYDr+fa+Sfyyb/92JVfMi/K/Lvm/z7Jv++yZ+1z5LtV/E9nH8WAAAAAAAAIL9F4/eidRRaOxbR5o6mtasQraNwqXNH09pViNZRuNS5o2ntKkS7Uar1RfVHj/8da3dp81ncGzX5T59/5BtF+ctf/vKX///azvzcs8ifY2T47xAAAAAAAAAAAGJq6SvpKuXV0lfSVcqrpa+kq5RXy72qW9W85N83+fdN/uzSVwAAAAAAAAAAAADgVGM9RR3F3MZ6ijqKuY31FHUUcxvrqeio5Cb/vsm/b/JnY77zDgAAAAAAxPQDKH0aFgAAAQA=
   </data>
  </layer>
  <layer name="Collision" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3bQQqAMAwEQP26L/ckiIhgUbc1U5j7ks0xXeZpWgAAAAAAAAAAAAAAAKDB2UtnQv/oH/3z3R6kMwBAizsvnRX9o3/0j/7RP/rnmT1IZwAAAAAAAAAAoI7tXmWE+6RjNrdVz8x0lDnq/93Oe5/jqLl7NOLs9P/uHNO59J+bazqD/mndiXQGAAAAAAAAAAAA4D/cqtam/9r0X5v+OduJdAYAAAAAAAAAAAAAAOAf/FGpwx+l2vRfm/7Z70I6AwAAAAAAcG0FZa4VsgAAAQA=
+   H4sIAAAAAAAAA+3bQQqAMAwEQP26L/ckiIhgUbc1U5j7ks0xXeZpWgAAAAAAAAAAAAAAAKDB2UtnQv/oH/3z3R6kMwBAizsvnRX9o3/0j/7RP/rnmT1IZwAAAAAAAAAAoI7tXmWE+6RjNrdVz8x0lDnq/93Oe5/jqLl7NOLs9P/uHNO59J+bazqD/mndiXQGAAAAAAAAAAAA4D/cqtam/9r0X5v+OduJdAYAAAAAAAAAAAAAAOAf/FGpwx+l2vRfm/7Z70I6AwAAAAAAcG0FZa4VsgAAAQA=
   </data>
  </layer>
  <layer name="Fringe" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3du0odYRiF4dmFBLTXwttVWyMktqYwtnoHRlJFDURTJVHQWHkIeKjMAVyiwhC2Ri3m29HngZdh/mkWzAX8TQMAAAAAAAAAAAAAAAAAAPD8jKaxO76PdDWEgTDc6tJ44Ra6t3LddHpZvIXu3fz/ufSmdgoFbv7/Yloq3kKd5fSuegQAAAAAAAAAAABPwovqAZTZSJvpc+vsQ1pNayWL7q/fdh5mN31Pe+l9Ok5f0tf0Le2ULfu39nYe5ySdprPW2X46SIcli+6v33Yebuav9/P0M/0q2ELHev2PJ9JkmupyCwPjVXqdZquHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/IfcB/e8te9++ZTW08fSRXSm1zTzebxNC83V/W9babtyE6WO0o/qEZT5nf5UjwA6NXTL3YAAAAAAAMDguAD+dFQYAAABAA==
+   H4sIAAAAAAAAA+3du0odYRiF4dmFBLTXwttVWyMktqYwtnoHRlJFDURTJVHQWHkIeKjMAVyiwhC2Ri3m29HngZdh/mkWzAX8TQMAAAAAAAAAAAAAAAAAAPD8jKaxO76PdDWEgTDc6tJ44Ra6t3LddHpZvIXu3fz/ufSmdgoFbv7/Yloq3kKd5fSuegQAAAAAAAAAAABPwovqAZTZSJvpc+vsQ1pNayWL7q/fdh5mN31Pe+l9Ok5f0tf0Le2ULfu39nYe5ySdprPW2X46SIcli+6v33Yebuav9/P0M/0q2ELHev2PJ9JkmupyCwPjVXqdZquHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/IfcB/e8te9++ZTW08fSRXSm1zTzebxNC83V/W9babtyE6WO0o/qEZT5nf5UjwA6NXTL3YAAAAAAAMDguAD+dFQYAAABAA==
   </data>
  </layer>
  <layer name="Over" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3dQQrCMBAF0HQZ0bUKeuB6g+INBA/g7QzYhRQKpZSmad6Dv8huQrIaJiQEAAAAAAAAAAAAAAAAAIBpYhPCJeXa/Nbnfn1o8tbFuqJzBwAAAGDjxnqZY9Hr2ie9TAAAAAAAAACY55hyyl0Eq2lTHn/rW8o9Uy0le+cuYKYu5ZPyzF0I2bxyF7Bzrfm1qnXOf7fiYBZ5bGbZDGsdSplZHt7bsbu79X2wnFLuLgAAAAAAAAAAAAAA2zXlvYK59bp4rwAAAAAAAAAAAAAALMW/L3Xz7wsA1CH6T4me94kAAAAAAFCGL9uyavsAAAEA
+   H4sIAAAAAAAAA+3dQQrCMBAF0HQZ0bUKeuB6g+INBA/g7QzYhRQKpZSmad6Dv8huQrIaJiQEAAAAAAAAAAAAAAAAAIBpYhPCJeXa/Nbnfn1o8tbFuqJzBwAAAGDjxnqZY9Hr2ie9TAAAAAAAAACY55hyyl0Eq2lTHn/rW8o9Uy0le+cuYKYu5ZPyzF0I2bxyF7Bzrfm1qnXOf7fiYBZ5bGbZDGsdSplZHt7bsbu79X2wnFLuLgAAAAAAAAAAAAAA2zXlvYK59bp4rwAAAAAAAAAAAAAALMW/L3Xz7wsA1CH6T4me94kAAAAAAFCGL9uyavsAAAEA
   </data>
  </layer>
 </map>

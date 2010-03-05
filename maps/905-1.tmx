@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="96" height="64" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="Woodland Ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png"/>
+ </tileset>
+ <tileset firstgid="385" name="Cave2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset firstgid="641" name="Woodland_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Woodland_x2.png"/>
+ </tileset>
+ <tileset firstgid="673" name="Woodland_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/Woodland_x3.png"/>
+ </tileset>
+ <tileset firstgid="705" name="Untitled" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_x3.png"/>
+ </tileset>
+ <layer name="Ground" width="96" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DMQ0AAAwEoVvev+WK6AoJq6aqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr4etBqXYQBgAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="96" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2by04UQRSGu4miD+DtjXTjZYOgiWKiOwF9AYVX4MEQF942XhYQ3XhZqLgB/TvMiTU1VdPVNV0Zpb8v+ROamprQ/1SdOX1OUVUAAAAAAAAAAAAAAAAAAFCCF3VVvZReeXotvann/dedfPbk8X7A54/63Sf8L4K75nekZ4X957McJ7bmXfC/H0LxPbbmXXY1/ryn74Qh+5+y1lPp4uN7ve6D9FM6kH4N1P/vuu8f0rt63BNXb0fjMWxeFx+/6nXfpMWFqjojnV3o537+N07pvk9LX+pxT1x9ro/HY9i8kI+3dX3Z0ZXR+O/m/fTzBemidGmg/p/TfR/Ki6N63BNXNh7D5oV8vK/r7eqvHozGhxzzfa7Kk2vSdemG4599N1iM8uOSKRZ3mrX/EP9buSNP7kqr0r2A/xaj/LhkisUd33v8D7MuTzakR9LjgP9NjDofiEumUNy5petlaYn138oTefJU2pS2Av7PAvE/nz78t31gWhn5b89v1PHipPqf+9zQwD6Ik+p/7nNDA/sgTqr/uc8NLuyDSdry/rb8P3X+0GtAMdry/mn5f5f5Q68BxWjL+6fl/13mD70GBABp+Ocg+hL553wh/0zD7aWE+iq54H8afj3Zr6t1Jad3OWRi/q9l7otpvUuYJOZ/7r6Y1ruESfrwn7Mn+Vgd3+9rdfGfsyez4/e1uvjP2ZPZ8fta/p646fW7XMg1y+B+JiHfDfyfL/ifT0ovhV5LOVJ6KfRaypHSS6HXAgBw8qCX9e9h/+NitWby+3KE6vpWC+Jsc3lCdTWrO6zgf3FS+iqz+P8HOl6wNQBgAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="96" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aQQ6DIBAFUOL9L6FWt3oDe6nuy8aF0aaoBdv0veWsCAmfYUIIAAAAAAAAAADANxmqEMZqXZ9i7b5RByjtcfUCIIM23rE39yxwkTrmTyODivCuAnL6VMbIKgAA+G2pPb3eH8jBvLmMLu5xn7jP8h4449Vfwpm/DrD07swAAACQztyBf7Bn3n/EE+o2yAcAYAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="96" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgNcA7tK+bgBgAAA=
+  </data>
+ </layer>
+</map>

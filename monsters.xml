@@ -1220,6 +1220,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     
     <!-- taw files -->
     
+    <monster id="968" name="Light mineral">
+	    <sprite>monsters/mineral-light-crystal.xml</sprite>
+    </monster>
+    
     <monster id="969" name="Lizzard">
 	    <sprite>monsters/monster-lizard.xml</sprite>
     </monster>

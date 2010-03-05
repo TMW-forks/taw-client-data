@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Thunderhill Dungeon"/>
+ </properties>
+ <tileset firstgid="1" name="TownPrison" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/TownPrison.png"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VsRGCMBSA4dRu4E4upBbUakGtA6gTqJuE2g1kAl+R4l0OSIjn8cS/+ArIC5c/DY1zrgEAAAAAAAAAAAAyvYKpz0H/eGdxSSj57tVAW46buCf07W2DrneP8OwNNA5pM4yZ1Tz99BtoTPFRJ/Av1mIjtuKpdM1WYS3eUxnoKLUTe3EQC0XPHMVJ1GEt3lMb6Ci1TFgpQ3NTd3yrX9/BHPs/ubdf+LcDAAAAAAAAADBXb5wBEvQAQAAA
+  </data>
+ </layer>
+ <layer name="Walls" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3P3Q0BQRiG0S0cFaAMfwVglaADdKECX2ISE2G42olxTvLcfJtN5u06AAAAAAAAgLtloVV0TC2ye0t2hfbdY/82u7fkmnrlFJ1Tl8FeNKzS/n9gv/32t2kUjaNJ4f68/90/v2gazaL5l/dP31q0jja1H1FRHx1qPwIAAAAAACBzAwGhS/4AQAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UOwoAIAxEQfX+h7ay9gOyiBOYPi+IrZbSAAAAAAAAYNGY9B769es/2/3GpNv069+5w+xG6R3TbyS9h379+u+0/fTX6wcAAAAAAF7XAVKcvSIAQAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
+  </data>
+ </layer>
+ <layer name="Over" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VQRGAMBRDwRoAFFAUgAPwL4tUxWfo7sy755bWAAAAAAAAAOD/lnSlrXpIkT096ageAsCnjb8801o9pMj4yzv16iEAAAAAAMC0XtiQgTgAQAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="64" height="64">
+  <object name="Out" type="warp" x="289" y="1058" width="28" height="27">
+   <properties>
+    <property name="dest_map" value="903-1"/>
+    <property name="dest_x" value="896"/>
+    <property name="dest_y" value="992"/>
+   </properties>
+  </object>
+  <object name="ToCastle" type="warp" x="769" y="834" width="60" height="25">
+   <properties>
+    <property name="dest_map" value="903-2"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="1856"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

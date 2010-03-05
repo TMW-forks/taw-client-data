@@ -141,4 +141,11 @@
 <npc id="913"><sprite variant="33">npcs/npc-hitomb.xml</sprite></npc><!-- The potionmaster -->
 <npc id="914"><sprite variant="17">npcs/npc-hitomb.xml</sprite></npc><!-- The magican -->
 <npc id="915"><sprite>npcs/npc-flying-beast.xml</sprite></npc><!-- The flying beast -->
+<npc id="916"><sprite variant="75">npcs/npc-hitomb.xml</sprite></npc><!-- Doorsman -->
+<npc id="917"><sprite variant="76">npcs/npc-hitomb.xml</sprite></npc><!-- Guy? -->
+<npc id="918"><sprite variant="77">npcs/npc-hitomb.xml</sprite></npc><!-- Redgirl -->
+<npc id="919"><sprite variant="78">npcs/npc-hitomb.xml</sprite></npc><!-- Miner witout stuff -->
+<npc id="920"><sprite variant="79">npcs/npc-hitomb.xml</sprite></npc><!-- Slicer -->
+<npc id="921"><sprite variant="80">npcs/npc-hitomb.xml</sprite></npc><!-- Cupid -->
+<npc id="922"><sprite variant="81">npcs/npc-hitomb.xml</sprite></npc><!-- Women used in Vquest -->
 </npcs>
