@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Hitomb Mine"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="cave_bilevel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset firstgid="385" name="Mine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine.png"/>
+ </tileset>
+ <tileset firstgid="641" name="cave bilevel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset firstgid="897" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <tileset firstgid="1041" name="TownPrison" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/TownPrison.png"/>
+ </tileset>
+ <tileset firstgid="1297" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cu27UQBQG4NFuAnmAJE+w4dJnufQJlwdIi3gAxCMABQSQkGiCoAlQQKAJUJBAE6CAQAUPQp+aY7FHOznyjGdsj33W/pE+kcTXnd8zs/bY3jDGbMygZTJPFhXsS2qnyUqDziIPr/Nk3KCLyMPrMllv0NWa88jq9xlTrt5pxJ+1KWWOcV8eWf2+YMrVO40058HH/inPsln9vmLK1TuNms5jZML7ez72z3ny6EPfsmT9zMeoFNNen7DyWDXh/T0f+5c8Zc51x865S/2JzCM7RvP65ZD2emnCroNrjvXl9fey7ublwXXHzrlL/YnMw9WeyXaH57ePTdn+x/YvIXlw3bFz7lJ/4srj5OT/hZzP76o73P5zmVXNI9X3Bu3y8piLKKPFiHlDytHus5HH8c9nf+YFU38eo4I82i6btvJgeccbT3OVd5U8HpNNQeYhp5dxnzxQUNZ15ZQqjxdkR+B6Kf+eZ5s8n6znpWNatq6n5JmCMtWeR/a9YV+w64ecJu2Sd+Q9+eCY1vc8XP2Ma9lDYdkzTTogX8hX8s0xrYt5xCxnn59X/X5VtK0t8qQj5R2aSewyMe0W8gjH59srkcqen9vmA/exT3nw+fY4El9jysyV2C7XD+RxHF9vXY9kXy9JeU53lzwkv8kf8sjM/jmGTx1jJSnz4LrB2+p6HUEeOpS5bo480pHjpiOjcwzuFXltptdH3pC3CvarbnLcdNXoHIP7SPbM9PrIJ/JZwX7VTfYba0bnGNx38sNMr4/8JL8U7FfqPJroCwB5zArO4xq5jjxax3ncJDesTJBHu3ncIrfJHTOtI23vGwAAAAAAAAAAgCby+VJtY8Z9w2P5TNuYcd/wWD7TNmbcNyHP3LK8Z+e1t2+bgzQ05CHbNu3tW/bv7zDsPra297VMHrJtm4X27WiSyZHx2xnE2Q7cft67OHzkPZL8XoKQeWdhjHl/kMZu4PZle1LEfnaB780bB86rLY97w//s3w8HaRx49sMuH9meFJHveuD3RITMqzUP29aw2jpjn/uuej+25vu5NeTRdvkiD+ShOY+QdyZooukZhBR5FL0vQRtNzyCkyKPofQnadPUZBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoxz/i7UM7QJwAAA==
+  </data>
+ </layer>
+ <layer name="Walls" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cu2sUQQDH8bkLamchIaViVASxMSo+sDEqYukDOx+xsTKKiF0uQUz0D1C0MZXaaaWlVtpa2fpA0xpFIZWv33KbnM5l93ZvZt1x9/uBH8fekmR2frdzCVzGmP/XWLPsEfxbqwO/3rr1sTbw661bH7ZXDf/nXNS5j1nN6duUeS3iXC9pfWytYFfrAr+mtD72BT72Kkrro85rmQvX9WqjHjdZWTwHN+MZ53BOHX5stOd8h453WonQR37frXujlaOPubiPgzo+ZCVCH/2Zd1ivzmvOjyfkqnJCuRznZ0G/c6MjugdWlT2IitisuTyXsKZcy/haZk3yy15Doh7Wa46HlQ3N3r3Qh1/L3R/b9NyIsr3HXC/EeRgH7uw+ovthv54bVQ70uD92KbuVPUUOsCZOxj0cbS7/92CW94/Dpr1eHfE6snpzXf95//CLPsIylrBeZTEUf/2g1xHVm8vrmz78Y70Ji8t6Bf+4P8JCHwAAAAAAAAAAAAAAoOq28PmIoOylj6BU4fNDM83uFPaz4txQbhbw/fP0Eer+JtMD3clqRZ+5o9z1eA2L8vQR6v4mCxrXm+hztMo75X2B47ynzJruPtY0jPlgOulXFdarlbofPuk65pXPyhflW0HX9Uh5bLr7GFYfX00n/apCH0Pq40e0f4HyK7oeHQ/kWLPyeKY8N3/38VoZUR/NP5LE3tfMPrb7yLofSmhOaf5PK2eUsw5dXFemU85PaP5ayqQyFc/loB5HEzqw99Kw/zfBPrb7yLofSmguqINx5aJyyaGPW8ptb6Nqs/ecSVOF9SoyoQ5ayqQy5amPYyl7vRSVKxXpw5f7yoOyB4ElT5SnZQ8CS14oL8seBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGe/AfKEc/ZAnAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cMQrCMBgG0FhPoJdw8wbOegHRAzsLCjo6eAAHVx3MoFCUSpVqE30PSocsoV+an5KkIeRrVLTdAwAAAJow9X33U86d6rbFkzaAd4xjDZnUqCPbu4vPmMUs5up6loZyAwAAAICsHK7rbpt431uDS8pRHgAAAAAAAABvOXXb7gGkLdd3pFOEUNQ8v7Yu7buwJ+YzejGL/gvnCVfXHOyJqbZs4NkMnPF88MrcUbb78lhtIv8c3OaOVMfqLYdv59+Wcg4p/rPnX3IAAAAAAAAAAAAAAAAAAAAAAP7LBW3G0I5AnAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UQZKCMBAFUDdewPsfdlZUUQySEJJ0I6+r3kJRTP4nft6v1wcAOtnOt/fX11uvUdfHUY49Z+T6f8XM0UeO/Y3MTB9t93Q++uyv1//O9vs97xud2ew+ru7/qIPWPnrc4w5q+qjN9OxE7z2jUh+lvPe+e5S/Psp91D63NX1c7WzUROcc0V1NHlETnV2mPrbX1uek15pK643OLrq3vX5GZKSP+oxKM7oP9JHRko8+cpiZkT7yZDTivGV2ZSLWF51X5j5m5KMPfUT3Eb0Gfdynj6d40jN3B0sP+sjhaf/L2a070Em8bf760AcAAAAAAECNGRO9xzt5Qh8Z1qCP/3uMXke0DDksvx+9jgxG9XHmvtnO6ui8W3JbP7Prz5x53TrRmc3so0dWo6bm+bm7bYYj82ydvXP2q3rndOb1ld8FAAAAAAAAAAAAAAAAAAAAAM77A4qNkBNAnAAA
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bSw6CMBAAUHAnG1dEuYH3v4Nbj+BZ1EQjEit+6Ed8L5lFA0mbDpm2AaoK4PetFvH72Nfx+5iLFPmAX7M8xSZydJe+1KvPtLkHwB35KMsn+dhegumF8rFJOorb2taN3ThzJderV/cQTa4BRvAsH/39GGm0vbjO/5yeNyiR82BcobN9M7heiuF41WBKol6VZ139z7lhruy541CvgNTG1mTrNWePzqfyn08bCPKQDwAIG3vPAQAAAAAAwDR2vj8FgL/i35MyyMNrhvP0bptpHerv2gAAAAAAAAAAAAAAAAAAAABAWkfDpggAQJwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="Terranite Masks" type="spawn" x="1952" y="1664" width="128" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="984"/>
+   </properties>
+  </object>
+  <object name="Terranite Mask" type="spawn" x="640" y="1696" width="128" height="128">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="984"/>
+   </properties>
+  </object>
+  <object name="Hitomb" type="warp" x="160" y="1536" width="32" height="96">
+   <properties>
+    <property name="dest_map" value="901-3"/>
+    <property name="dest_x" value="1664"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+  <object name="Ancients" type="warp" x="1984" y="1568" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="903-4"/>
+    <property name="dest_x" value="1856"/>
+    <property name="dest_y" value="768"/>
+   </properties>
+  </object>
+  <object name="Access" type="warp" x="1824" y="800" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="903-4"/>
+    <property name="dest_x" value="1984"/>
+    <property name="dest_y" value="1792"/>
+   </properties>
+  </object>
+  <object name="Trap" type="warp" x="2080" y="512" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="903-4"/>
+    <property name="dest_x" value="1728"/>
+    <property name="dest_y" value="160"/>
+   </properties>
+  </object>
+  <object name="Bridge" type="warp" x="1727" y="160" width="33" height="32">
+   <properties>
+    <property name="dest_map" value="903-4"/>
+    <property name="dest_x" value="2080"/>
+    <property name="dest_y" value="480"/>
+   </properties>
+  </object>
+  <object name="Terranite Masks" type="spawn" x="1824" y="415" width="128" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="984"/>
+   </properties>
+  </object>
+  <object name="Terranite Masks" type="spawn" x="1217" y="288" width="96" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="984"/>
+   </properties>
+  </object>
+  <object name="Terranite Masks" type="spawn" x="1215" y="512" width="96" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="984"/>
+   </properties>
+  </object>
+  <object name="Fireslimes" type="spawn" x="929" y="352" width="128" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="993"/>
+   </properties>
+  </object>
+  <object name="Fireslimes" type="spawn" x="545" y="704" width="132" height="64">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="993"/>
+   </properties>
+  </object>
+  <object name="Terranite Masks" type="spawn" x="481" y="928" width="160" height="128">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="984"/>
+   </properties>
+  </object>
+  <object name="Fireslimes" type="spawn" x="479" y="128" width="322" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="993"/>
+   </properties>
+  </object>
+  <object name="Terranite Masks" type="spawn" x="193" y="128" width="96" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="984"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

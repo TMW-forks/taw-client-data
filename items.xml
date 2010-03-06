@@ -4907,6 +4907,320 @@
 	  weapon-type="special"
 	  attack-range="10"
 	   max-per-slot="1"/>
+    <item id="5046"
+	  image="equipment/chest/forest-armor.png"
+	  name="Forest Armor"
+	  description="A clean and comfortable mantle with dags made for the finest stalkers."
+	  effect="+6% Defense"
+	  type="equip-torso"
+	  weight="30"
+	  defense="6"
+	  max-per-slot="1">
+	    <sprite gender="male">equipment/chest/forest-armor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/forest-armor-female.xml</sprite>
+    </item>
+    <item id="5047"
+	  image="equipment/head/witch-doctor-mask.png"
+	  name="Witch Doctor's Mask"
+	  description="A crazy mask from the Voodoo doctor."
+	  effect="+3% Defense"
+	  defense="3"
+	  type="equip-head"
+	  weight="20"
+	  max-per-slot="1">
+	    <sprite>equipment/head/witch-doctor-mask.xml</sprite>
+    </item>
+    <item id="5048"
+	  image="armor-chest-saviorarmor.png"
+	  name="Savior armor"
+	  description="Strong and decorative armor."
+	  effect="+27% Defense"
+	  type="equip-torso"
+	  weight="275"
+	  defense="27"
+	  max-per-slot="1">
+	    <sprite gender="male">equipment/chest/chest-saviorarmor-male.xml</sprite>
+	    <sprite gender="female">equipment/chest/chest-saviorarmor-female.xml</sprite>
+    </item>
+    <item id="5049"
+	  image="weapon-staff-white.png"
+	  name="White Light Staff"
+	  description="A basic wooden staff."
+	  effect="+25 Damage, 1 Range"
+	  type="equip-2hand"
+	  weapon_type="11"
+	  weapon-type="polearm"
+	  weight="10"
+	  attack-min="0"
+	  attack-delta="75"
+	  max-per-slot="1">
+	    <sprite>weapon-staff-white.xml</sprite>
+    </item>
+    
+    <item id="5050"
+	  image="weapon-staff-red.png"
+	  name="Light Staff"
+	  description="A basic wooden staff."
+	  effect="+25 Damage, 1 Range"
+	  type="equip-2hand"
+	  weapon_type="11"
+	  weapon-type="polearm"
+	  weight="10"
+	  attack-min="0"
+	  attack-delta="75"
+	  max-per-slot="1">
+	    <sprite>weapon-staff-red.xml</sprite>
+    </item>
+    
+    <item id="5051"
+	  image="weapon-staff-green.png"
+	  name="Light Staff"
+	  description="A basic wooden staff."
+	  effect="+25 Damage, 1 Range"
+	  type="equip-2hand"
+	  weapon_type="11"
+	  weapon-type="polearm"
+	  weight="10"
+	  attack-min="0"
+	  attack-delta="75"
+	  max-per-slot="1">
+	    <sprite>weapon-staff-green.xml</sprite>
+    </item>
+    
+    <item id="5052"
+	  image="weapon-staff-blue.png"
+	  name="Light Staff"
+	  description="A basic wooden staff."
+	  effect="+25 Damage, 1 Range"
+	  type="equip-2hand"
+	  weapon_type="11"
+	  weapon-type="polearm"
+	  weight="10"
+	  attack-min="0"
+	  attack-delta="75"
+	  max-per-slot="1">
+	    <sprite>weapon-staff-blue.xml</sprite>
+    </item>
+    
+    <item id="5053"
+	  image="weapon-staff-yellow.png"
+	  name="Light Staff"
+	  description="A basic wooden staff."
+	  effect="+25 Damage, 1 Range"
+	  type="equip-2hand"
+	  weapon_type="11"
+	  weapon-type="polearm"
+	  weight="10"
+	  attack-min="0"
+	  attack-delta="75"
+	  max-per-slot="1">
+	    <sprite>weapon-staff-yellow.xml</sprite>
+    </item>
+    
+    <item id="5054"
+	  image="weapon-staff-purple.png"
+	  name="Light Staff"
+	  description="A basic wooden staff."
+	  effect="+25 Damage, 1 Range"
+	  type="equip-2hand"
+	  weapon_type="11"
+	  weapon-type="polearm"
+	  weight="10"
+	  attack-min="0"
+	  attack-delta="75"
+	  max-per-slot="1">
+	    <sprite>weapon-staff-purple.xml</sprite>
+    </item>
+    <item id="5055"
+	  image="armor-chest-ecarlaterobe.png|W:#ffffff"
+	  name="Omen Robe"
+	  description="The robe of the Omen Monk."
+	  effect="+15% Defense"
+	  type="equip-torso"
+	  weight="10"
+	  defense="15"
+	  max-per-slot="1">
+	    <sprite gender="male">equipment/chest/chest-ecarlaterobe-male.xml|#ffffff</sprite>
+	    <sprite gender="female">equipment/chest/chest-ecarlaterobe-female.xml|#ffffff</sprite>
+    </item>
+    <item id="5056"
+	  image="weapon-staff-wood.png"
+	  name="Wood Staff"
+	  description="A staff of enchanted wood."
+	  effect="+80 Damage, 2 Range"
+	  type="equip-2hand"
+	  weapon_type="11"
+	  weapon-type="polearm"
+	  weight="10"
+	  attack-min="0"
+	  attack-delta="75"
+	  max-per-slot="1">
+	    <sprite>weapon-staff.xml</sprite>
+    </item>
+    <item id="5057"
+	  image="armor-head-guyfawkes.png"
+	  name="V for Vendetta Mask"
+	  description="The famous Guy Fawkes' mask."
+	  effect="+14% Defense"
+	  type="equip-head"
+	  weight="12"
+	  defense="14"
+	  max-per-slot="1">
+        <sprite>equipment/head/head-guyfawkes.xml</sprite>
+</item>
+<item id="5058"
+      image="armor-head-fairy_hat.png"
+      name="Fairy Hat"
+      description="The famous hat worn by Robin Hood."
+      effect="+8% Defense"
+      type="equip-head"
+      weight="18"
+      defense="8"
+      max-per-slot="1">
+	<sprite>equipment/head/head-fairy_hat.xml</sprite>
+    </item>
+    <item id="5059"
+	  image="generic-snake-tongue.png|W:#a0a0f0,8080e0"
+	  name="Ice Snake Tongue"
+	  description="The forked tongue of an ice snake."
+	  effect=""
+	  type="generic"
+	  weight="1"/>
+    
+    <item id="5060"
+	  image="use-food-snake-egg.png|W:#c0e0e0;R:#80a0f0;G:#b0b0e8"
+	  name="Ice Snake Egg"
+	  description="An edible ice snake egg."
+	  effect="+60 HP"
+	  type="generic"
+	  weight="2"/>
+    
+    <item id="5061"
+	  image="weapon-dagger-iceknife.png"
+	  name="Ice Knife"
+	  description="A blade made of frozen ice."
+	  effect="+115 Damage, 1 Range"
+	  type="equip-1hand"
+	  weapon_type="2"
+	  weapon-type="knife"
+	  weight="10"
+	  max-per-slot="1"
+	  view="521"/>
+    <item id="5062"
+	  image="generic-scorpionstinger.png|W:#9090ff,f0f0f0"
+	  name="Ice Scorpion Stinger"
+	  description="A frozen ice scorpion stinger."
+	  effect=""
+	  type="generic"
+        weight="1"/>
+    <item id="5063"
+	  image="weapon-arrow-terratine.png"
+	  name="Terratine Arrow"
+	  description="Stiff arrow causing deep penetration."
+	  effect="+100 Damage"
+	  type="equip-ammo"
+	  weight="12"
+        max-per-slot="100"/>
+    <item id="5064"
+	  image="armor-head-paladinhelm.png"
+	  name="Paladin's Helmet"
+	  description="Worn only by paladins."
+	  effect="+19% Defense"
+	  type="equip-head"
+	  defense="19"
+	  weight="43"
+	  max-per-slot="1">
+	    <sprite>head-paladinhelm.xml</sprite>
+    </item>
+    <item id="5065"
+	  image="armor-head-overlordhelm.png"
+	  name="Overlord's Helmet"
+	  description="Worn by the greatest warriors."
+	  effect="+20% Defense"
+	  type="equip-head"
+	  defense="20"
+	  weight="45"
+	  max-per-slot="1">
+	    <sprite>head-overlordhelm.xml</sprite>
+    </item>
+    <item id="5067"
+	  image="armor-head-desert-helmet.png"
+	  name="Desert Helmet"
+	  description="The perfect desert warriors' helmet."
+	  effect="+21% Defense"
+	  type="equip-head"
+	  weight="48"
+	  defense="21"
+	  max-per-slot="1">
+	    <sprite>head-desert-helmet.xml</sprite>
+    </item>
+    <!-- 762 TERRANITE ARROW -->
+    <item id="5068"
+	  image="generic-terraniteore.png"
+	  name="Terranite Ore"
+	  description="Some ore collected out of terranite."
+	  effect=""
+	  type="generic"
+	  weight="10"
+	  max-per-slot="10"/>
+    <item id="5069"
+	  image="armor-head-sailor_hat.png"
+	  name="Sailor Hat"
+	  description="A hat worn by brave sailors."
+	  effect="+5% Defense"
+	  type="equip-head"
+	  weight="5"
+	  defense="5"
+	  max-per-slot="1">
+	    <sprite>head-sailor_hat.xml</sprite>
+    </item>
+    <item id="5070"
+	  image="armor-head-captain_hat.png"
+	  name="Captain's Hat"
+	  description="A hat worn by the bravest captains."
+	  effect="+15% Defense"
+	  type="equip-head"
+	  weight="8"
+	  defense="15"
+	  max-per-slot="1">
+	    <sprite>head-captain_hat.xml</sprite>
+    </item>
+    <item id="5071"
+	  image="armor-head-terranitehelm.png"
+	  name="Terranite Helmet"
+	  description="A magical helmet made out of semi-polished granite that was enchanted to be very light. Great for mages on the battlefield."
+	  effect="+15% Defense"
+	  type="equip-head"
+	  defense="15"
+	  weight="10">
+	    <sprite>head-terranitehelm.xml</sprite>
+    </item>
+    <item id="5072"
+	  image="armor-chest-terranite.png"
+	  name="Terranite Chest Armor"
+	  description="A nice piece of armor made out of terranite ore."
+	  effect="+30% Defense"
+	  type="equip-torso"
+	  weight="120"
+	  defense="30"
+	  max-per-slot="1">
+	    <sprite gender="male">chest-terranite-male.xml</sprite>
+	    <sprite gender="female">chest-terranite-female.xml</sprite>
+    </item>
+    <item id="5073"
+	  image="armor-legs-terranite.png"
+	  name="Terranite Legs Armor"
+	  description="Leggings made out of terranite."
+	  effect="+8% Defense"
+	  type="equip-legs"
+	  weight="15"
+	  defense="8"
+	  max-per-slot="1">
+	    <sprite gender="male">leg-terranite-male.xml</sprite>
+	    <sprite gender="female">leg-terranite-female.xml</sprite>
+    </item>
+    
+    
     <item id="5100"
         image="heartglasses.png"
         name="Heart Glasses"

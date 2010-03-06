@@ -6,7 +6,7 @@
  <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset firstgid="129" name="Cave2" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="cave bilevel" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
  <tileset firstgid="385" name="Collision" tilewidth="32" tileheight="32">
@@ -34,7 +34,7 @@
  </layer>
  <layer name="Collision" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SwQ7CIBRFwfrr/XLjrgttCAIX6LxkNk1s3wHP13GcAAAATOkz6R1G9/6a9G769fdqK5n0/on+6+/S+7v/dv0155Xef3Q/89zXrKN/fH/6f3ndbbX+Vjuv2F/7jm/f179ef+3e+u9Hv/4n9PfqvPtuybMn9idG/zz0/3du6f1b3K/+fftLzkC//p37e55peg8AAAAA2M0bzHRoAgBAAAA=
+   H4sIAAAAAAAAA+3Syw6CMBRFUfx1vtw4Y6CkqS2nj3WTNSER7m49X8dxAgAAMKTPpHd4uvfXpHfTr79XW8mk90/0X3+X3t/9t+uvOa/0/k/3M859jTw79yfuP/2/vO42W3+rnWfsr33Ht+/rn6+/dm/996Nf/w79vTrvvlvybMf+xOgfh/7/zi29f4v71b9uf8kZ6Ne/cn/PM03vAQAAAACreQOs++4xAEAAAA==
   </data>
  </layer>
  <layer name="Objects" width="64" height="64">
@@ -49,7 +49,7 @@
  </layer>
  <layer name="Above" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YMQqAMAwAQBcHfYDoG32Cn9dsDtIqaKtyBxlLkwwpTdMAAAAAAKWMiUBPSFtqJ/AC0YN5i/ZE/FHUH7Wd6QEA8E1Hf6W+0J0Ae6kdTm5/ceVsiTkHodtiqp0EVHZ1nucM96X2STFXvGUAAAAA8IwVMFj7WQBAAAA=
+   H4sIAAAAAAAAA+3YQQqAIBAAwC4d6gFRb+wJfT69dQgtKM2YgT2K6yIrbtcBAAAAAKXMiUBNSNtqJ/ARa4j+QvxRvAPxbFdqAAC06eyvNBbaE+AoNcPJzS/urC3R5yAaQiy1k4DK7vbznOm51JoU+4q3DAAAAADesQMY3LOBAEAAAA==
   </data>
  </layer>
  <objectgroup name="Obj" width="64" height="64">
@@ -107,6 +107,13 @@
     <property name="eA_death" value="180000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="995"/>
+   </properties>
+  </object>
+  <object name="cont_up" type="warp" x="1696" y="736" width="33" height="32">
+   <properties>
+    <property name="dest_map" value="901-4"/>
+    <property name="dest_x" value="192"/>
+    <property name="dest_y" value="1568"/>
    </properties>
   </object>
  </objectgroup>
