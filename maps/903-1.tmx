@@ -15,7 +15,7 @@
  <tileset firstgid="257" name="Cave2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
- <tileset firstgid="513" name="Cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="513" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
  <tileset firstgid="641" name="Des-Wood" tilewidth="32" tileheight="32">
@@ -92,7 +92,7 @@
  </layer>
  <layer name="walls" width="128" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3buW4TQRzH8YXFEtAh0VAiUQBvwdlz9vAGeYQ8AvAESThLbigJZwIUQDgipYEGhdBAg5Ao+CHvislkr9nLm5nvR/pr7WS8a83PM/aOvVHUnUOjKDo86q49xo6oz46W9Fvaxt52Ic3xhOqkwzFc22PslPrsdEm/pW3SbKo8pq40x3Oq8w7HcG0Pd32MMXLc/K4pv+uqG+QYpPvK/YHqIfkH6blyf6FaIP8gfVTun1TLNfKfiqNoLS6+DX9NGznn3Ya/1oyc824DAIDhu6zzgCuqq5wPBumOcr+rukf+QXqi3J+qnpF/kJaU+3vVB/IHAAAAAAAD1vYaNmviG3V5XUFTba9hsya+UZfXFbg4pudw3Hoeba9hsybeL5e55YzanbXaLiX37TXsunNW3v7Qja7mlir7vRBH0UWjLvE7NgDoVdbnuiJ9nY80PQ7XvleT9bmuSFefGWa0z1nV3Kj4OFVfrz5d+97WmBvymLip53VLdbvk+bm+Xn3Q1pib1Jiocu3zI/1vXvXYaDPk16vPXD8T2Ox13CrXPr9J/vfOaOPTHD4pMzqvnnM8t246x9rruH1c+zzkdfK6XHPLmi/r5F9FUX/b67hNrn2uaijr5G1yzS1rvqySf16WRe+/Rf3NOu7mkpcl778Yki2ax7aqYtU2vi9w8ln99SV23zZ5bNvbXarZpHZb3x/ZhbGppC9+aPszdt82eWzb271Grvt0+7VqQbWo+qZ6qXqV/N0HvxqM2dS0cX8+dq9/svq4bH992q7j7VDt9CT31NcGYzZL3fxXtT1g1MrA8t8T/y+f2H2aNQ4n3fdDYL42fWPmuhyvn+tWesp/v7XPgx7281CZua7G6+e674z/oPy23of/qN5mFAAAKMfvTMLG91zI4+PvSkLSdG738XclIWFuBwAAAAAAbfsLHOtHoQCAAAA=
+   H4sIAAAAAAAAA+3byU4UQRwG8NJyEuFm4sUjiQfxLXC7u971DXgEHgF9AkBFj+56FFdcDiioJFzwQhAueCEmHvwm0xWLopeqruqepur7Jf/0ADXdk/q6amaKbiGaM9ET4kyvufY0cBZ9dq6i31Qbc9sEleNF1CWHY7i2p4HL6LMrFf2m2qhsbJ5Tl8rxOuqGwzFc25O7NsYYczz45pHfPdR95pikZ8j9OeoF80/SO+T+HrXI/JP0Hbn/QK3WyH9SCrElyx9TvKa0nIseU7y2tJyLHhMREVH33cb3gDuou/w+mKTHyP0J6inzT9Jr5P4G9Zb5J2kZua+gvjF/IiIiCuiQFOIwSqKOcJ2YiIiIAgi9hs018f2avK/AV+g1bK6J79fkfQUuzuM1XDBeR+g1bK6Jt8tlbrmKdteMtsvZz+Yadt05q2h/1Iym5hab/U5LIW5qdYvrE0RErcr7XFemre8jvsfhve928j7XlWnqM8MM9jmLmuuVH8f2fI3p3vdQY67LY+IBXtdD1KOK1+d6vsYg1Jgb1piwuff5Jf62gHqlteny+Roz188EJnMd1+be56Xsb1+1NjHN4S6mA34nnsE+5hz34zvHmuu4bdz73OV1clf9zGZr5JY3X9bJ30ZZf5vruD73Ptvqyjp5CHXz1+dLde2PTf5FWZa9/5b1N9dxh+9Ydg7ZKMoy1fffGIw55H9Q8HrG+tbRXz+l+9bnuaG3ak7r13Hj/0dm0cBk1hc72P6W7luf54bejmm5nsTjz6hF1AfUL9RH1Kfs9zHY9RizypT284J0r768Pq7aX5uO4ngjqNFIclc2PMZsnrr5b2I7rtVax/I/If9XTMw+zRuHw+77LtDPzdjoua7KvXPdWkv5nzL2eTrCfu4qPddNuXeu2+b4T8of4334L+pLThEREVE1XmeSNv6fi4rEdF1Jinzn9piuK0kR53YiIiIiIiIiCu0fbl5RDACAAAA=
   </data>
  </layer>
  <layer name="towers" width="128" height="64">

@@ -9,7 +9,7 @@
  <tileset firstgid="257" name="Cave2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
- <tileset firstgid="513" name="Cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="513" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
  <tileset firstgid="641" name="Des-Wood" tilewidth="32" tileheight="32">
@@ -160,7 +160,7 @@
  </layer>
  <layer name="towers" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3bwQnCMBiA0UDoZLqBbqAr6Aa6gR70JN50A13O9NCL9NBU0Jq8dwqEQD/+QA+lIdRr0fz6CT43Sw3zzI7uzKqA/naGy8yOMWemqp3hOrNlzBngP51iCOfYv67BLXXeY/+6Bo/U+Yz9awAAAAAAAIApu/iuCUDFrt6DVMz9BwDg2zZNCNvC/rXrmoa07dL+vrD+rmlI2yHtHwvqf599SW1D5Mz+H7wAXz/7/wBAAAA=
+   H4sIAAAAAAAAA+3bMQrCQBBA0YEhJ9Mb6A30CnoD7VW00Ert9AZ6OSfFNmGL3QiazPwHgYVlIZ8JpAgRiWvW/PsOvjexhmllRzqzcNDfznBe2dHnzFC1M1xWtvQ5A2Cczipy0fw6god1PjW/juBlnW/NrwEAAAAAAAAAAICh26nI3q5D0O9bV+u+2XWnHwCAcHj/ITKefwAAAPzaqhFZO/vXLjWVtG1sf+usPzWVtB1t/+Sovzt7T20lamY/Bh+2t5pzAEAAAA==
   </data>
  </layer>
 </map>
