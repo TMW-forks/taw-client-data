@@ -5219,6 +5219,38 @@
 	    <sprite gender="male">leg-terranite-male.xml</sprite>
 	    <sprite gender="female">leg-terranite-female.xml</sprite>
     </item>
+    <item id="5074"
+	  image="generic/ingot-iron.png"
+	  name="Iron Ingot"
+	  description="Ingot made of iron"
+	  effect=""
+	  type="generic"
+	  weight="75"
+	  max-per-slot="10"/>
+    <item id="5075"
+	  image="generic/ingot-copper.png"
+	  name="Copper Ingot"
+	  description="Ingot made of iron"
+	  effect=""
+	  type="generic"
+	  weight="75"
+	  max-per-slot="10"/>
+    <item id="5076"
+	  image="generic/ingot-silver.png"
+	  name="Silver Ingot"
+	  description="Ingot made of iron"
+	  effect=""
+	  type="generic"
+	  weight="75"
+	  max-per-slot="10"/>
+    <item id="5077"
+	  image="generic/ingot-gold.png"
+	  name="Gold Ingot"
+	  description="Ingot made of iron"
+	  effect=""
+	  type="generic"
+	  weight="75"
+	  max-per-slot="10"/>
     
     
     <item id="5100"

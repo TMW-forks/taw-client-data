@@ -20,12 +20,12 @@
  </tileset>
  <layer name="Ground" width="96" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DMQ0AAAwEoVvev+WK6AoJq6aqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr4etBqXYQBgAAA=
+   H4sIAAAAAAAAA+3UTQrCMBgE0BDo2fQA4k+37c7TeKZ6Az2QWRSMpVVwkza8xVsEZjEMH2lCCA0AAAAAAAAAAAAAAAAAAABQVBtD2GX2sXyn2uWbX5NbeOvjZ6Z019q0M5sf0/s0Oo+bd2OmdN9atAv3nt/8XG5I7ivov3Xdl5s/xOXcI3muoP/WTXftF/72aa5071pcsnvP//lfudK9AQAAAADgHy/Y+gSSAGAAAA==
   </data>
  </layer>
  <layer name="Walls" width="96" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2by04UQRSGu4miD+DtjXTjZYOgiWKiOwF9AYVX4MEQF942XhYQ3XhZqLgB/TvMiTU1VdPVNV0Zpb8v+ROamprQ/1SdOX1OUVUAAAAAAAAAAAAAAAAAAFCCF3VVvZReeXotvann/dedfPbk8X7A54/63Sf8L4K75nekZ4X957McJ7bmXfC/H0LxPbbmXXY1/ryn74Qh+5+y1lPp4uN7ve6D9FM6kH4N1P/vuu8f0rt63BNXb0fjMWxeFx+/6nXfpMWFqjojnV3o537+N07pvk9LX+pxT1x9ro/HY9i8kI+3dX3Z0ZXR+O/m/fTzBemidGmg/p/TfR/Ki6N63BNXNh7D5oV8vK/r7eqvHozGhxzzfa7Kk2vSdemG4599N1iM8uOSKRZ3mrX/EP9buSNP7kqr0r2A/xaj/LhkisUd33v8D7MuTzakR9LjgP9NjDofiEumUNy5petlaYn138oTefJU2pS2Av7PAvE/nz78t31gWhn5b89v1PHipPqf+9zQwD6Ik+p/7nNDA/sgTqr/uc8NLuyDSdry/rb8P3X+0GtAMdry/mn5f5f5Q68BxWjL+6fl/13mD70GBABp+Ocg+hL553wh/0zD7aWE+iq54H8afj3Zr6t1Jad3OWRi/q9l7otpvUuYJOZ/7r6Y1ruESfrwn7Mn+Vgd3+9rdfGfsyez4/e1uvjP2ZPZ8fta/p646fW7XMg1y+B+JiHfDfyfL/ifT0ovhV5LOVJ6KfRaypHSS6HXAgBw8qCX9e9h/+NitWby+3KE6vpWC+Jsc3lCdTWrO6zgf3FS+iqz+P8HOl6wNQBgAAA=
+   H4sIAAAAAAAAA+2byW7UQBCG7SgsyZkA4QGANwkXSC5AQEqCBDfWF2B5BR6M5RCWC8uBiEUiySEsicTyW0yJnp6qcbttawL1f9IvxenpKP33MuUquygIIYQQQgghhBBCCCGEEEIIIYT0wXpZFM+g55FeQC/LSf93/z/v4PGG4vN7/O4D/e+FcM0/gh737D/nchhrzYfQ/27QzndrzYc8QfvTjr4TPPufstZTaeLjG3zuLfQV+gZ9d+r/Dsb9BXpdDnsS6tWg3UL6NfFxC5/bhg5OFcUh6PBUN+P515jGuA9Am+WwJ6E+l3/aLaSf5uNlXC8EOjNo/1X9Pfx8FDoGHXfq/xGM+we8+FkOexJK2i2kn+bjVVw/LP7q2qDd85kfcxaenIMWoaXAP/lukDMqPpdE1rlTrf3r9L+WFXiyCq1BVxT/5YyKzyWRde7E3tN/nZvw5BZ0G7qj+F+dUXPKuSTSzp1LuL4Inef6r+UuPLkH3YceKP63ged/Pl34L/tAtDzwX+7fmMezSfU/976hgvvAJtX/3PuGCu4Dm1T/c+8bQrgPRqmL++vi/9T+3nNAFnVx/7j4v0l/7zkgi7q4f1z836S/9xwQIZ6Jn22YhBh/ThbGn2mEtRStrpIL/U8jzifHebWm5NQuPWP5fyNzX4yrXZJRLP9z98W42iUZpQv/+exJPpLHj+taTfznsyftietaTfznsyftieta8Z64ENW7QjzHmlatKtRH6FOGP+GcaL4Lnv23alWhdtG+19GcaHj1X+INrVYVagaaTZiTXHmNeVLjjXm0n0iYk1x5jXnaxBvanOTKa8xzEmM+BZ12OPb9APPsk8dr7LFfiP233u9lLasf4vfmUt61q0PecZFcM/dYf2h5fckF8dnm/tHyapJ3WKb/vZNSV2nj/2+R1KUvAGAAAA==
   </data>
  </layer>
  <layer name="Fringe" width="96" height="64">
