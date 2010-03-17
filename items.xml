@@ -3029,15 +3029,24 @@
         weight="1"
         max-per-slot="1"
         intelligence="5"/>
+    <!--
     <item id="1228"
         image="armor-neck-silver4leaf.png"
-        name="Silver Four-Leaf Amulet"
+        name="Silver Four-Leaf Amulet*"
         description="An amulet made for people bringing luck wherever they go."
         effect="+5 Luck"
-        type="equip-neck"
-        weight="1"
-        max-per-slot="1"
-        luck="5"/>
+	type="equip-neck"
+        luck="5"
+	weight="1" /> -->
+    <item id="1228"
+	  image="armor-neck-silver4leaf.png"
+	  name="Silver Four-Leaf Amulet"
+	  description="An amulet made for people bringing luck wherever they go."
+	  effect="+5 Luck"
+	  type="equip-neck"
+	  luck="5"
+	  weight="1"/>
+
 
     <item id="1229"
         image="generic-caramelapple.png"
@@ -5117,9 +5126,9 @@
 	  image="weapon-arrow-terratine.png"
 	  name="Terratine Arrow"
 	  description="Stiff arrow causing deep penetration."
-	  effect="+100 Damage"
+	  effect="+120 Damage"
 	  type="equip-ammo"
-	  weight="12"
+	  weight="3"
         max-per-slot="100"/>
     <item id="5064"
 	  image="armor-head-paladinhelm.png"
@@ -5230,7 +5239,7 @@
     <item id="5075"
 	  image="generic/ingot-copper.png"
 	  name="Copper Ingot"
-	  description="Ingot made of iron"
+	  description="Ingot made of copper"
 	  effect=""
 	  type="generic"
 	  weight="75"
@@ -5238,7 +5247,7 @@
     <item id="5076"
 	  image="generic/ingot-silver.png"
 	  name="Silver Ingot"
-	  description="Ingot made of iron"
+	  description="Ingot made of silver"
 	  effect=""
 	  type="generic"
 	  weight="75"
@@ -5246,10 +5255,19 @@
     <item id="5077"
 	  image="generic/ingot-gold.png"
 	  name="Gold Ingot"
-	  description="Ingot made of iron"
+	  description="Ingot made of gold"
 	  effect=""
 	  type="generic"
 	  weight="75"
+	  max-per-slot="10"/>
+    <item id="5078"
+	  image="use-food-greenbeer.png"
+	  name="Green Beer"
+	  description="A fresh green beer to celebrate Saint Patrick"
+	  effect="+250 HP"
+	  type="usable"
+	  hp="250"
+	  weight="10"
 	  max-per-slot="10"/>
     
     

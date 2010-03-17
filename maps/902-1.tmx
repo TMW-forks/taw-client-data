@@ -13,16 +13,16 @@
  <tileset firstgid="1" name="Woodland x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/Woodland_x3.png"/>
  </tileset>
- <tileset firstgid="33" name="woodland village" tilewidth="32" tileheight="32">
+ <tileset firstgid="33" name="Village" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_village.png"/>
  </tileset>
  <tileset firstgid="289" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <tileset firstgid="291" name="Cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="291" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset firstgid="419" name="cave bilevel" tilewidth="32" tileheight="32">
+ <tileset firstgid="419" name="Cave2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
  <tileset firstgid="675" name="ancients_ring" tilewidth="32" tileheight="32">
@@ -261,6 +261,7 @@
     <property name="dest_y" value="992"/>
    </properties>
   </object>
+  <object name="" x="1728" y="0" width="96" height="32"/>
  </objectgroup>
  <objectgroup color="#a4743a" name="Minerals" width="117" height="75">
   <object name="Mineral" type="spawn" x="3232" y="1183" width="224" height="385">
