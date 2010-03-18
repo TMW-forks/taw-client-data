@@ -3,10 +3,10 @@
  <properties>
   <property name="name" value="Hitomb Cave"/>
  </properties>
- <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset firstgid="129" name="cave bilevel" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="Cave2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
  <tileset firstgid="385" name="Collision" tilewidth="32" tileheight="32">
@@ -14,12 +14,12 @@
  </tileset>
  <layer name="Bg" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DQQ0AAAwDoTNZ/1YmYx9IWDVVVVVVVVVVVVVVVVVVVVX19QEX+IEiAEAAAA==
+   H4sIAAAAAAAAA+3OoQ0AAAgDsBlO3P+vcAUJoqK+TVIAAAAAAAB4bh4cAAAAAAAAAAAALi38+OU+AEAAAA==
   </data>
  </layer>
  <layer name="ground" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2YT04CMRSHH4tRDmA4gSjuBXWjLhB0o9wGvYBH8QgewfO4cuXC12QmvGlop1Smf+jvS77FhJT0C83QlggAAAAAAACQCufs2OJFvKkF4YqdCm/ZO/a+fr6JNrMwLNkH4TP7wq7q56d4U/s3am1POjxjK+GafWXf6ueT4LPeH2ptX1N7fevOqN2vm3O/WtuP1F7fugs63P4R2dtcRH++6P3HVHZ/V0vp/YdGn/3vjpZKyv0fQhM/wi4+NVNB7f/keaY5y3TN9Zc9Gmzcht5sMiZq/yfPM81Z5ku4DdO+oaHSvsNmTHzffy77phz+S1THkMrtV8gW9O8+Bv1p9I89lfc7px5jTGemkP3fZL/Dcb3fufQYE7KzMn0wsN/h2JT3O3OPMaH693FX0YfoD0Nf/XL/k/L9j2v/rvPx+f+LAfrL7lf0se9Cf9n9Md7lKZHT7w8AAAAAAAAAAAAAQG78Afpw1xQAQAAA
+   H4sIAAAAAAAAA+2YTU4CMRiGPxaIBzCeQFD3orhBF/5uwNuIF/AoHoEjcB5WrFzwNZmJ3zS0UyrTH/o+ybOYkCZ9QjPTlggAAAAAAACQCpfs0OJ1vKkF4Y4dC6fsA/tYPd9Hm1kYXtln4Yydsx/V83u8qf0btbavWhyxfeEnu2C/quez4LM+HGptT6i5vnVvqdmvm3O/Wttv1Fzfui90vP3nZG9zEf35ovcPqOz+tpbS+4+NLvu/HS2VlPt/hCY2wjaWmqmg9n/yPFOfZdrm+sue9P7chd5sMiZq/yfPM/VZZiXchWnfUFM/rxyMie/7z2XflMO3RHWcUrn9CtmC/v3HoD+N/qGn8n7nwmOM6cwUsn9N9jsc1/udG48xITv7ph969jscm/J+58ljTKj+Q9xVdCH6w9BVv9z/pHz/49q/73x8vn8xQH/Z/You9l3oL7s/xrs8JXL6/wEAAAAAAAAAAAAAyI0t3yIVywBAAAA=
   </data>
  </layer>
  <layer name="Layer 4" width="64" height="64">
@@ -29,10 +29,10 @@
  </layer>
  <layer name="Layer 5" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OwQ1AABBFQa2jIlSACtCQPWyihH8wk7z7GwYAAAAAAAAAgP8Zq6mbwy8JS7V2W/glYa+O7gy/JFzV3T3hFwAAAAAAAODzApoHer4AQAAA
+   H4sIAAAAAAAAA+3OwQ1AUBRFQX1boSJUgArQkLf4iRKuyExy9qfrAAAAAADg+/r0AAAAvzNUY2sKvyTM1dJawy8JW7W3jvBLwlldrTv8AgAAAAAAALwegq8pqwBAAAA=
   </data>
  </layer>
- <layer name="Collision" width="64" height="64">
+ <layer name="Collision" width="64" height="64" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3Syw6CMBRFUfx1vtw4Y6CkqS2nj3WTNSER7m49X8dxAgAAMKTPpHd4uvfXpHfTr79XW8mk90/0X3+X3t/9t+uvOa/0/k/3M859jTw79yfuP/2/vO42W3+rnWfsr33Ht+/rn6+/dm/996Nf/w79vTrvvlvybMf+xOgfh/7/zi29f4v71b9uf8kZ6Ne/cn/PM03vAQAAAACreQOs++4xAEAAAA==
   </data>
@@ -49,7 +49,7 @@
  </layer>
  <layer name="Above" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YQQqAIBAAwC4d6gFRb+wJfT69dQgtKM2YgT2K6yIrbtcBAAAAAKXMiUBNSNtqJ/ARa4j+QvxRvAPxbFdqAAC06eyvNBbaE+AoNcPJzS/urC3R5yAaQiy1k4DK7vbznOm51JoU+4q3DAAAAADesQMY3LOBAEAAAA==
+   H4sIAAAAAAAAA+3YQQqAIBAFUDct6gBRZ+wIXT6jTYsohVKM9+AvxdHFiBMCAAAAAFDKdBPcCaRYYrqE/NEajrOl3AEA0Karv9JQaE+As7sZztP8ImdtiT4Huz5mrl0EVJbbz5+M75XWpL2veMsAAAAA4BsbAHTglABAAAA=
   </data>
  </layer>
  <objectgroup name="Obj" width="64" height="64">
