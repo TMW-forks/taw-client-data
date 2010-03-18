@@ -154,4 +154,5 @@
 	<sprite>hairstyle11.xml|#80280f,b04810,ef681f,ffb830</sprite>
 	<sprite>head-mushroom.xml</sprite>
 </npc>
+<npc id="929"><sprite>npcs/boyscout.xml</sprite></npc>
 </npcs>
