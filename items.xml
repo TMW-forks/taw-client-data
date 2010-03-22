@@ -5269,7 +5269,36 @@
 	  hp="250"
 	  weight="10"
 	  max-per-slot="10"/>
-    
+    <item id="5079"
+	  image="weapon-dagger-razorknife.png"
+	  name="Razor Knife"
+	  description="Pretty sharp, precisious knife"
+	  effect="+115 Damage, 1 Range"
+	  type="equip-1hand"
+	  weapon_type="2"
+	  weapon-type="knife"
+	  weight="10"
+	  max-per-slot="1"
+	  view="521"/>
+    <item id="5080"
+	  image="weapon-dagger-erazorknife.png"
+	  name="Enchanted Razor Knife"
+	  description="This razor knife has been enchanted with a mysterious power"
+	  effect="+115 Damage, 1 Range"
+	  type="equip-1hand"
+	  weapon_type="2"
+	  weapon-type="knife"
+	  weight="10"
+	  max-per-slot="1"
+	  view="521"/>
+    <item id="5081"
+	  image="generic-silvered-blade.png"
+	  name="Sharp Silvered Blade"
+	  description="Durable, sharp blade"
+	  effect=""
+	  type="generic"
+	  weight="6"
+	  max-per-slot="1"/>
     
     <item id="5100"
         image="heartglasses.png"
