@@ -7,7 +7,7 @@
  <tileset firstgid="1" name="Walls3" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/concrete_walls-0113.png"/>
  </tileset>
- <tileset firstgid="385" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="Unbenannt" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
  <tileset firstgid="513" name="woodland_indoor" tilewidth="32" tileheight="32">
@@ -24,7 +24,7 @@
  </tileset>
  <layer name="Ground" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3bwVGDQBSA4VWxMs3BetQZ+3BoICVYQ1pID5Yh3hwdlrCAb8N+h++SgWR5/wKnnG9SOgMAAAAAAAAAAAAAAAAAAAAA0KyHLqXHAocufu0s9zx0fCnwqv8u6N+2u6FjV+Be/xAl7+qctwWiZ9Gikmd1jv7XRf+2lbyrc/S/Lkt6rS16Fi2Kbq6//vrX2f+/91P0LFqkf9v053e36LUAAAAAAFzqKY3b8lzqcEzjtjyX+fqZx/40dkyuYe73ps6NnhWXyTWMED2P1kT31l//Pfcfu6bvz99v531XPzil9fQT/fuJtUx1/Ejzfe5wD9Rsyb241X3cyrOhJiVzzt3H+qP/enOIXov+RO6B6PUAAAAAAAAAAADUqqX/ZKA/+qM/+qM/f/dB9FoAAAAAAAAAAAAAAAAAAACA/fgCWtT5TwAAAQA=
+   H4sIAAAAAAAAA+3bwU3DMBSAYQNhMuDAPIDEHigLdARmYIXuwBikJ5AgTmOnvCT+Dt+lSlr3/U4iVerxKqUjAAAAAAAAAAAAAAAAAAAAAADNuutSui/w0MWvnXpPQ8fnAi/674L+bbsZOnYFbvUPUfKsznmtED2LFpXcq3P03xb921byrM7Rf1tqei0tehYtim6uv/76r7P/f++n6Fm0SP+26c/JIX2LXgv6E9PeHmiT9gAAAGzdYxp3yXNZh79+3zr3t46ac5mvn3nsT2PH5BrmPm/q3OhZcZ5cwwjR82hNdG/99d9z/7HvdHr97Xree/WDj7ScfqJ/P7GWqY7vab7PHe6BNau5Fi91Hbdyb1iTkjnnrmP90X+5OUSvRX8i90D0egAAAAAAAAAAANaqpf9koD/6oz/6oz+/90H0WgAAAAAAAAAAAAAAAAAAAID9+ALErBYJAAABAA==
   </data>
  </layer>
  <layer name="Upground" width="128" height="128">
@@ -39,7 +39,7 @@
  </layer>
  <layer name="Collision" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3a0WrDMBBFwZD8/z/nVZg4iWRbV3hnYSiUNl3p6LHP1+PxBAAAAAAAAAAAAAAAAAAAAAAAAKCMdtrvbb9+mvTunNv/V2P97+fIpHdnbv/tz6d3ryg97R7pu6goPfrfs/8/f6ftrv96/Y983sg7S99FRVf1H5n0XVSkP9tu6V0AAID1XDHpM6E/ff1738W3z0ufif7+2676999jeocj/X+9i565cs+V7nnm+WefYbX+3/Y9ckb9z5/Ze+u/Vv/qk26qf3bSTfXPTrrpSP+9tzDyRma/0yt/d+Rz0017z7B3pt7v66//jPOvcsd36X/2pM+Uvrv0Xqm7SO+gP8m3kN4BAAAAAAAAAABgZf7vtDb9a9O/Nv1r0782/WnfQnoHAAAAAAAAAAAAAAAAAAAA4F7ez5402QAAAQA=
+   H4sIAAAAAAAAA+3a0WrDMBBFwZD8/z/nVZg4iWRbV3hnYSiUNl3p6LHP1+PxBAAAAAAAAAAAAAAAAAAAAAAAAKCMdtrvbb9+mvTunNv/V2P97+fIpHdnbv/tz6d3ryg97R7pu6goPfrfs/8/f6ftrv96/Y983sg7S99FRVf1H5n0XVSkP9tu6V3Qn0x7b6Am7QH41xWTPhP609e/9118+7z0mejvv+2qf/89pnc40v/Xu+iZK/dc6Z5nnn/2GVbr/23fI2fU//yZvbf+a/WvPumm+mcn3VT/7KSbjvTfewsjb2T2O73yd0c+N9209wx7Z+r9vv76zzj/Knd8l/5nT/pM6btL75W6i/QO+pN8C+kdAAAAAAAAAAAAVub/TmvTvzb9a9O/Nv1r05/2LaR3AAAAAAAAAAAAAAAAAAAAAO7lDUgvCPsAAAEA
   </data>
  </layer>
  <layer name="Fringe" width="128" height="128">
@@ -90,11 +90,18 @@
     <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="Eastwood" type="warp" x="512" y="1568" width="96" height="32">
+  <object name="Eastwood" type="warp" x="608" y="1632" width="32" height="32">
    <properties>
     <property name="dest_map" value="906-1"/>
     <property name="dest_x" value="672"/>
     <property name="dest_y" value="1760"/>
+   </properties>
+  </object>
+  <object name="Eastwood" type="warp" x="480" y="1632" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="903-4"/>
+    <property name="dest_x" value="2752"/>
+    <property name="dest_y" value="768"/>
    </properties>
   </object>
  </objectgroup>

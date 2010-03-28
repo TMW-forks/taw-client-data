@@ -155,4 +155,8 @@
 	<sprite>head-mushroom.xml</sprite>
 </npc>
 <npc id="929"><sprite>npcs/boyscout.xml</sprite></npc>
+
+<npc id="940"><sprite variant="47">npcs/npc-hitomb.xml</sprite></npc><!-- Semi-naked Blacksmith -->
+<npc id="941"><sprite variant="49">npcs/npc-hitomb.xml</sprite></npc><!-- Necromancer -->
+<npc id="942"><sprite variant="32">npcs/npc-hitomb.xml</sprite></npc><!-- Korpiklaan -->
 </npcs>

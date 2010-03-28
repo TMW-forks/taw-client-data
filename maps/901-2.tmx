@@ -4,10 +4,10 @@
   <property name="name" value="HiTomb indoors"/>
   <property name="tmwcon" value="skip"/>
  </properties>
- <tileset firstgid="1" name="Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="woodland_indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png"/>
  </tileset>
- <tileset firstgid="257" name="Cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Unbenannt" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
  <tileset firstgid="385" name="Collision" tilewidth="32" tileheight="32">
@@ -23,7 +23,7 @@
  </layer>
  <layer name="Collision" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3bQQqAMAwEQP26L/ckiIhgUbc1U5j7ks0xXeZpWgAAAAAAAAAAAAAAAKDB2UtnQv/oH/3z3R6kMwBAizsvnRX9o3/0j/7RP/rnmT1IZwAAAAAAAAAAoI7tXmWE+6RjNrdVz8x0lDnq/93Oe5/jqLl7NOLs9P/uHNO59J+bazqD/mndiXQGAAAAAAAAAAAA4D/cqtam/9r0X5v+OduJdAYAAAAAAAAAAAAAAOAf/FGpwx+l2vRfm/7Z70I6AwAAAAAAcG0FZa4VsgAAAQA=
+   H4sIAAAAAAAAA+3bMQ6EMAwEQO7rvJwK6YSAIrrcJvEgTUex8rp09s+27QAAAAAAAAAAAAAAANDg7ktnQv/oH/3zvz1IZwCAFm/f9Z90VvSP/tE//ft/2gfWof/a9M+5B+kMAAAAAAAAAADUcd6rzHCfdM3mtuo3M51ljvrv2/noc5w194hmnJ3++84xnUv/ubmmM+if1p1IZwAAAAAAAAAAAADW4Va1Nv3Xpv/a9M/dTqQzAAAAAAAAAAAAAAAAa/BGpQ5vlGrTf23653sX0hkAAAAAAIB3B70dLj8AAAEA
   </data>
  </layer>
  <layer name="Fringe" width="128" height="128">

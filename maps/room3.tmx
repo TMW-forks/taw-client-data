@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <tileset name="Unbenannt" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="161" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground2.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="417" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_x2.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="481" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_x3.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="577" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Market1.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="833" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors4.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="1089" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors6.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="1345" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior3.png"/>
+ </tileset>
+ <layer name="Ebene 0" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3DQQ0AAAwDoTNZ/1bmYW9IWDVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX19QBcCAudAGQAAA==
+  </data>
+ </layer>
+ <layer name="floor" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Xy26DMBCF4dnwBlWfrpc8QFu6ZJX60WuLjAIWNxMb5Mn/SbMKROnpMTYiAAAAAAAAAAAAADDWnv0DKtb5+fHze/YPOVn3wH3k1+eQmqHeE/K77Li/Zl3CrH2H9m/P/6BGKdltmZDflzxPB3Pnd/XzLvcOWpc7v6k1bDXHEtl9+PkW+/mVyO1T+uze/Dghv9TOtbcZ7h/xWJH7eRdyC737k/H+YSm/EutV12zITzOLzzAW8iu5XrV37va5nmHiDBs/L2X/zGJKrlc3cU18Dqy5e0GJ/EK/wvq9LFxHfvPd0g66mevIb72Dc/usXmPlXbjU/rGUn5V34Vfp9z6dnPuH23CtdtCKI7o3tc6tyNG9Lflp1tpTK47Kb9i9ms/OsSOffda6F+TIb617jdzPf1a690huqXuHNXqGOerZZ1XOZ1+zMBbW65Rca/cZxe8hKe8k8drF2NbuaX5W1+ceS73Uc0g7GAAAAAAAAAAAAAAAAIv+AQCNS7wAZAAA
+  </data>
+ </layer>
+ <layer name="floor2" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Y7U3DMBAGYHcAyoqswghsAUyA2AE2KBsAE/ARS7GK3IRYF1UJ5HmkU35Fsl6dc3ZSAgAAAAAAAAD4f167euvrfeG1rN3PrEp9ViXDcS/pNK+6DkmGtdJ3Lfnl+lpmmav1kdpyk98w+c3Tmt9TV/tdSpe7hRa6UhddHs9J380x1YO591r67v5sK1y33IP7qkpPtmZ3d+Y1/jVlX4/tW3lNy/vady9OfkfXgXfkd3QTeGcsv9uqGDaW30Nfj/2TYVP7t3UGX230zvJbfls9K7fK/7XyPy3zI6bc6eQXk/NrvbtxytlvHvnFmR1xJTuzI6bMXbMjxrllHvkBAAAAAAAAAFv1DYTUJeUAZAAA
+  </data>
+ </layer>
+ <layer name="walls+floor3" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Y3S4DQRQH8JMQCRciCHWD+ChuEeoWaesJ8ASIJxBufLyAj+fFmexOTCantTtrOnvW/5f8L6qVnZ6eM50tEQAAAAAAAAAAAAAAAED9bHG2OTupF6LUIafDWaPiNbQ19zMbY4E147/3NqfP2aWshn5NpJramj9xnjkvVP4z0MjUbp1zzrngXHIO8ueOKathx4tUU1vzN84754N+PoOj0byVJEzf7HGuONecG07Xed7UsO9FqukBycz/n8VYeE30OCcl/0eqaXfI6zc4m9S8OTaz23Yef44Rff0SGi9/nX3KerRJc2z3PXfupgvUZiagfqeU9WiT5tjue+7cxaqfZea4KedKad+LXT/tc+ye89rC87Hrp3mO7X437LyxzLVZ8WLZx6sV6mdprJ/d74qcN2KbT3jtUCHnvFg09l8v9QJyi5yp1IsIsJB6Abk/2D6TqEv/aZxdoy79p/G7w0D9qik7v49RVqF3fic5rTxLBV7/GmkdWvvPNZHw2lr7z+XuhbHmdBDt/TdH2W8Hd/njWHMq0Xp2tqTfTMu4r3h9rWdnS/rN1Fe1Ri7Tby0nmnvPGPU9iPZ+85kzjH92uY14Pe3fFRLp7BI6s/58+tE+r5LQ+7gH4W9Nm88i3PsQN0XuSXxNnM9QZe5J7Nw2cT5DDerL/7KvAQAAAAAAAAAAAAAAAAAAABjfuAH40gBkAAA=
+  </data>
+ </layer>
+ <layer name="furniture1" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YMS/EYBzH8X+vLQsTMVxiYjvvwEvwErwC7lWwYWLDZDJiMkiw4hVgxODE4lwiEolfkyZ6XK+9UlX9fpJf0utwefLL0z5PHzMAAAAAAAAAAAAAAPJz7JqdKKfKnFv0aMptnv5itTyzMd9sXGnouq2uOspLpLNmyv52nXzG+Je9qrMpdTetzOraVXxl2Bv8vw4r2F/d7/69UDNbDNOsFTOmMltRZ6th1ugv0ciQ2Zneb+fKhbKpzrbCbNNfKpfq7Uq5Zp3N5F69tZSHDP1NVHDNQH7qMddRVdzn/aQq7vO+6yBmLb5RbpW73xzMP9JWnsPQYXrBuhvMvZrz0Z/Dc50oul+Jzj3m4OBcdflk3f11ih1S6QQdemGPdJdd0KPP+y+zhr79ZpRHzhz66ve9u6/u3ugv0ZI6Wu7R057ujXKGk2hdPW306O9I9ybpL9EOzygAwL6eM8edOwMAAAAAAAAAAAAAAACfvQOnavt6AGQAAA==
+  </data>
+ </layer>
+ <layer name="furniture2" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XvTIDURiA4RMJLR0XwHAxuALcj0twAypRKDQSRkRF4+8SaGlo+XakwORnJZvZZPI8Mztniy3OvPOd2d2UAAAAAAAAACjKYeV7rcd6XCl3L9PotNOsGeu5fhRkv5rSWS2lRq3snUyng+h3E+1u+/R7jfP65swO7TNrN1f2LibPejXfc4vRbkm/wrRjHq9n6DyvFPxueIx2TzPUb8O7dSJcztDMjcOdfozRSY9vlDVzl0urzzde88f9kZ5dtaLLVY82F3HVO/cN/bq6jy4PXdpk3bJ+zfR7DvmfrF3WcdO/3Eh2ot+qMzzQczR60Wlo79Hu40+/trOb23y0WtCrMLtajmQr+m3HtVz2RqbYnhkEAAAAAAAAAAAAcvgCAzlSIQBkAAA=
+  </data>
+ </layer>
+ <layer name="furniture3" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3TsQ2AMAxFQUuE1IzANIzAFGwBM1NDnQ5RWInuJnj6siMAAAAAAAAAAMZzloirZFeMY6nZBX3Zmttb7ffJ/u53+99f6pxd0Idjyi4AAAAAAAAAAAAAAAAAAABG8QCmJpe2AGQAAA==
+  </data>
+ </layer>
+</map>
