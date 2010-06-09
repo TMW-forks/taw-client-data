@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="78" height="55" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="3" name="floors2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/floors2.png"/>
+ </tileset>
+ <tileset firstgid="259" name="Floors" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Floors.png"/>
+ </tileset>
+ <tileset firstgid="515" name="Indoors1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors1.png"/>
+ </tileset>
+ <tileset firstgid="771" name="Indoors2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors2.png"/>
+ </tileset>
+ <tileset firstgid="1027" name="Indoors3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors3.png"/>
+ </tileset>
+ <tileset firstgid="1283" name="Indoors4" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors4.png"/>
+ </tileset>
+ <tileset firstgid="1539" name="Indoors5" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors5.png"/>
+ </tileset>
+ <tileset firstgid="1795" name="Indoors6" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors6.png"/>
+ </tileset>
+ <tileset firstgid="2051" name="Indoors7" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors7.png"/>
+ </tileset>
+ <tileset firstgid="2307" name="Indoors8" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors8.png"/>
+ </tileset>
+ <tileset firstgid="2563" name="Indoors9" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors9.png"/>
+ </tileset>
+ <tileset firstgid="2819" name="IndoorsWaffen1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/IndoorsWaffen1.png"/>
+ </tileset>
+ <tileset firstgid="3075" name="Interior1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior1.png"/>
+ </tileset>
+ <tileset firstgid="3331" name="Interior2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior2.png"/>
+ </tileset>
+ <tileset firstgid="3587" name="Interior3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior3.png"/>
+ </tileset>
+ <tileset firstgid="3843" name="Interior4" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior4.png"/>
+ </tileset>
+ <tileset firstgid="4099" name="Interior5" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior5.png"/>
+ </tileset>
+ <tileset firstgid="4355" name="Interior6" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior6.png"/>
+ </tileset>
+ <tileset firstgid="4611" name="Interior7" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior7.png"/>
+ </tileset>
+ <tileset firstgid="4867" name="Interior8" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior8.png"/>
+ </tileset>
+ <tileset firstgid="5123" name="Interior" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior.png"/>
+ </tileset>
+ <tileset firstgid="5379" name="Walls1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Walls1.png"/>
+ </tileset>
+ <tileset firstgid="5635" name="Walls" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Walls.png"/>
+ </tileset>
+ <tileset firstgid="5891" name="WallsCarpet" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/WallsCarpet.png"/>
+ </tileset>
+ <tileset firstgid="6147" name="WallsFloors2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/WallsFloors2.png"/>
+ </tileset>
+ <tileset firstgid="6403" name="WallsFloors" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/WallsFloors.png"/>
+ </tileset>
+ <tileset firstgid="6659" name="Market1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Market1.png"/>
+ </tileset>
+ <tileset firstgid="6915" name="Market2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Market2.png"/>
+ </tileset>
+ <tileset firstgid="7171" name="MountainFarm1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/MountainFarm1.png"/>
+ </tileset>
+ <tileset firstgid="7427" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset firstgid="7459" name="fire" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/fire.png"/>
+ </tileset>
+ <tileset firstgid="7491" name="Plants" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Plants.png"/>
+ </tileset>
+ <tileset firstgid="7747" name="path1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/path1.png"/>
+ </tileset>
+ <tileset firstgid="8003" name="Farm1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Farm1.png"/>
+ </tileset>
+ <tileset firstgid="8259" name="Farm" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Farm.png"/>
+ </tileset>
+ <tileset firstgid="8359" name="Town2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Town2.png"/>
+ </tileset>
+ <tileset firstgid="8615" name="Town3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Town3.png"/>
+ </tileset>
+ <tileset firstgid="8871" name="Town6" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Town6.png"/>
+ </tileset>
+ <tileset firstgid="9127" name="Woodland_ground3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground3.png"/>
+ </tileset>
+ <tileset firstgid="9383" name="Woodland_village_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3W323CMBDHcdO8IGYomQDKAPxZoO0E0Ncu1HYCYALardiAl96JWFiBJNDmbAV9LX18IQ+5+BejJHPOZQAAAAAAAAA6ySXomffTr/s/xv1jbpOI63iW6UW8ZunX/9fM9P51aI2RnfbU3N7dMbeYz6vNzMLcrLPzPcP9Fut5tWEq00zMi6pDa3jesmfVcepcmpSft47yPrDsWXWcOpcmS5lW4q2oOrSG5y17Vh2nzqVJXuKK+tFz7lN89drv+SjXHNbIDXpa5+at5d43YmuwhpFcc1zjqcO57eTev8UPud2UW4jcyK0t5RG+H/wgt3P67t8/nPjc/G+Lb4J7yK3u/7ktkBu5xcjN6r0wk1zmNRbkdpXDIH0OXcztnnRxDwAAAAAAAAAAgMt+AQlwYeIIQwAA
+  </data>
+ </layer>
+ <layer name="Ground 1.0" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XTS8DQRzGJ/omaeLivO1+AAfB3aF1UEciwSeoRuItxAltg3o5cBOcCJESB8KhfILq1UUkvoQrnkm3trutVGJ2ZeL5JU9mZ3ab/+wvM5OtEIQQQgghhBBCCCGE/D0d7f+jpkoMzH87LETcx/cwrFp+1lRJbf6H8HaEdPvwHoarhm7u5Px7otXrL29Rb93VO+sP2Ne6uOuy5im9bYWr3nbC9n0v3LnXmRtd3BXaqu1B2F5v9eOkkWJEiH3LTxG+LpBLZDpqj5NGSvB2bvkpwdc98oCsRO1x1aRDQowazuhGOVJtp3A2l+HrEakgGfRncM7MenDWLIWc/d64EAlTiKSVAVN9TdU8R76/twpnWQ+8FVze3mJCLJtY40gWyZnqa/rJLpzteeAt3cRbwRRiE9lGdkz1NVVz1el/Tfc+ld7msFfnkQVkMe7/nHSg2T7NwVUeWUPW6e1HSG/HcHWCnCJnGnirBJwpYy1UQq1/9xteXd830ts1XN0gt8idBt5eAs7k4WzDY2+Sp7r/pNKbZBC+UsiQBt7+gnfXd27N2xh8jSMTmnlLBZ392hpUzYf0FrP7fZanNNpJJKOBN+kqgSSDrZ8lTobhbCTYuN4IIYQQQgghhBBCCCGEEEL+M5/pxaY1CEMAAA==
+  </data>
+ </layer>
+ <layer name="Ground 2.0" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XP0vDQBjH8YfWSKHFxU0rXUQ39b04CXWwg6hTJ7G6iIPQQZRu4qC4qyA4+gc3R+nk4OAL6OIr8CmJ9I9XQbhLcvH7gYeQI+Q5frkLiQgAAAAAAAAAnx2NJz0Df7SKg+cHRfN1tt3leoX/aymm9ZYVpxNJz8APn9Px99wM4u9pW64cHuvlwfH3gsiaVq1gv2cjCLO7mhW51trIixxXRE6ialXs93RlX3Pb68uu4yCvb80gzO5eM3vQ2tHczjWri6guPcptlJe8/Xt211pzaK+eeZjV7S/fTm8OcmsY3m++7tM4ddfaylB2WdunLlRnfo75uE/T4KYvt7Yh17Q5nAqPNf3eXS31xrcm3fV8NbxPHzW3p6iePVh71ZJ5fFdzm9PnPu/g2X9k/B9+QTNb9GDPpNH6WNIzSLflEf+M2+QGAAAAAAAAAACAP/gCpbo9EwhDAAA=
+  </data>
+ </layer>
+ <layer name="Ground 3.0" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VwQnCMBgG0GARPPTWAVyvpAuIHaVbZAtH8NAR3MGDhcSDFA81Ft67JIQcPj74kxAAAAAAAACAX4td3t+6z/d4dy26uuuNjU3n2gn2b2xrJ/hPw/G1zqd8Fr1pq8alt0fRW/kvJDP7tb6pnWB/0iGEi94AAAAAAAAANvUEQ9l2lQhDAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XsQnDMBAFUBNw5y5dwJt4BWeIjOCR3KVNZ5EtUnmbFOkFFnIOwXuNEGr+fbhCXQcAAAAAANS2X/J3qO0+/M55iM0B//QZoxNwpqmPTkANyZ5mrdfoBG16NdxbuuXfHw3PFmnRW5Gn3opseivy9lcFAAAAAADggC9pGI8vCEMAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UvYkCQRiA4cGfxNBUxZ8SPDO1ABE7OEvQ2kyswMtEuAKsQc1NHBBZEze4O3dX73ngC4YJZnhhJgQAAAAAAAAA+N/WpRAm1fT9olvUQlimzLyZ9w2LaVgOYZQy43LeNyymaeyyLyWzje9nV03Wsyd0+37wDlft67yCeiX7M8+d9P1GN5Nr/Eovh26HVvZn/rV+Dt2OsdvpDdp9xHaDDPvdum3i3/l1939+vkFLAAAAAAAA+IkLMaY71whDAAA=
+  </data>
+ </layer>
+ <layer name="Over 1.0" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQrCQBAAwCWQRoKNpY32+gr/4wd8jJ0v0PgDv6CFP7ExEFNEJClMYoQZWI5jl7tji70IAAAAAAAAABiP/Wz4Ox+LiFMSkSflWkW1ny+Hf1PXtpP+zr4kzfsxO7z6cp2W6z0t4z1P3aroV55FHIs4Z/XcevqbN/2LXdZe06Wm2VYFn/3zbOM7t+If2KTtdQAAAAAAAEA/noB98HcIQwAA
+  </data>
+ </layer>
+ <layer name="Over 2.0" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XUQqEIBRA0eiz/W9BawPFLKFljUIPRGyCx8tBvQf8CCH15k/TBAAAAAAAAPyfW8ZY09Ia9u/D2CqeI675qbympbh/d3Vzlc4h3+kIY2+wnbTKx5vnSJuJltr55b6b3D9rcrePwrtbaecf2rzRTb5JzTWt0U2Hbjp006GbDt106KZzzr/3Geet9dAtv2+lZ2t00+mxW2neGt10eulW+r9O56310u3O+nAXR5Z2kU75AAAAAAAAAAAAGNEXG5aFoAhDAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="78" height="55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQrAIAwEQPH/j+5drBVaEy0TGPC2yVpLKRUAAAAAAABgYDSR2bV57y6rt15WVPbq3lbeEJGR3V1Ebm3eu5uZiNxejzvL6O0u45TORjdF/1f23V/9/+pbnia7kzf7623P/U/vbXRH9A6nmJnsHU+iLwAAAAAA+I8Loe2vlQhDAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="from2" type="warp" x="832" y="1120" width="32" height="32">
+   <properties>
+    <property name="dest_X" value="480"/>
+    <property name="dest_Y" value="224"/>
+    <property name="dest_map" value="905-1"/>
+   </properties>
+  </object>
+  <object name="from1" type="warp" x="1696" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="905-1"/>
+    <property name="dest_x" value="608"/>
+    <property name="dest_y" value="544"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

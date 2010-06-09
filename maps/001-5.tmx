@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="99" height="60" tilewidth="32" tileheight="32">
+ <tileset name="Unbenannt" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Market2.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="257" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Market1.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="513" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="769" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="black" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OsQ0AAAQAMPH/nV6wegPp0L2dEQ0AAAAAAAAAnFMLDgAAAAAAAAAAAAAAAAAAwH8DEqAANdBcAAA=
+  </data>
+ </layer>
+ <layer name="floor" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Y7wnCMBCH4Vr/fK8b6Abq6uoE6gTqDo7gN1uIUI5GL/UOG30fOCikwSM/2qQWBQAAAAAAAAAAAIB/NCqLYhJqrLhOuXdW+vU7jfQ2FuMePXip6l7noTTXKfdWDutQid+RvXWN52JR97oMpblOube5PhuvxUL8juytazwXq9K3PPrd1rVT1D70cMskjxyzONR1VNQp9HAni8FkkYvnmm1a9cnar8mit/a6WWTBc9FfLIOuTPpk5dHvr2YRW1/NumvmWfvHLN7loclpQxZJNOuaWu1zgEe/zffjRVHXDLOw2Ldj8736/eae5UX73nn3HouNQy9lD4hl8Goe9PpmIUv+R7Qni2QW+0UzT55tcjvDDIHFM7EiCxMWZyiysNG1D78qsvDzybPQLvn9ldt31hBYZcGZFgAAAAAAAAAAAACA4XsApVHVwNBcAAA=
+  </data>
+ </layer>
+ <layer name="wall2" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ZvQnCYBQF0JBVFDdxBGttbdQJ1An820C3cwPtvI2IAVPlQ4znwCWEwIN3X5mqAgAAAAAAAPhNdf3+5GVeeP640fmw8T7o0U1GHewyzYxZci3Qy6RHXX9yzI6nDvZcZMYyWSX3P+ithHN6u3TQ3TozNsnWHb5ulxvsk4NbAAAAAAAA9Nqt5X9Q2zcAAAAAAAAAeHoATi2QvNBcAAA=
+  </data>
+ </layer>
+ <layer name="int1" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XP0rDcBQH8JrdI/QIHkCKk6CIm0JBnHRwcVI3/6wOXQUvIHgF9QTqMXTwCM4+h4AFkwaSNL+EzwceoaUN770v/YWORgAAAAAAAAB06Xal6w7I3RdksZkt/u5Whc+0Ke/xKa7PUS8d91PXY0EW+xXmmnY8e97ja1zfot7/6eer5/nkjmKO45I6SWjO7YJevhPqsY6zmOO8pC4GMif1zLL566L3adfvvi+z+f3/fc1yFO2973lcRV1H3TR4z9Ml/G/xu6jmruUshv68WI/9TRraYdtZDN1O7G+3oR0+yKKWg9jfoR125iPO1c+en62U25NvbeOGzqhVWSRjLItkrMkiGRuySIZnNwAAAAAAAABAsR9G4kdC0FwAAA==
+  </data>
+ </layer>
+ <layer name="int3" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ZPUoDQRyG8ZkFj2ApFtbBE2hMPICJvfhVW0SDiB7Aj2Bl4QE8gkew00rttMqaCyS5gO8yU4SAYnY2O8I+P3iKKTIM888ugRgDAAAAAAAAAAAAAH+3kMQ+QbWt+PtfZA5z07DGNG3sUyCbQVttM4voshns/zKHU72PblX3h/dSj/dVKc78PZ8nrouJNcp15e/8JnH1JtYozzX3jQpbVn09A2ngc7BrXQOV8psslyU11BxGgbPY4P6DrU6tL3PeaUuf21I1H2Y3PYv7nPe4599Raz7Mrq7G/Gb6Fx6tC/E9WVfmVb2p95x71bXPOnMtRF+l6iv2QWCGaqTGBey1w/MRpKGaarOAvY6YRZB27ANU3J2+v8/qJfsfQ+sDdRj7UBX1oBl8qE/V0fpYncQ+FAAAAAAAAAAAAAAAmItvwFesENBcAAA=
+  </data>
+ </layer>
+ <layer name="int2" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WQQ3CMBQG4OIACWgBFGxIGA5AzQxMwiRsDuCIBgzwLlx2hJDXsO9L3qVJkz/906alAAAAAAAAAADU6bDJTsBbqwsAAP7E7cO/7XOx7+GP/LXJGQIV6eJNOsf03qZ0l+jgqodqbXVThX3MLro4ZgehNDFtzCk7yErNcQ+GxVqXkoR7dDFmhwAAAAAAAAAAfu4Fn1dreNBcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3V2wnCQBAF0CQNWIcIWoiKBagVRAtQS7AqtQOxIEdEiP7Ed9hwDlwW9mOYfbFZBgAAAAAAAADQLpui6Q6Am3VxP9bNp2IYGUXGlblVAmt53PfUz+FiGplF5k038oK6/U7xPDqRMrKILD+oM8mvOUWO+Xd6e1Yb3kPK2vguqrpxn3t/vtMApGUb/8Quxn3k8GaNQdTo+28AAAAAAAAAAAAA+JEzeceKzdBcAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="99" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3S4QqDIBSA0Wjv/877FQuxEeb1ahzhQAtqV7/2z7btAAAAAAAAAECoY2XPsaLzannmakXOWLuOnmF0ix49Rsx4d2Wf7dO9tT6fNe/KHe60KPdyvp9xDrXZrmZ+S4vWb3BUi/Ldtd9vadFrRc17t89KLXq1uXpX5Hz//ivye5i5Q0aL8/vLOcr72efaur/WJqNbPJ1tVlrMJWpl72tFWszrybkf11rktSi7aKHF22gxDy3mocU8eq3sfQAAAAAAAAAAP19xIYBJ0FwAAA==
+  </data>
+ </layer>
+</map>

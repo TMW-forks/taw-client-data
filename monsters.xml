@@ -1220,8 +1220,13 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     
     <!-- taw files -->
     
+    <monster id="959" name="Razor Orcut">
+	    <sprite>monsters/bloodogre.xml</sprite>
+    </monster>
+
+    
     <monster id="961" name="Elven Archer">
-	    <sprite>player-male-tritan-base.xml </sprite>
+	    <sprite>player-male-tritan-base.xml</sprite>
 	    <sprite>leg-chaps-male.xml</sprite>
 	    <sprite>equipment/chest/forest-armor-male.xml</sprite>
 	    <sprite>hairstyle20.xml|#C8D934</sprite>

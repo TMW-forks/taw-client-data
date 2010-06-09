@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="134" height="84" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="3" name="CastlePrison1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/CastlePrison1.png"/>
+ </tileset>
+ <tileset firstgid="259" name="Indoors1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors1.png"/>
+ </tileset>
+ <tileset firstgid="515" name="Indoors2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors2.png"/>
+ </tileset>
+ <tileset firstgid="771" name="Indoors3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors3.png"/>
+ </tileset>
+ <tileset firstgid="1027" name="Indoors4" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors4.png"/>
+ </tileset>
+ <tileset firstgid="1283" name="Indoors6" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors6.png"/>
+ </tileset>
+ <tileset firstgid="1539" name="Indoors8" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors8.png"/>
+ </tileset>
+ <tileset firstgid="1795" name="Indoors7" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors7.png"/>
+ </tileset>
+ <tileset firstgid="2051" name="Interiordarkgreen" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interiordarkgreen.png"/>
+ </tileset>
+ <tileset firstgid="2307" name="Town1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Town1.png"/>
+ </tileset>
+ <tileset firstgid="2563" name="Town2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Town2.png"/>
+ </tileset>
+ <tileset firstgid="2819" name="Town3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Town3.png"/>
+ </tileset>
+ <tileset firstgid="3075" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="3203" name="floors2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/floors2.png"/>
+ </tileset>
+ <tileset firstgid="3459" name="Town7" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Town7.png"/>
+ </tileset>
+ <tileset firstgid="3715" name="TownHarbor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/TownHarbor.png"/>
+ </tileset>
+ <tileset firstgid="3971" name="IndoorsWaffen1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/IndoorsWaffen1.png"/>
+ </tileset>
+ <tileset firstgid="4227" name="Indoors9" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors9.png"/>
+ </tileset>
+ <tileset firstgid="4483" name="Interior1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior1.png"/>
+ </tileset>
+ <tileset firstgid="4739" name="shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/shadow.png"/>
+ </tileset>
+ <tileset firstgid="4995" name="Interior8" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Interior8.png"/>
+ </tileset>
+ <layer name="Ground" width="134" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cP28TMRjHcXsBoVQhXeg7QEgVU4EFIcSIEGJIWViTvoK0E2PgLfBusiKkAmJjgM4dQhEbK7aSRxgr9487n+3kG+kzXKK7e87+3cXnNnewp9QBAAAAAAAAAAAAAAAAAAAAdsKRVupwpNRd454ud6r7rUv2e7n3bx3+cui6JgOlpjXJOv77J4OwNXZtbNr0ocnEI+NYl3vZYy7Gzn5tDo5LlkPXNTN9elqTrOO/f5ZBLuRcvG9MjGcmE8+NqS53ov+uG+Ic9euS/docTEuWQ9c1N336piZZx3//bQa5kHPRnmfXbzTjrrsrdTWpo2yd2P1eZeKcZ03b3103dF3nQ6U+Vvg0DF/Xpna4NShon/VYIsdc+PU2af+Qx+lv/5vZ5/cKFxHqsm4X9P1sPZbYhlzY9l+UtP0iUvunnIsHBX0/X48ltiUXto3ta+HlIWb7p5yL/xG739u2/2LD9aOP9u/qRS66z0XM64XcU8j2/fmTsY4zx7LLuUhhfCH3FLJ9f/5kouvNsXRdV6rXsa5d21+R9l+aPv9R4Sqx73G5h5L7JHe567qq5julJndec+Z9lsN8p5+LVK6LTfa99PLqLnddV9V8p9TkzmvOvc9ymO9MNRfnBfMkcj0o+iylvMr+cxxfvB8p9WG0uX53jsvthzvme/tp4L9PuXX5uV0WfJf10eZNc/HVHMO7m/nlouyYZQzqjzVf6ZW+6qpzPQs5pmiTi8t1LvxsxO7rNsfsjkGvEs+F3F9fJJaL304u3GzE7uu23Ot5LK/347cDAAAAAAAAAAAAAAAAAABAX9znFeW2bfuMuMPI/3u6rfp6FlLX234yWj0j7jG5CKKvZyGF2LZ9RtwLchFEX7/Zy2nbUOrzUKkvw/z6jlyE9dNk4he5wAYhf8+V67YBAAAAAAAAAAAAAAAAAACANv4A846C7eCvAAA=
+  </data>
+ </layer>
+ <layer name="Ground 1.0" width="134" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cb4gUdRzH8d/O/ZOs29u9JcEjCDSDMnrgVRA90R5Y97AzLKOenHWaXkYKPVAzKER9pokY9KB6ECQ+yNN8kGUpeFCeV5dooZ51RXEVPpCeCBH0GeY37N7dzHnXzm92Z32/4MvMb2Z3/O38PvebnQXHGAAAAAAAAAAAAAAAAAAAANyKjueMub/ZmCPzjBmcV95WK2E/VrYG7ffagqXf9vvZ3GJMq6qtxX1fNhUntxfcPv01TxWnb2sEj3cYc4fO9ymNxWl/PNR+QvWkqqcj/f6E/Vhtc3FYufihJWj7/Sxp/U7VghRyscOO+Y+2Hebittb497xWvPlr6tWufHm9V2N/V3Owfl3bV6v9jOpZ1RrVaIpzx/tNxuxV7VP12/N6yY6/3/b7uVjtJap7U8jFX3aumrDtMBcLZzHms3lNvViqcd+mc3uwIhd9GvsHbC5yWu9XrVOtV72sGlcuBrR/vt6zOx993GrNt8f9RHn4QPVhU3nfnxXj7/ezW+2HVY/Y7X0lY9aW3PTrn7by+nAh+jpSaaJQXv86hdwm4RvPmMeqGNcuvfddR7noijnuIvV5seoeL3r/mMbtiDI02BS9P203Cjd/Tb25FHNu5+JjB7k4McPf1TL1uVv1UEzfrykXp5SJ0w5y4f+9v6L5cpPqVdWA6ivNnRs6Jm8PRe0bzmBO6sXZKufbUWXiewe52KpxfUO1Q/WmarvNgD/Wldv9/Cyyc1rce7JkMBd8nj+ags/kt8Nt4dw9mMJ3zstV5mJc/f+lxteRZTPMaVkUNU/PNHcfaqDPjuR85iAX5+13liWFoHzhbxgr1P5C88nJijnlRd17vFSKb6Mx/BqRiwvKwcWWIBfntBxRXdM9ar+uF5uVzS3e9DZq44zO/ZCD8/93xD3Ob8rB7zYXY1peVf2rHLyuHLylPrztTW8n7YSO/bnqpOpL1aedxhzvDO47pgq3+cvedmNWqZ5rD9rPtyffNxd6mmvdg9lbEXGf944ysN+LbyflrLIwrBpRfas6o0wMdUa/tvI34T7lYK1qg2qjaiAjuVgzh1z4v3XuqTjn3i00X19WFq6orqp+Ul1QJi7G5GLc5mKn5r7NysEW1VbVNtX2jORiLnY6+n0zzgvK7ESdZO//3nulfc5q4UA+/c95o2I8oq4joR7Hv1lUc+/V6Nn4KB9kI00jU3Ix9ftQr/avUj2d0rzSVdQ1Rf24YjPqXzP8Oqp//5hXXgIAAAAAAAAAAAAAAAAAAABJCJ+l5uqZaq6OmysZ46m6a/gsuEY2lJu8dHX8pBWUiaJqYQafJZEFo3ljznlBuTj2d7aSFj4j7j5y4cS4zu+YF5SLY/9sK2nhM+IeJReZszyFZ5teb/D/w1UrD9pnh9zt4Bki6+0c5PK5SznmCwAAAAAAAAAAAAAAAAAAAAAZ8R9c+YLi4K8AAA==
+  </data>
+ </layer>
+ <layer name="Ground 2.0" width="134" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bv0pbURwH8IMi6WT8kxcQ+wKiY8EX8A30AQqxi6u1Q4cuoqsQp06iq64O7VjaVaUP0AY7iIsKGdoTCBjijV5prjf35vOBA+Fw7snvcr5cfoHcEAAAAAAAAAAAAAAAhtNp5f7z+UR+daRxkXcBI+RHzMVl5el1w6CZdwEj6s8j+dgbD2F7OrvvbqbYO80aBq8Vc3EWx9s++djP8FzuUuzdXrM2lV0NDJ96yvNef2TduwJnZmM87wqG01bseT8k9L2bPWf9vsBn389RzMTHOA667u2wk5NGgfLyOYPfLTtxz92U+34qSJ8MZbHa7uH09/Sox0ysy0UuLkrYI72UL7MhfJ193jVrk9nUMmhNufhvr2sP514VqEdPcicXqTXGkueXEnIxnzAHi3IxMr71eV4w2n72ycV17D2vOv3ncVxzIj8AAAAAAAAAAAAADNibAv+ffXkm7wrKa6WAuTirhnBezbuKcmtNh/A9o3eD52rZ7P0rZuK3XBTWQkbPopuYids4rrzrTpe/8gAAAAAAAAAAAAAAQAn8AyM0TyHgrwAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="134" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VPQ5BQRQG0EmeRPcq27AAW9DS0ZEoqJAoqBQWZU1iCeI2Cg/xuhFzTvIV81Pc4stMSgAAAAAAAAAAAAAAAGW4dnJPQE6X7vv9m15ksahyT0BOw+p1vY7s9KK1c7xpgw/v2j856kTRHn/FqdGD5pqy/MpfMapTGkcmkWn9fNbv5ZmJ/GbRhXlkGVnV3+9Thk10YRvZRw56AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ModjWBoT+CvAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="134" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bvW7TUBgG4JMWFlpBK4oYWQpsLG2FxMBCuAM2VEAtMMLOABKXwS0wg2BkZOwG3AMLV8CxkEXqOq7t5DiO8zzSJ0XHPzmy3pzPVpIQAAAAAAAAAAAAAFgV+9v1973ZYN9ZNZnXrQ7ntSr6mos9uejcZBba5iJFRiaz0DYXMtLeMubi6loIO7GurZ09Ti7mYzILjxpcx4PEufh48f/rtvNKkYvHWyE8ifU01rNYh1vl43WO6bMma8Q0Xd5rNGG9aK8sFz/WQ/gZ69d69VgudR9pSy7am8d68aGkz8/q8vbsdUUuWutrH9kbxblV1HnbszoYzX9eqyLLxZfR6fo6OjtWta3rPpL1h5c13jNFH7m+OZ/qu7L14nvF56y47VPsIZ8T9JGqXNxdYC6ON0J4XrNebPzLQPGYbLzv8lzcu9D+HF2vF1kuxgvKxXlexWfQ11OeQ+9c6nYus8hzUec6507imvFmYo34k6CPL2su3sZMvJuSi/sDz0VR1+vFUY9zMUS7Da7j7QVe8/cVuVjkvIaqr9+nFmV9pHg/9CD2tXGshwnugevIeuvJQJ+LlykX+Vx/F/KhdwAAAAAAAAAAAABAM9lvcPOC3L5cUGIsF5SQi+V1YyfdueWCMilz8W2g//kDAAAAAAAAAAAAAIbrLzBS6/ngrwAA
+  </data>
+ </layer>
+ <layer name="Over 1.0" width="134" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aTUrDQBQA4IQudFVadaldqbgUFBTc5UjeRfAOiqILXYobTyGIN3GCBmNMpFbzU+b74EE6mcIwmXl5SZskAAAAAAAAAAAAAMTmJJ2vDYjPLOSCLMTjL3LCQ4f5Y6jjYnieV/oeAX04nPY9gvlkH/lpXMpTs0pbtTbL5LSFHSzJuojN6ShJziff284m9f2hareFvf0f+aKNcdGvfF3cle7D+fHNapLchtgP57Y2PtvLyp93rIuF3adfa6bCrNTW9E6r+N5aS3XUU1p/3NTnp35tGk/rI3Yx5euLUGNdhrgKcT2q31OFpueOZXoe2Y7o2vZlc/09YhFTvviLfJ7MVXuOzG2nhvo7RL7H9kprwbogV5d/m96T95WnX0Pd8BJR7TAE7ssAAAAAAAAAAAAA0J5j/9UFAAAAAAAAAAAAAAAAgE69AXD3n7ngrwAA
+  </data>
+ </layer>
+ <layer name="Over 2.0" width="134" height="84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bMUoDURAG4K3t3EN4Am+oolYWKmqtotYq6snSOo/4cM0OK8SI6+P7YAjMQAiZPyFTpOsAAAAAAAAAAAAAgGp3e1xT/e9mtGGv77r9qINeLvh0Gnk4izqXCwauIw83UbdywcBj5OEp6vkjF4fxeBR13I93PzWjLav7vYidX0ZdJbufmtGW1f3exc7vox6S3U/NaMvqfl9i569Rb8nup2Zs3s4fvrfZb8h1Cmhf9tnP7o7aK+ps0X/t044sF9ndUXtFnZVcDPu0I8tFdnfUXlFnJRfDPu3IcpHdHbVX1FnJxbA/Zydby5qbub6ude6ORT8u2iIXZORiaa7f5wAAAAAAAAAAAAAAAABs3m/+n+y/PjcAAAAAAAAAAAAA/MQ7CJIKF+CvAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="134" height="84" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3S0QqDMAwF0OL/f/ReZYhObZq0O4HDYGMxuWZrrW0AAAAAAAAAAAAAAAAX7lTVuUbPtrK2+7xT+/+OnOvsZrKzXEmPqjZXdqaz61XVZsvOdXZXmZ59d/RblbuImq1XZb/3GbOvPFuvyn7vs+8Z3X+1vP5lz+j+q+VVZc+MuY5+r3JHZ8/Pnu3pHm/KXbiLEXtePf/urNmqztXzLkbs9f2cSrP1yDd7ric7/FpVMs6e69dMv3eYxd3KvIujzCuqkl30uwAAAAAAAAAAAAAAoIY2aW9i7WvG3tn5rWrEu4vovQX2JTbffc3Um9i7mLk3AAAAAAAAAAAAALzxAZsYAUDgrwAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="731" y="1125"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1093" y="1125"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1093" y="741"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="731" y="741"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1947" y="741"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2309" y="741"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3227" y="837"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3451" y="837"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3259" y="1029"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3419" y="1029"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3489" y="1029"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3611" y="1029"/>
+  <object name="ToOutside" type="WARP" x="896" y="1184" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-1"/>
+    <property name="DEST_X" value="1856"/>
+    <property name="DEST_Y" value="1696"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="640" y="1088" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="1872"/>
+    <property name="DEST_Y" value="1088"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="1088" y="1120" width="32" height="64">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="3488"/>
+    <property name="DEST_Y" value="1120"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="1152" y="768" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="1408"/>
+    <property name="DEST_Y" value="2016"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="672" y="768" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="2144"/>
+    <property name="DEST_Y" value="2016"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="1888" y="768" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="672"/>
+    <property name="DEST_Y" value="2016"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="3456" y="1088" width="32" height="96">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="1088"/>
+    <property name="DEST_Y" value="1120"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="1856" y="1088" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP " value="905-3"/>
+    <property name="DEST_X" value="656"/>
+    <property name="DEST_Y" value="1088"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="1408" y="2016" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="1152"/>
+    <property name="DEST_Y" value="768"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="2144" y="2016" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="672"/>
+    <property name="DEST_Y" value="768"/>
+   </properties>
+  </object>
+  <object name="ToTower2" type="WARP" x="672" y="2016" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="905-3"/>
+    <property name="DEST_X" value="1888"/>
+    <property name="DEST_Y" value="768"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2107" y="2021"/>
+ </objectgroup>
+</map>

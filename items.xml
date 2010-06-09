@@ -60,6 +60,33 @@
     <item id="-16" type="hairsprite" name="Bun">
         <sprite>hairstyle16.xml</sprite>
     </item>
+    <item id="-17" type="hairsprite" name="Fake ponytail">
+        <sprite>hairstyle17.xml</sprite>
+    </item>
+        <item id="-18" type="hairsprite" name="Braided ponytail">
+        <sprite>hairstyle18.xml</sprite>
+    </item>
+        <item id="-19" type="hairsprite" name="Long ponytail">
+        <sprite>hairstyle19.xml</sprite>
+    </item>
+        <item id="-20" type="hairsprite" name="Long and tied">
+        <sprite>hairstyle20.xml</sprite>
+    </item>
+        <item id="-21" type="hairsprite" name="Long and frizzy">
+        <sprite>hairstyle21.xml</sprite>
+    </item>
+        <item id="-22" type="hairsprite" name="Very long and lick">
+        <sprite>hairstyle22.xml</sprite>
+    </item>
+        <item id="-23" type="hairsprite" name="Curly">
+        <sprite>hairstyle23.xml</sprite>
+    </item>
+ <!--       <item id="-24" type="hairsprite" name="High Ponytail">
+        <sprite>hairstyle24.xml</sprite>
+    </item> -->
+        <item id="-25" type="hairsprite" name="Frizzy">
+        <sprite>hairstyle25.xml</sprite>
+    </item>
 
     <!-- Treating the base sprite as equipment too will be useful when we
          implement other playable races -->
@@ -103,6 +130,12 @@
     <item id="35"
         weapon_type="11">
         <sprite>weapon-staff.xml</sprite>
+    </item>
+    <item id="36"
+        weapon_type="11">
+        <sprite>weapon_axe.xml</sprite>
+        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
+        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
 
     <item id="501"
@@ -4878,7 +4911,7 @@
 	  weight="10"
         max-per-slot="1"/>
     <item id="5040"
-	  image="generic-ore.png|W:#D9C425"
+	  image="generic-goldore.png"
 	  name="Gold Ore"
 	  description=""
 	  effect=""
@@ -4886,7 +4919,7 @@
 	  weight="50"
 	  max-per-slot="10"/>
     <item id="5041"
-	  image="generic-ore.png|W:#E6E1C3"
+	  image="generic-silverore.png"
 	  name="Silver Ore"
 	  description=""
 	  effect=""
@@ -4894,7 +4927,7 @@
 	  weight="40"
 	  max-per-slot="10"/>
     <item id="5042"
-	  image="generic-ore.png|W:#D69136"
+	  image="generic-copperore.png"
 	  name="Copper Ore"
 	  description=""
 	  effect=""
@@ -5241,7 +5274,7 @@
 	    <sprite gender="female">leg-terranite-female.xml</sprite>
     </item>
     <item id="5074"
-	  image="generic/ingot-iron.png"
+	  image="generic-iron-ingot.png"
 	  name="Iron Ingot"
 	  description="Ingot made of iron"
 	  effect=""
@@ -5249,7 +5282,7 @@
 	  weight="75"
 	  max-per-slot="10"/>
     <item id="5075"
-	  image="generic/ingot-copper.png"
+	  image="generic-copper-ingot.png"
 	  name="Copper Ingot"
 	  description="Ingot made of copper"
 	  effect=""
@@ -5257,7 +5290,7 @@
 	  weight="75"
 	  max-per-slot="10"/>
     <item id="5076"
-	  image="generic/ingot-silver.png"
+	  image="generic-silver-ingot.png"
 	  name="Silver Ingot"
 	  description="Ingot made of silver"
 	  effect=""
@@ -5265,7 +5298,7 @@
 	  weight="75"
 	  max-per-slot="10"/>
     <item id="5077"
-	  image="generic/ingot-gold.png"
+	  image="generic-gold-ingot.png"
 	  name="Gold Ingot"
 	  description="Ingot made of gold"
 	  effect=""
@@ -5312,7 +5345,50 @@
 	  weight="6"
 	  max-per-slot="1"/>
     
-    <item id="5100"
+
+    <item id="5088"
+	  image="use-summon-fallen.png"
+	  name="Fallen Pattern"
+	  description=""
+	  effect="Summons a Fallen"
+	  type="usable"
+	  weight="40"
+	  max-per-slot="10"/>
+    <item id="5089"
+	  image="use-summon-skull.png"
+	  name="Skull Pattern"
+	  description=""
+	  effect="Summons a Skull"
+	  type="usable"
+	  weight="40"
+	  max-per-slot="10"/>
+    <item id="5090"
+	  image="use-summon-skulllord.png"
+	  name="Skulllord Pattern"
+	  description=""
+	  effect="Summons a Skulllord"
+	  type="usable"
+	  weight="40"
+	  max-per-slot="10"/>
+    <item id="5091"
+        image="item-weapon-axe.png"
+        name="Forest Axe"
+        description="More dangerous than it looks."
+        effect="+7 Damage, 2 Range"
+        type="equip-1hand"
+        weapon_type="36"
+        weight="15"
+        max-per-slot="1"
+        weapon-type="polearm"
+        attack-min="8"
+        attack-delta="2"
+        attack-range="64"
+        view="521">
+        <sound event="strike">weapons/knives/sharpknife-miss1.ogg</sound>
+        <sprite>weapon-axe.xml</sprite>
+    </item>
+    
+        <item id="5100"
         image="heartglasses.png"
         name="Heart Glasses"
         description="Love through rose colored glasses."
@@ -5322,6 +5398,4 @@
         weight="10">
         <sprite>head-heartglasses.xml</sprite>
     </item>
-  
-
 </items>

@@ -11,4 +11,9 @@
   <color id="8" value="#432482,584bbc,dae8e5" name="light blue"/>
   <color id="9" value="#460850,611967,e7b4ae" name="dark purple"/>
   <color id="10" value="#000000,202020,404040,dddddd" name="black"/>
+  <color id="11" value="#ab4c80,d992b8,efdce6" name="pink"/>
+  <color id="12" value="#522f1a,8f5d3e,cfeaab" name="brown"/>
+  <color id="13" value="#b8b7a7,e3e2d7,d2d1c6" name="white"/>
+  <color id="14" value="#331c0e,552e16,9d7a64" name="darkbrown"/>
+  <color id="15" value="#070447,2821b3,6f68f9" name="royalblue"/>
 </colors>
