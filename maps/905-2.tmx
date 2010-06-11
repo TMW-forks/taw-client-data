@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="134" height="84" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
  <tileset firstgid="3" name="CastlePrison1" tilewidth="32" tileheight="32">
@@ -197,5 +197,19 @@
    </properties>
   </object>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2107" y="2021"/>
+  <object name="Razor" type="spawn" x="3104" y="896" width="480" height="32">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="996"/>
+   </properties>
+  </object>
+  <object name="Razor" type="spawn" x="2176" y="768" width="96" height="96">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="996"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

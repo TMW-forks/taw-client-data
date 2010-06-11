@@ -292,7 +292,7 @@
     <property name="DEST_Y" value="2320"/>
    </properties>
   </object>
-  <object name="ToOutside" type="WARP" x="2112" y="2015" width="32" height="33">
+  <object name="ToOutside" type="WARP" x="2112" y="2016" width="32" height="32">
    <properties>
     <property name="DEST_MAP" value="905-1"/>
     <property name="DEST_X" value="2016"/>
@@ -320,7 +320,6 @@
     <property name="DEST_Y" value="1296"/>
    </properties>
   </object>
-  <object name="" x="1378" y="930" width="27" height="28"/>
   <object name="" x="2531" y="768" width="26" height="27"/>
   <object name="ToFarmersHouse" type="WARP" x="608" y="512" width="32" height="32">
    <properties>
@@ -337,7 +336,7 @@
     <property name="dest_y" value="1088"/>
    </properties>
   </object>
-  <object name="Razors" type="spawn" x="3327" y="1247" width="192" height="97">
+  <object name="Razors" type="spawn" x="3328" y="1248" width="192" height="97">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="max_beings" value="3"/>
@@ -412,6 +411,13 @@
     <property name="eA_death" value="10000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="959"/>
+   </properties>
+  </object>
+  <object name="ToHitomb" type="WARP" x="1376" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="902-4"/>
+    <property name="dest_x" value="1376"/>
+    <property name="dest_y" value="992"/>
    </properties>
   </object>
  </objectgroup>

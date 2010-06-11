@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="134" height="84" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
  <tileset firstgid="3" name="CastlePrison1" tilewidth="32" tileheight="32">
@@ -103,7 +103,7 @@
  </layer>
  <layer name="Collision" width="134" height="84" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3S0QqDMAwF0OL/f/ReZYhObZq0O4HDYGMxuWZrrW0AAAAAAAAAAAAAAAAX7lTVuUbPtrK2+7xT+/+OnOvsZrKzXEmPqjZXdqaz61XVZsvOdXZXmZ59d/RblbuImq1XZb/3GbOvPFuvyn7vs+8Z3X+1vP5lz+j+q+VVZc+MuY5+r3JHZ8/Pnu3pHm/KXbiLEXtePf/urNmqztXzLkbs9f2cSrP1yDd7ric7/FpVMs6e69dMv3eYxd3KvIujzCuqkl30uwAAAAAAAAAAAAAAoIY2aW9i7WvG3tn5rWrEu4vovQX2JTbffc3Um9i7mLk3AAAAAAAAAAAAALzxAZsYAUDgrwAA
+   H4sIAAAAAAAAA+3SSY6DQAwFUMT9D93bqERDGDwUeZbeJpFc9sfrsiwrAAAAAAAAAAAAAADAgTPVda6s2ca3xvezM4ra8Wr+kfv/N9fezWTexJhDVi6Zd3G3us1VeRcZM8xwE1EZdJvnlxxluvfb1n9d7iJqtqeq+rvPmH3n2Z6q6u8++57R/d+W16/sGd3/bXl12bNirq3/u9zR3vvVs13d4065C3eRsefR+2dnrdZ1rifvImOv8Z1Osz2Rb/VcV3b4trpkXD3Xt5mOO8zibFXexVbmHXXJLvpbAAAAAAAAAAAAAADQwzJpb2J91oy9q/N7q4xvF9F7DexLbL6fNVNvYu9i5t4AAAAAAAAAAAAAcMcfAEYiveCvAAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
@@ -197,5 +197,40 @@
    </properties>
   </object>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2107" y="2021"/>
+  <object name="RazorCarver" type="spawn" x="768" y="736" width="64" height="32">
+   <properties>
+    <property name="eA_death" value="50000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="996"/>
+   </properties>
+  </object>
+  <object name="RazorCarver" type="spawn" x="960" y="736" width="96" height="32">
+   <properties>
+    <property name="eA_death" value="50000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="996"/>
+   </properties>
+  </object>
+  <object name="RazorCarver" type="spawn" x="1120" y="1056" width="64" height="32">
+   <properties>
+    <property name="eA_death" value="50000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="996"/>
+   </properties>
+  </object>
+  <object name="RazorCarver" type="spawn" x="2016" y="1152" width="64" height="32">
+   <properties>
+    <property name="eA_death" value="50000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="996"/>
+   </properties>
+  </object>
+  <object name="RazorCarver" type="spawn" x="3072" y="896" width="544" height="32">
+   <properties>
+    <property name="eA_death" value="50000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="996"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

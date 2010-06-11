@@ -1219,7 +1219,15 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
     
     <!-- taw files -->
-    
+ 
+     <monster id="957" name="Sawage Ghost Snake">
+	    <sprite>monsters/monster-snake-dead-grass.xml</sprite>
+    </monster>
+ 
+     <monster id="958" name="Ghost Snake">
+	    <sprite>monsters/monster-snake-dead.xml</sprite>
+    </monster>
+ 
     <monster id="959" name="Razor Orcut">
 	    <sprite>monsters/bloodogre.xml</sprite>
     </monster>
