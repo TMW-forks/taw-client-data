@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Sawage tunnel"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="Cave2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset firstgid="385" name="Mine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine.png"/>
+ </tileset>
+ <tileset firstgid="641" name="Cave2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset firstgid="897" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <tileset firstgid="1041" name="TownPrison" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/TownPrison.png"/>
+ </tileset>
+ <tileset firstgid="1297" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="1299" name="SHADOWCAVE_DARKBROWN" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/SHADOWCAVE_DARKBROWN.png"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3asU4CMRjA8VvuEQgTshhlURciijEsRhQTJyIcJvIGRNkl4hvoE9smbex9OSLD2X7J/YffABPhn17LR1tZlrUAAAAAAAAAAAAAAAAAAAAAwLnMs2wYOMzTf6Ymuzff/yTQN65okkxhvvtF4MZ4oEfSHu3A1HjmuaWmR9utkT5N1PSYBk3YS3R0mbKXqOrhm5yzRtT0sG5ZI0n1RI8nd95K/bmaSvZo88xKws5NBs4Fz6zk7Nxk7NzxzErOromZM694ZtEjLrkmpCN6RDUX3/1xXt7b6RGXPE/Jfd2/N+CsFa1Hx+i685Tc1/17Y85a0XqcGJ/uPCX3df/ezK2VYbBemAPX38L6MDbG+o+93a6VSbBemM3X38K6Nr6M7x0dOq6VXSuLYL0wm6+/xT7s8+zFOHD7DLP5eD3exetXY2mcGlvXZS2a+DMY66T+HlVrYyuMKvYVzl/1kzPeXb8Fq2bzdj9htqKjB7/l6dEE+/YAPZqIHrrQQxd66EIPXeihS0/MC+kRn7x/5ee4b/RIQt6/CueG9IivyMv3r3yLVV6+yzBknh5FT6yJx/z3v8LwLgPz9Pg9Vnn5P9vwLgPz9Pg9znbMbTlvpemxcecq/39sx73u0iNJD8+feZdi3dDj/xUVPeT+PqKHGtyt1oUeutADAAAAAAAAAAAAAAAAAAAdfgBJdv85QJwAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YPUoDQRiA4clCjiLkAoIBW8HVKoXgauUFPEH0BEKOYmPvIbTOEezsLDIhC0bRkGDc+UieB4Zd2GaZd38nJQAAAAAAAAAAAAAAIqurlM7yOK9KnwlzTe5wlce1HkBwL73SZ8Aqr/oAALBDhv3P/UffusXVbY9JbvHcW2wpp1nqoUVZB7nFUf/34+MqpTvrvp2YtzjM43RFD7oxbFuc5HH5Q49jjTpVty0uzHsIzYYtxrr9q8HS/E7+MNfvvse2YuB6D0WP3TXyf9KZ6Rrvhxs9QtGDfbXO8wr20Yd7I5w3TQDY0IM1rlD0iEWPWL73uLVOFcq9HvDFk/9zAAAAAAAAAAAAAADYqhnBEnjhQJwAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WMY7CQBBEUSdcgPsfFhFY2DBgHNhVsl5LL4Bg1ZqvmeV+m6Y7AAAAAAAAAAAAAADwt+ekd+DVYp70Lkwfk94HPRrp0cW71WU06Z3Qo4070kePLnp08WZ10aOTHtlzn89+2UCPTI/RZ/ejo8fyez3ObzG6H98mve+Vjc5ah44WW5Pe9+q2zn7U4r2LVsf02Gq0529wTis98j32dNPl+B577oce+R6c2yO9B+semnSYO+jRwd3o4r3qokcfPbpo0UWPLnp08f+jh99XXX5NejfWndI7oEcj71UXPbro0UUPAAAAAAAAAAAAyHsAor65QkCcAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="ToRazorOutlands" type="warp" x="1376" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="905-1"/>
+    <property name="dest_x" value="1376"/>
+    <property name="dest_y" value="960"/>
+   </properties>
+  </object>
+  <object name="SawageSnake" type="spawn" x="1280" y="1408" width="224" height="256">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1959"/>
+   </properties>
+  </object>
+  <object name="SawageSnake" type="spawn" x="1824" y="1600" width="160" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1959"/>
+   </properties>
+  </object>
+  <object name="ToHitomb" type="warp" x="1664" y="2368" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="902-1"/>
+    <property name="dest_x" value="1376"/>
+    <property name="dest_y" value="64"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aQQqDQAwAwFTwFeu9VL/W/sr3+KZ6aEGKUhEkKjOQeyBs2GQ3AgAAAAAAAAAAAAAAALiSUke0Y3R1diYA6+hb8F9xRgDY6OGudVjPKuJVZWcBAADbfecNM0eeMqlBM8b9E3P7xGm9WrVLNdyyM4BzKgt9rNHHdqNfAQAAAABr9faJwMEsvS15KwfO5vd/EAAAAAAAAAAAAJDjDZnBJoVAnAAA
+  </data>
+ </layer>
+</map>
