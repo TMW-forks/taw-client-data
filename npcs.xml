@@ -141,8 +141,8 @@
 <npc id="920"><sprite variant="79">npcs/npc-hitomb.xml</sprite></npc><!-- Slicer -->
 <npc id="921"><sprite variant="80">npcs/npc-hitomb.xml</sprite></npc><!-- Cupid -->
 <npc id="922"><sprite variant="81">npcs/npc-hitomb.xml</sprite></npc><!-- Women used in Vquest -->
-<npc id="923"><sprite variant="1">npcs/npc-ancient-obelisk.xml</sprite></npc><!-- Inactive Obelisk -->
-<npc id="924"><sprite variant="2">npcs/npc-ancient-obelisk.xml</sprite></npc><!-- Active Obelisk -->
+<npc id="923"><sprite variant="1">npcs/npc-ancient-obelisk.xml</sprite></npc><!-- Active Obelisk -->
+<npc id="924"><sprite variant="2">npcs/npc-ancient-obelisk.xml</sprite></npc><!-- Inactive Obelisk -->
 <npc id="925"><sprite variant="12">npcs/npc-hitomb.xml</sprite></npc><!-- Terranite Buster -->
 <npc id="926"><sprite variant="16">npcs/npc-hitomb.xml</sprite></npc><!-- Blacksmith -->
 <npc id="927"><sprite>npcs/npc-patrick.xml</sprite></npc><!-- Saint Patrick -->

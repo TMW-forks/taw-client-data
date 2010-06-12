@@ -1219,7 +1219,28 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
     
     <!-- taw files -->
- 
+    <monster id="955" name="Demon Plant">
+        <sprite>resource-plant.xml|#BD1C54</sprite>
+        <particlefx>graphics/particles/iron-flower.xml</particlefx>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+
+    <monster id="956" name="Icceron">
+	    <sprite>monsters/monster-icceron.xml</sprite>
+    </monster>
+
      <monster id="957" name="Sawage Ghost Snake">
 	    <sprite>monsters/monster-snake-dead-grass.xml</sprite>
     </monster>

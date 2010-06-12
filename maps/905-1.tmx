@@ -108,7 +108,7 @@
  <tileset firstgid="7503" name="Untitled" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_x3.png"/>
  </tileset>
- <tileset firstgid="7599" name="Woodland_x5" tilewidth="32" tileheight="32">
+ <tileset firstgid="7599" name="Untitled" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_x5.png"/>
  </tileset>
  <tileset firstgid="7679" name="Woodland_village_x2" tilewidth="32" tileheight="32">
@@ -209,27 +209,27 @@
    </properties>
   </object>
   <object name="Object" x="4128" y="2560" width="128" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3362" y="2468" width="24" height="27"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3193" y="2477" width="23" height="28"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3360" y="2464" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3200" y="2464" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3227" y="2351" width="23" height="28"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3332" y="2293" width="23" height="28"/>
   <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="3249" y="2229" width="49" height="27"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3443" y="2505" width="23" height="28"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3130" y="2438" width="23" height="28"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3439" y="2496" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3136" y="2432" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3288" y="2185" width="23" height="28"/>
   <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="3308" y="2369" width="49" height="27"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1312" y="2527" width="23" height="26"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1088" y="2526" width="23" height="26"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1087" y="2367" width="23" height="27"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1312" y="2368" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1728" y="1760" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1728" y="1600" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1952" y="1759" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1952" y="1600" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3296" y="1247" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3295" y="1087" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3519" y="1087" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3519" y="1247" width="23" height="26"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1728" y="1760" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1728" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1952" y="1760" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1952" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3296" y="1248" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3296" y="1088" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="1088" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="1248" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="224" y="1663" width="23" height="26"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="384" y="1663" width="23" height="26"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="383" y="1471" width="23" height="26"/>
@@ -246,17 +246,17 @@
   <object name="graphics/particles/waterfall-2x2.particle.xml" type="PARTICLE_EFFECT" x="1999" y="53"/>
   <object name="graphics/particles/waterfall-2x2.particle.xml" type="PARTICLE_EFFECT" x="2063" y="55"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3677" y="670" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3132" y="733" width="23" height="26"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3136" y="736" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3741" y="798" width="23" height="26"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3900" y="735" width="23" height="26"/>
-  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="3338" y="2461" width="49" height="27"/>
+  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="3328" y="2464" width="64" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3368" y="2347" width="23" height="28"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2885" y="2582" width="55" height="32"/>
-  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="3273" y="2511" width="49" height="27"/>
+  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="3264" y="2528" width="64" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2048" y="2079" width="23" height="26"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2176" y="2080" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2079" y="1887" width="23" height="26"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1951" y="1887" width="23" height="26"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1888" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1952" y="1888" width="32" height="32"/>
   <object name="ToTower2" type="WARP" x="1824" y="1696" width="64" height="32">
    <properties>
     <property name="DEST_MAP" value="905-3"/>
@@ -418,6 +418,13 @@
     <property name="dest_map" value="902-4"/>
     <property name="dest_x" value="1376"/>
     <property name="dest_y" value="992"/>
+   </properties>
+  </object>
+  <object name="DemonPlant" type="spawn" x="2976" y="1184" width="160" height="96">
+   <properties>
+    <property name="eA_death" value="80000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="955"/>
    </properties>
   </object>
  </objectgroup>
