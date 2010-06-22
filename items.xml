@@ -5344,6 +5344,16 @@
 	  type="generic"
 	  weight="6"
 	  max-per-slot="1"/>
+	<item id="5082"
+      image="armor-head-afkcap.png"
+      name="AFK Cap"
+      description="A cap which identifies you as an idle player."
+      effect="+5% Defense"
+      type="equip-head"
+      defense="5"
+      weight="10">
+        <sprite>head-afkcap.xml</sprite>
+    </item>
     
 
     <item id="5088"
