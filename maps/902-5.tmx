@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="120" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Forgotten caves"/>
+ </properties>
+ <tileset firstgid="1" name="cave-forgotten" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave-forgotten.png"/>
+ </tileset>
+ <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="131" name="Mine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine.png"/>
+ </tileset>
+ <layer name="Ground" width="120" height="120" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aTXLTQBCG4VkQL4GKiZdA8Rs2QJEQzDaBYE4AnAC4/wWYrqIr7a6ekSIpliW/i2fjGsvl+TQ9P9JJSukEAAAAAAAAAAAAAAAAAAAAs/M6OzXeVNq9LBj7P6DsU/Yj+5n9yj5X2n0sGPs/zNUybY+j4w7X+Jb9zv5kf7PvlXZfC8buh7l44fJ8nrbH0bNUrqGlurvKjoxHQRupza9cu7H7Yo7OXZ5naXscfUjlGlqqu23yldp8Qb537ovL88r1+WUq19BS3W2Tr9Tma9Pm3h70xZwcDcDXduXrrrTz87i9B6L8veUe9NmULAbI19d25euutJN5/NTk3Cbf5f/v6Lpg7D6bimiMdeFru7oO2sk8vk436zX9fV8DdM+smcp35J4524N+mwrpLzvG/Ny3aPi8C5nHN+lmvaa/72vA2mUq39F1wdj9NhV+jPn6uGr4vI9L9/u+Bmxcpv77Y/fdVNg+a7O+GSrfIYzdd1PQJd+IrdmlPU7b+6LNfMA+aph8de3a9IxAND1PaDNv+9yi862+9+IhsX0W7WNl7Xo/e5A9TOWzKiFnUWuj1jbKOxqT0fkW+XbLN9rHytr1cfYke5rKZ1VCzqI2Rq1tlHOb8y1qc/d8o32srF3fZu+y94UMlJ9ftR50efZUu2af6x2a265ZS/lG86TWAznLqM3bt8n3vOf1Ds1Q+UbzpNYDOcuI5mL73kZtTMoab2GuWboe6vn2mdeieVLJWUY0F9v3NvS80uas7xjIGu+ixfVwd5r2tnZtrhna9zb0vNK+R6DvGMgaz987rJ93R8aZzr22BpTW5v7Zgo5Jm7Pmqms89ke7p/OnrZ9+D23nTT9Wo32tfY8gypU90u7o/Gnrp99D1zIszddNyHY3dP6048zvobtmSK7jG+o5kuZWOp8m1+nkW8tq1aINxsm3aQyy7p2HKHO1IF8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBB/AOh/WuXAOEAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3a0QqDIAAFUF/bD2z9/4+OGIK4XLnRTDsHeokepJvXpEIAAAAAAAAAAAAAAACglXvrAXCYJdtb60EMZm49AC7B3D3eco8fyTFvnAfOawqv+ao3ryXmXursvM9re33PemC9/q8081/uu9z6lc/7fF7Kdiwx79r3cc9BX2re42QL/fi2w3lX2tekh26EcaUdoFPHtqydMqaWPdKYYvfLti8xt1KXy7Ufa3uwPLf8Grm2tzUH9/C9+Vy2vgn6r2c8nzKfVs4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFDvCVmLgdgA4QAA
+  </data>
+ </layer>
+</map>

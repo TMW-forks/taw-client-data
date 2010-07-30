@@ -6,10 +6,10 @@
  <tileset firstgid="1" name="Woodland Ground" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_ground.png"/>
  </tileset>
- <tileset firstgid="257" name="Cave2" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="cave bilevel" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
- <tileset firstgid="513" name="Unbenannt" tilewidth="32" tileheight="32">
+ <tileset firstgid="513" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
  <tileset firstgid="641" name="Des-Wood" tilewidth="32" tileheight="32">
@@ -18,7 +18,7 @@
  <tileset firstgid="769" name="Walls" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/concrete_walls.png"/>
  </tileset>
- <tileset firstgid="1025" name="Village" tilewidth="32" tileheight="32">
+ <tileset firstgid="1025" name="woodland village" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_village.png"/>
  </tileset>
  <tileset firstgid="1281" name="Untitled" tilewidth="32" tileheight="32">
@@ -36,7 +36,7 @@
  <tileset firstgid="1777" name="Walls3" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/concrete_walls-0113.png"/>
  </tileset>
- <tileset firstgid="2161" name="Unbenannt" tilewidth="32" tileheight="32">
+ <tileset firstgid="2161" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
  <tileset firstgid="2163" name="ancients_ring" tilewidth="32" tileheight="32">
@@ -102,7 +102,7 @@
    H4sIAAAAAAAAA+2aO08DMQyAI9AN3Fb+DhPPFcprYWh5dYWlLAywwAoLrCAxAD+JlQU68wfwEqlUyeXlODHJJ2U5RbEdJ3acnBD0XDVCXDc0svogZxvaDrRdIpkm7kCPeyJdDkHOEbRjaCdIMjdhnC3FWLZ+fYI+z5n4wocB6D5U6E/p15ScgY3nCjtNftWtGxfeGc+vbt2Ugm7duEKZP1Ssguw1C/njSPJTx5kUufQL5H1DmzTp8wdmLuXKMti/UsgcqOKNPFeWgCreyHNlCaSKN5R5DksWps6UeQ5LFqbOlOsOS1bq3FypcKDuk4ovGPcoLtjmdKrzCvU9im1Oj3Fe6bdQZ7R/v2Hdo9hiG6tixLQB2D5szf1iw7Xetb2rkqxD3w1Ff1W9m/oezgbXu6o96Luv6K+qd0P2O9ZeMfnA9a7qFPqOLPtTnWG6bAyNuaZc6rp/YtBlY6gPTLk0h3fTmOvMlEtV+4f6/CV57Qnx1qOXO0t9x6I9f4WSQwxLSQ4xzAXs+MLtvco2vvwgxcLPBZxxsMCKLy/z4WNwpnT7QwjNGUtzeLqkoCtnuJ5HKeok31pcV+9zyxm+daCu3ueG7xpzqfd9uWQeC2LAPT76kOObF7Y+B4R+xbh/lT55gPaYmW9MpP4PMjYm/2Lsp9z24zQU/pVzmGNsotBpevwc5wAL3fvdR6a+x0b3v+rkn9st0f2vmuvep0LmfYw5KHkeudMDvy1W3xVH9bs/Y5i3i4Ln7gZsvy3Yfo418yy/7rEJcwBAAAA=
   </data>
  </layer>
- <objectgroup name="Object Group 9" width="64" height="64" visible="0">
+ <objectgroup name="Object Group 9" width="64" height="64">
   <object name="Sounthpath" type="warp" x="896" y="1824" width="32" height="32">
    <properties>
     <property name="dest_map" value="904-4"/>
@@ -183,10 +183,17 @@
     <property name="monster_id" value="989"/>
    </properties>
   </object>
+  <object name="toScorpions" type="warp" x="608" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="904-6"/>
+    <property name="dest_x" value="0"/>
+    <property name="dest_y" value="0"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer name="Collision" width="64" height="64">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3T2w6DMAgGYC/3vL7/xa5MjGnlWH6wkDTLXEv5kJ2/4zh79eoFXfdA14L279iDUaBran+st7pd4mj/Hn5LoD1oP7cHWfoW7bf0rEovNPnRdu9ZeMs5uhNt9+pDlXcdNQcVvF7+zDMd6a++uO+X43/+Pvue0asNTd4v+TWBnnmvfmjzoM0e/rdcVG60ebVfc7b97c/kt/Ynux8ZaLvVL8k7eo62W/zX2XsO7X+rgnfmf3Nx91X1c3Lv6v/6/I8s7adt7V/jR4XUxtmD9kvuuZ5p/J49sNqsfu97VvXB+l6ofVRfMvo1eyg/JxD+572cOiQe6XOEX1qHJA/1XNL31f6Vc8U5n2H+d/Frclj/V1Rk88/Oefq8/ZZaEO9XUlOEf2VE+LmOSPfsTqRfWvf905JnZz/nnvbX92vryeId1XN91zq05yr5tfV5zr1nf0b+t9ya+yPsHn5O7vbL70X5qT2a3Jn90h6tnq3sfkmNUmNWf6X1Byg2j/EAQAAA
+   H4sIAAAAAAAAA+3T2w6DMAgGYC/3vL7/xa5MjKnlWH6wkDTLXKV8lJ2/4zh79eoFXfdA14L279iDUaBran+st7pd4mj/Hn5LoD1oP7cHWfoW7bf0rEovNPnRdu9ZmOUcnYm2e/Whyl1HzUEFr5c/80xH+qsv7v1y/M/f375n9GpDk/dLfk2gZ96rH9o8aLOHf5aLyo02r/Zr3m1/+zP5rf3J7kcG2m71S/KOniPNVv89D+XR9C/jfY/8Mxd3X1U/J/eu/q/P/8jSftrW/jV+VEhtnD1ov+Sc65nG79kDq83q9z5nVR+s90Lto/qS0a/ZQ/k5gfA/z+XUIfFInyP80jokeajnkr6v9q+cK877GeZ/F78mh/V/RUU2/9t7nj5vv6UWxP1Kaorwr4wIP9cR6X47E+mX1n3/tOTZ2c85p/31/dp6snhH9VzftQ7te5X82vo8596zPyP/LLfm/Ai7h5+Tu/3yc1F+ao8md2a/tEerZyu7X1Kj1JjVX2n9AZXoRuYAQAAA
   </data>
  </layer>
  <layer name="walls" width="64" height="64" visible="0">

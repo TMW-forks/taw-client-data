@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Abandoned Lair"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="131" name="victim-slope" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/victim-slope.png"/>
+ </tileset>
+ <tileset firstgid="146" name="Mine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine.png"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bTU7DMBRFYU/YAFAWUH5apoVSmAKhsP8N1VZkyTycpKSmvcRn8I0TONKT9erMnHMzAAAAAAAAAAAAAFkX3jJxL/BOtVp4195zYk6Tk9l4D95nYuW9CLxbjbbem3eWePW+BN6tRlemRXQp8G41oocWeuixTWhBD9BDFT200EMLPXSEXeKd6XHjnQu8W01Ch1vX7hKfTI9H1+4Ul3Q5aoe1a3eJH6bHu2t3inHXS5fyFpkOjfu5S0x3inHXm3ZhD1/GZs8OQ13Yw5ex/WWHri7s4Q8XZpU9Q40Vzl7MrMOEWWXPUGOFsxcz67t4RoqGzj5hVtkz1Fjh7DU0s+z9iCmfzeL9g3VibvpYpWZVOrP6nlfT/Yh4/6BJrEwfq9SsSmdW3/Nquh/Rdf+g6VFqVqUzq+95Nd2P6Pp9Vd1Ud5T00EIPPbm/95gNh/63/J6i1QP0+E/ooadUE1rQY4rooWlsFzpodKGDRhc66DShBT1AD1X00EIPLfTQQg8t9NBCDy300EIPLfTQQg8t9NBCDy300EIPLfTQQg8duW9v+Yb2dHLf3vIN7enkvr3d5xta/A3u+2ihhxZ66OG8CwAAAAAAAAAAAAAoYQeFn1pJQJwAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ayw2DMAAD0GQl6ASFCaBj0d/GWMwQKQLek3y35KtLAQAAAAAAAACAa9uSd/LpXYTDN/kl/95FAAAAAAAAAG5mqKWMyaP2bnJOrf8Hz+wwJXOjPe72j2j9P1iyw5q8Gu3hHwEAAAAAAAAAAAAAAAAAAAAAAAAAAHB+Ox27l6dAnAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQW7DMBAEQb3dL/c1MAQjcSjPaFkD1H3JfhzH8QAAAAAAAAAAbu/n0rfs7mzpm3b2+v965Hu8Ln3T7rTookcXPbro0UWPLnp00aOLHl306HG29E07+s3SN+7gk6VvnmjF0m+YZMXSb5hkxdJvmGLl0m+ZYOXSb2n01/9ZuSvuu7M7Lv1nV/do7/Pu3mnuuPSffbPJtxtecd9uVi79lglWLv2WKVYs/YZJViz9hklWLP2GiT5Z+uYd6NBJhz5adNGjix5d9OiiRxc9uujRRY8uenTRo4seXfTookcXPbro0UWPLnp00aOLHl306KJHFz266NHjbOmbdqZHFz36aAEAAAAAAADAfz0BF2b/VUCcAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bywrCMBAF0G71B9Tv9a0/3bFQkOKD1mCGcA7cTSl0ykCSxaTrAAAAAAAAAGCZfeQQOdYuhMEpco5cahfC4Bq5Re61C4FEVpHd5Nkmsq5QCwAAAAAAAHlknz/IXl9p2ecPstdXWvb5g+z10aZ38wfbD5m+/6u532t9PuLRk+f/z/av2esD8nq15yzV+l4A1DeeeZauW+MZ11pV1ty+6MN/fOuLPtThvgEAAAAAAAAAAAAtMA+Xj/tlAAAAAAAAAJTQAyijfj9AnAAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Den of Scorpions"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="3" name="cave-bright" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave-bright.png"/>
+ </tileset>
+ <layer name="Ground" width="80" height="80" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Yy07CQBiG4a6UC1DwAjzi1iNuPcL934+dpNj6ZyjURKmZZ/GsWNC+mUm+dFZV1QwAAAAAAAAAADKOaxfB9Qiea6yuQquz2n3wFNrONf3yGFrd1t6C89B20Wlauo/Q6qV2GNyFtsvaagTPvm/p7l5mekWvmbbrM1nyXU539yHTZJem6zNZ8l1Od/c906TbdNuZLP0uTzJNuk13cTCC99iXk4Gt9PtZv26jSc9vpYpNomlPc/22d5z+0f//d5vuc9o2pe68nLSd542jHfqlbVPqzstJ23nROK3a7webtnPaNiXvvCht52Xjpmq/H/RtZ/1a3Xv6XLXfD/q2s375fjby7/ezX4b1c96GibvZeRsmnkf9AAAAAAAAAAAA4LtP9x1lrgBkAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDXAF0TSAQAZAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QwQqAIBBFUfH/P7p9pJlgM9YZODuFx62llAoAAAAAAAAAAMDnnC96T3Z3d/U2enMmvU4jTf9Ov/f7aTnXSr+5fr0/0fuz0G9dx+hNO9FPP/321broXdm0uuj3rN/IRW/NSL91/aK37Ug//QAAAAAAAAAAAGCVA6nhNF8AZAAA
+  </data>
+ </layer>
+ <layer name="Over" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XOwqAMAwA0Ox6AfX+97QdAn5AENEifQ+ydQihTZMIAAAAAAAAAAAAIE0l5hJL60TowhDuGv+QvVF/3KtvWE2eu1PHPJsxvpgXAPSszn/+Wb6y3TfMeGfHGdj+QUt2MgAAAAAAAAAAALi2AoA0S6EAZAAA
+  </data>
+ </layer>
+ <objectgroup name="Scorpions" width="80" height="80">
+  <object name="Scorpion1" type="spawn" x="1088" y="1408" width="160" height="96">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="971"/>
+   </properties>
+  </object>
+  <object name="Scorpion4" type="spawn" x="1504" y="1088" width="160" height="128">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="971"/>
+   </properties>
+  </object>
+  <object name="Scorpion3" type="spawn" x="1152" y="992" width="160" height="192">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="971"/>
+   </properties>
+  </object>
+  <object name="Scorpion2" type="spawn" x="1312" y="1280" width="160" height="192">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="971"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

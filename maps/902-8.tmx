@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Menhirs of Gods"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="131" name="victim-slope" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/victim-slope.png"/>
+ </tileset>
+ <tileset firstgid="146" name="Mine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine.png"/>
+ </tileset>
+ <tileset firstgid="402" name="cave_bilevel2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel2.png"/>
+ </tileset>
+ <layer name="Ground" width="60" height="60" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XzQ4BMRhG4S5wARgXgBi2iGGLGO7/hnwWTZqmoTJT+nMWz2J278ks2lZKqQoAAAAAAKCDWqwtmwh2hdKIo+UUwa5QWnG3PCLYFcpMDC3TCHbR22+v/i6lt7T/W0LvRKwcvUsxjmBf360LcXD07sU8o2bduhM3R+9VbDNpro3Wi6NVOxvNKd8vG49Wuznl+2Xr2Wo2p3y/dJ0/n6R8PtFLL73/303vd0YenYMIdv6qObfWd825tr6U9P4FAAAAAABAd0+Clr71QDgAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PzQ2CQBSF0YG2bIDEHvxpALUBkQZQi6QP7869icxizkm+vO27pQAAAADwi11X+4Nt7bN3zR1qP7KBQ1/KMZ3Sua/9zf+N2XhJ13RrYO89G6f0SHMDe5dsfKZXejewFwAAAAAAAACArw/dDGhMQDgAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PMQ4AMQgDQd6el1+fJsoVEMFYmt67ImIBAAAAwEE88CG7d1Kz3t4m9e6r/qNXr95/rZ2bT6v+l9naqfl21X/16tWrd0rvTXP1z8zm6n9Z3dV/9AIAAADwig+fMLtoQDgAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TMQrAIAxAUVe9QOv9L6pCCy6WLnVI34NsGfIRUwIAAAAAAAAAILLc5+xTX+we12759KI9RvdT82iN0DlbNUds/av7P8/jbQEAAABYaXGqPMBAOAAA
+  </data>
+ </layer>
+</map>
