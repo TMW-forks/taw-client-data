@@ -5354,6 +5354,36 @@
       weight="10">
         <sprite>head-afkcap.xml</sprite>
     </item>
+	<item id="5083"
+		image="armor-amulet-pet-fairy-blue.png"
+		name="Blue Fairy Pet"
+		description="Your own little fairy pet"
+		effect="Str +5, HP +50"
+		type="equip-charm"
+		weight="1"
+		max-per-slot="1">
+			<sprite>pet-fairy-blue.xml</sprite>
+	</item>
+	<item id="5084"
+		image="armor-amulet-pet-fairy-red.png"
+		name="Red Fairy Pet"
+		description="Your own little fairy pet"
+		effect="Str +5, HP +50"
+		type="equip-charm"
+		weight="1"
+		max-per-slot="1">
+			<sprite>pet-fairy-red.xml</sprite>
+	</item>
+	<item id="5085"
+		image="armor-amulet-pet-fairy-green.png"
+		name="Green Fairy Pet"
+		description="Your own little fairy pet"
+		effect="Str +5, HP +50"
+		type="equip-charm"
+		weight="1"
+		max-per-slot="1">
+			<sprite>pet-fairy-green.xml</sprite>
+	</item>
     
 
     <item id="5088"

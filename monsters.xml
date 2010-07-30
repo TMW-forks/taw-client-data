@@ -1731,4 +1731,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             mutation="50"
             />
     </monster>
+	<monster id="47" name="Bee" targetCursor="small">
+		<sprite>monsters/monster-bee.xml</sprite>
+	</monster>
+	<monster id="53" name="Butterfly" targetCursor="small">
+		<sprite>monsters/monster-butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+	</monster>
 </monsters>
