@@ -5399,6 +5399,17 @@
 		max-per-slot="1">
 			<sprite>monsters/pet-fairy-green.xml</sprite>
 	</item>
+    <item id="5086"
+        image="armor-head-elfhat.png"
+        name="Elf Hat"
+        description="A hat worn by elves."
+        effect="+8% Defense"
+        defense="8"
+        type="equip-head"
+        weight="10"
+        max-per-slot="1">
+        <sprite>head-elfhat.xml</sprite>
+    </item>
     
 
     <item id="5088"
