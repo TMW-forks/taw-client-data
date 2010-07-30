@@ -5362,7 +5362,7 @@
 		type="equip-charm"
 		weight="1"
 		max-per-slot="1">
-			<sprite>pet-fairy-blue.xml</sprite>
+			<sprite>monsters/pet-fairy-blue.xml</sprite>
 	</item>
 	<item id="5084"
 		image="armor-amulet-pet-fairy-red.png"
@@ -5372,7 +5372,7 @@
 		type="equip-charm"
 		weight="1"
 		max-per-slot="1">
-			<sprite>pet-fairy-red.xml</sprite>
+			<sprite>monsters/pet-fairy-red.xml</sprite>
 	</item>
 	<item id="5085"
 		image="armor-amulet-pet-fairy-green.png"
@@ -5382,7 +5382,7 @@
 		type="equip-charm"
 		weight="1"
 		max-per-slot="1">
-			<sprite>pet-fairy-green.xml</sprite>
+			<sprite>monsters/pet-fairy-green.xml</sprite>
 	</item>
     
 
