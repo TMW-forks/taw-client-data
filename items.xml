@@ -5608,12 +5608,13 @@
         weapon_type="2"
         weight="160"
         slot ="0"
-        weapon-type="sword"
+        weapon-type="staff"
         attack-min="20"
         attack-delta="30"
         attack-range="32"
-        max-per-slot="1"
-        view="521"/>
+        max-per-slot="1">
+	<sprite>equipment/weapons/weapon-sword.xml</sprite>
+	</item>
     <item id="5110"
         image="generic/god_seneria.png"
         name="Seneria, glove of Death"
