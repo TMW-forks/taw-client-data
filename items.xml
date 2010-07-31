@@ -5618,7 +5618,6 @@
         attack-range="32"
         max-per-slot="1">
 	<sprite>equipment/weapons/weapon-seneria.xml</sprite>
-	<sprite>equipment/override/skeleton.xml</sprite>
 	</item>
     <item id="5111"
         image="generic/god_thanandras.png"
