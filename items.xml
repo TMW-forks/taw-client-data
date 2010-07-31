@@ -5604,7 +5604,8 @@
         attack-delta="30"
         attack-range="32"
         max-per-slot="1"
-        view="521"/>
+        view="521">
+	</item>
     <item id="5111"
         image="generic/god_thanandras.png"
         name="Thanandras, the Bone Penetrator"
