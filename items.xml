@@ -5613,7 +5613,7 @@
         attack-delta="30"
         attack-range="32"
         max-per-slot="1">
-	<sprite>equipment/weapons/weapon-sword.xml</sprite>
+	<sprite>equipment/weapons/weapon-aurisghard.xml</sprite>
 	</item>
     <item id="5110"
         image="generic/god_seneria.png"
