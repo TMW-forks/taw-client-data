@@ -3196,6 +3196,17 @@
         <sprite>head-snowgoggles.xml</sprite>
     </item>
 
+    <item id="1244"
+        image="generic-iten.png"
+        name="Dark Talisman"
+        description="A small cube. It radiates unimaginable power, and is quite dizzying to look at."
+        effect="Unimaginable powers to a successful wielder."
+        type="equip-chest"
+        >
+        <sprite>equipment/override/skeleton.xml</sprite>
+        <particlefx>graphics/particles/wisp.particle.xml</particlefx>
+    </item>
+
     <!-- The 2XXY IDs are used for recolored items on eAthena.
         XX = item
         Y = color variant
@@ -4962,7 +4973,9 @@
 	  weapon_type="1"
 	  weapon-type="special"
 	  attack-range="10"
-	   max-per-slot="1"/>
+	   max-per-slot="1">
+	<sprite>equipment/weapons/weapon-mining-pick.xml</sprite>
+	</item>
     <item id="5046"
 	  image="equipment/chest/forest-armor.png"
 	  name="Forest Armor"
@@ -5599,12 +5612,13 @@
         weapon_type="2"
         weight="40"
         slot ="0"
-        weapon-type="knife"
+        weapon-type="staff"
         attack-min="20"
         attack-delta="30"
         attack-range="32"
-        max-per-slot="1"
-        view="521">
+        max-per-slot="1">
+	<sprite>equipment/weapons/weapon-seneria.xml</sprite>
+	<sprite>equipment/override/skeleton.xml</sprite>
 	</item>
     <item id="5111"
         image="generic/god_thanandras.png"
