@@ -5599,7 +5599,7 @@
 	  weight="2"
 	  max-per-slot="100"/>
     <item id="5109"
-        image="generic/god_aurisghard.png"
+        image="equipment/weapons/god_aurisghard.png"
         name="Aurisghard, the Sun protector"
         description="The blade made of melted steel blinds your eyes."
         effect="+175 Damage, 1 Range"
@@ -5615,7 +5615,7 @@
 	<sprite>equipment/weapons/weapon-aurisghard.xml</sprite>
 	</item>
     <item id="5110"
-        image="generic/god_seneria.png"
+        image="equipment/weapons/god_seneria.png"
         name="Seneria, glove of Death"
         description="Now you hold Death in your shaking hands."
         effect="+100 Damage, 0 Range"
@@ -5631,7 +5631,7 @@
 	<sprite>equipment/weapons/weapon-seneria.xml</sprite>
 	</item>
     <item id="5111"
-        image="generic/god-bone-penetrator.png"
+        image="equipment/weapons/god-bone-penetrator.png"
         name="Thranandras, the Bone Penetrator"
         description="Nobody would probably like to end with this stabbed in his bones."
         effect="+15 Damage, 2 Range"
@@ -5646,7 +5646,7 @@
         max-per-slot="1"
         view="521"/>
     <item id="5112"
-        image="generic/god_gragdish.png"
+        image="equipment/weapons/god_gragdish.png"
         name="Gragdish"
         description="Smell of wild wood gives you incredible magic power."
         effect="+60 Damage, 1 Range"
