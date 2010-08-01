@@ -5448,8 +5448,7 @@
         weapon-type="polearm"
         attack-min="8"
         attack-delta="2"
-        attack-range="64"
-        view="521">
+        attack-range="64">
         <sound event="strike">weapons/knives/sharpknife-miss1.ogg</sound>
         <sprite>weapon-axe.xml</sprite>
     </item>
@@ -5661,4 +5660,14 @@
         attack-range="32"
         max-per-slot="1"
         view="521"/>
+    <item id="5113"
+	  image="equipment/head/corporals-helm.png"
+	  name="Corporal's Helmet"
+	  description="Helm mage of copper and steel used by Hitomb Corporals."
+	  effect="+18% Defense"
+	  type="equip-head"
+	  defense="18"
+	  weight="10">
+	    <sprite>equipment/head/head-corporal.xml</sprite>
+    </item>
 </items>

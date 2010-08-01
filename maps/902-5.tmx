@@ -40,5 +40,54 @@
     <property name="dest_y" value="2528"/>
    </properties>
   </object>
+  <object name="skeleghost" type="spawn" x="1216" y="992" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="954"/>
+   </properties>
+  </object>
+  <object name="skeleghost" type="spawn" x="800" y="1504" width="32" height="128">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="954"/>
+   </properties>
+  </object>
+  <object name="skeleghost" type="spawn" x="864" y="2560" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="954"/>
+   </properties>
+  </object>
+  <object name="skeleghost" type="spawn" x="1568" y="2112" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="954"/>
+   </properties>
+  </object>
+  <object name="skeleghost" type="spawn" x="1952" y="2240" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="954"/>
+   </properties>
+  </object>
+  <object name="skeleghost" type="spawn" x="2784" y="1920" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="954"/>
+   </properties>
+  </object>
+  <object name="skeleghost" type="spawn" x="1888" y="1280" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="90000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="954"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
