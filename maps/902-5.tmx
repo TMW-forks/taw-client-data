@@ -24,7 +24,7 @@
  </layer>
  <layer name="Collision" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SUW7jMAwFQJ+9J9+vAos0kiWLMiV7CAxQtClNv5ef4zh+AAAAAAAAAAAAAAAAAAAgyLfJvom5/R4L3EVffz3dlj7PekqdnU323fT32zrZNzO34+x7Ges4+xbmdpx9B/pFv/ztd/b+2mS//9PNzvjqRDwzO9sVHB8/t8xd3Y/uy852BVfmrpt0G99t9k29Ha96/x35tOaSfeuVfr9N9s2r9LtLJq2Tfeeq/WbfONpv9n3Z2ezc7We/2besppTJLnl9TvY9qynlckdeo/v/n+wcV1bKaGZurd20THZ+qyvlNDO71n7OJju7HZSyKuUXkW/rjtHn8DfvqBntt2UPeZ3rd22jE9HvjPuzc11FLY/a769MRL9Rz32LWga1349Mb79XdrZ87slG3nuF6fnO9vzvU0S/c8uelplxa+tzniTjfc/mjlvvfue7Ml2h36tZR9+a+c4zM6zN2Y7ZN0Z8DyKfuZOWici257NXbr/zO/UEvaPfvfROVhcz+phx42qi+/g20bdmZ7aTyB5qs9qtbxGZ2bcdZ7tbn/052bntIjKz0o7a7s85+3vUrW8QnVdpT62bK5Od2w6iM6vtiZrszHYQnVvEzLzvTWbk1jst+7Jz2lVrxqM7a5OdwZPdlbEun90v+kXHXO/3d7LvYX7HxwI3Mb/n7HuY23P2HQAAAAAAAAAAAAAAAAAAAAC80z+HzF/VAOEAAA==
+   H4sIAAAAAAAAA+3SUW7jMAwFQJ+9J+/XAgs3kiWLMiVnCAxQtClNv5fjMG+eHwAAAAAAAAAAAAAAAAAACPRpsm9ibr/HAnfR119Pt6XPs55SZ1eTfTf9/bZO9s3M7Tj7XsY6zr6FuR1n34F+0S9/+529vzbZ7/92szO+OxHPzM52Bcfp55Z5qvvRfdnZruDOPHWTbuO7zb6pt+NV738in9Zcsm+90++nyb55lX53yaR1su9ctd/sG0f7zb4vO5uduz33m33LakqZ7JLXebLvWU0plyfyGt3//2TnuLJSRjNza+2mZbLzW10pp5nZtfZzNdnZ7aCUVSm/iHxbd4w+h795R81ovy17yOtcv2sbnYh+Z9yfnesqannUfn9nIvqNeu63qGVQ+/3I9PZ7Z2fL595s5L1XmJ7vbM//vkX0O7fsaZkZt7Y+500y3vdqnrj16Xd+KtMV+r2bdfStme88M8PaXO2YfWPE9yDymTtpmYhsez575/Ynv1Nv0Dv63UvvZHUxo48ZN64muo9PE31rdmY7ieyhNqvd+i0iM/u042p367PPk53bLiIzK+2o7T7P1d+jbv0G0XmV9tS6uTPZue0gOrPanqjJzmwH0blFzMz7vsmM3HqnZV92TrtqzXh0Z22yM3izpzLW5bv7Rb/omPv9/pvse5jf8bHATczvOfse5vacfQcAAAAAAAAAAAAAAAAAAABAyS/UxKAYAOEAAA==
   </data>
  </layer>
  <layer name="Over" width="120" height="120">
@@ -32,4 +32,13 @@
    H4sIAAAAAAAAA+3bwXKDIBAA0Nza9Afa/P+PJjk4dRQUTYgsvjfjJSfCsrAIXi4AAAAAAAAAAAAAAAAAAAAA9Ob38fwc3QhWXR/P7ehGUFUqxs/8/Ft45G4s8higfWpjYOpZw+XqcbVd33Kxf1fcrTlpa/vg2nvhV/dtQ/vF9t84ppH7Rc7OtdgnW3NYzqa1GNstxDUvWmxTdUGk9sMZmYPncvVJtDOjaGsI5cS2D7n3KWK7LMJcLEdfk3rH23rM6YPcrW+69t1WfodPGsah8VdmWK9bnTen80qqnV+P5/uTjerAWp2W2+OU5lXJerC0Xo/b1+rYjOZdfVqjzhq3zdxdzzTvU99M1M63CO8BejHEe2t/vzoOeopxhP+ypY6zT56rfTcR9to7hzN39F3YT2p9bw9HGM8B5tS+RajdzyLSviNSWynn7uQ+R+fD2rmeuO5zRL+VfHdQcu5HXo24vuNs3Z60LWtngu719Gcp5tfEb8A67xogNjncP+ep5yDO5+CuMAAAAAAAAAAAAAAAAAAAABDBHUxffgkA4QAA
   </data>
  </layer>
+ <objectgroup name="Objects" width="120" height="120">
+  <object name="toLair" type="warp" x="1312" y="2080" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="902-7"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="2528"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

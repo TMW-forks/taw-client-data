@@ -6,7 +6,7 @@
  <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
  <tileset firstgid="131" name="victim-slope" tilewidth="32" tileheight="32">
@@ -35,4 +35,13 @@
    H4sIAAAAAAAAA+3bywrCMBAF0G71B9Tv9a0/3bFQkOKD1mCGcA7cTSl0ykCSxaTrAAAAAAAAAGCZfeQQOdYuhMEpco5cahfC4Bq5Re61C4FEVpHd5Nkmsq5QCwAAAAAAAHlknz/IXl9p2ecPstdXWvb5g+z10aZ38wfbD5m+/6u532t9PuLRk+f/z/av2esD8nq15yzV+l4A1DeeeZauW+MZ11pV1ty+6MN/fOuLPtThvgEAAAAAAAAAAAAtMA+Xj/tlAAAAAAAAAJTQAyijfj9AnAAA
   </data>
  </layer>
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="toCaves" type="warp" x="1568" y="2560" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="902-5"/>
+    <property name="dest_x" value="1312"/>
+    <property name="dest_y" value="2112"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
