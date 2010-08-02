@@ -13,16 +13,16 @@
  <tileset firstgid="1" name="Woodland x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/Woodland_x3.png"/>
  </tileset>
- <tileset firstgid="33" name="Village" tilewidth="32" tileheight="32">
+ <tileset firstgid="33" name="woodland village" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_village.png"/>
  </tileset>
- <tileset firstgid="289" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="289" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <tileset firstgid="291" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="291" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset firstgid="419" name="Cave2" tilewidth="32" tileheight="32">
+ <tileset firstgid="419" name="cave bilevel" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel.png"/>
  </tileset>
  <tileset firstgid="675" name="ancients_ring" tilewidth="32" tileheight="32">
@@ -73,7 +73,7 @@
    H4sIAAAAAAAAA+3XXW7sIAwF4OlSZva/yD5FQsgE/+LjxEg83HYSzPnAc/v7+3x+D5zSkV3vW6ck+zbFmN/FHH+/++z4mZXbyvTLqLGnj6l0zu+9M41Yv+LZiNpTVKbcntum2KZjHTvTqHUrTW3/yzIda/gStUSsW808I4M2bVsqw9k0ux7Eme1EZWMxnX+WkcubTa8auP/f0dzT+f2c0aY+ppwaK5lS70Q2tb5vfoaz553p3bOcbCNMr39LzlJlU+l+OKbS3OZeEWXKmdmmd7YeptT+PE139aCbWmo7acpxkJhKMpE8y52IppFnAsGUMvAeUaZSlxP3XPsdITXVnCvtnqzvaFO+qVd/tIyTphE9O3JqTa15azKXnps2lZta165sas08umd731PuvZ3Xk9brZSp1yL6fknNPmVJ74bzvetduIJhynFFMpfdpzMBias3PY0+Rpih3VGJ6skdoTKV9J/qceWaFbhp9Tne9/7SppVdp6pXsM9stOr9I01W+0UOzHzTziqar57xMrdk91TLLVFofdT8rm676DucsP8XUUnPGeefkNuYxjpN3XGq6O29aE02GyKZ3Z393T61j3h/3ndm9r7LprjZqcOuoanqyx6OYcoaH6ak76eV4wpSbHdeTu58sU0u23qbe1l7ro5tqczzl5+kdacrtEXemSHtEmqjfE9Gm2bm3qaxWpO+9J5tePpL1okyzM3+KqXTdKNPsvBFss85Sm7Zpm+KY3n2mTeuaUn+/tmmMp1cGnB67Gp6m2TmjmHrks3t293eOh2l2xk80pRzn+0hZjv24LfFMOY7U/dTWmZ3rW0wla7RpbdPV0Nb3VlNtVl69dzSe76RHndn5Wl28zSJM5xltWtU20i3DFKHep9t5mVLPe353etZL1dWm+z3M+UXv05J1ddNTvSZ7n3f7X2WSXRu6Keq8q7PKHtqU3j83m+x60UwRM5LWgVAzgunuZ9n3XbLe2009TDJMd+cz26xNffJo07qmuxoQ6kEwzqqnTTFNPRysRtmmJ3qpl2mke5s+33RV02/x+5Vjm/q6S/wpK+7nos7Z20y9zwTXRnPO2rCuqXTN9oo17Vzrz7bs2XM//wFeFRFBHIkAAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="Scorpion" type="spawn" x="676" y="1248" width="384" height="704">
    <properties>
     <property name="eA_death" value="40000"/>
@@ -270,6 +270,13 @@
     <property name="dest_map" value="903-4"/>
     <property name="dest_x" value="1664"/>
     <property name="dest_y" value="2336"/>
+   </properties>
+  </object>
+  <object name="Hut" type="warp" x="1120" y="704" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="902-2"/>
+    <property name="dest_x" value="768"/>
+    <property name="dest_y" value="928"/>
    </properties>
   </object>
  </objectgroup>

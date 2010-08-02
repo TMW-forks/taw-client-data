@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Nerir's hut"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="131" name="Mine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine.png"/>
+ </tileset>
+ <tileset firstgid="387" name="cave_bilevel2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel2.png"/>
+ </tileset>
+ <tileset firstgid="643" name="menhirs-of-gods" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/menhirs-of-gods.png"/>
+ </tileset>
+ <layer name="Ground" width="60" height="60" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PMRIBQRBA0U5cAOsABEgJrJQA97+QDkaVEhvbql7w8v+HiBgAAAAAAPhri7Rr5gV6etqmTRqbddoX6OrllI7p3hzSuUBXL7d0TbPmkh4FunpZvb2+LAt0+f2ez9+pe375PHUHAAAAAAAAEPEEnhzLK0A4AAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAADwZkvEChtAOAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PwQkAMAwDscyeyfsqdIImYBn093VVNQAAAAAAwCJ30z9+tqY0p/W+zdM/9AIAAAAAAECeA4Jb0LxAOAAA
+  </data>
+ </layer>
+ <layer name="Over" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PuwkAIBBEQVNtQOy/UTU4sAE/4AxscNm9lAAAAAAAAGC/PNaWu46VS7+cEs0/tIbZ/EsrAAAAAAAAvK4DgLHpFkA4AAA=
+  </data>
+ </layer>
+ <objectgroup name="Objcts" width="60" height="60">
+  <object name="Out" type="warp" x="768" y="960" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="902-1"/>
+    <property name="dest_x" value="1120"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
