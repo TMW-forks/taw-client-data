@@ -6,17 +6,17 @@
  <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <tileset firstgid="131" name="victim-slope" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/victim-slope.png"/>
- </tileset>
- <tileset firstgid="146" name="Mine" tilewidth="32" tileheight="32">
+ <tileset firstgid="131" name="Mine" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Mine.png"/>
  </tileset>
- <tileset firstgid="402" name="cave_bilevel2" tilewidth="32" tileheight="32">
+ <tileset firstgid="387" name="cave_bilevel2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave_bilevel2.png"/>
+ </tileset>
+ <tileset firstgid="643" name="menhirs-of-gods" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/menhirs-of-gods.png"/>
  </tileset>
  <layer name="Ground" width="60" height="60" opacity="0.99">
   <data encoding="base64" compression="gzip">
@@ -25,17 +25,26 @@
  </layer>
  <layer name="Fringe" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PzQ2CQBSF0YG2bIDEHvxpALUBkQZQi6QP7869icxizkm+vO27pQAAAADwi11X+4Nt7bN3zR1qP7KBQ1/KMZ3Sua/9zf+N2XhJ13RrYO89G6f0SHMDe5dsfKZXejewFwAAAAAAAACArw/dDGhMQDgAAA==
+   H4sIAAAAAAAAA+3Wxw3CQABE0cX1UAIFcCM0QGiA0AChEDKURD1MDUi2Jfs96cvXnfVlSwEAAADgH8NB2ydo1ih7v/mO2z5IAyZVKdM0S/Oq7dPUb5GNy7RK6x7s3WTjNu3Svgd7D9l4TKd07sFeAIA6XPKOuqab91R55Q7e6eMuOuGe//hIT/8TAAAAAKCzfhHeONFAOAAA
   </data>
  </layer>
  <layer name="Collision" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PMQ4AMQgDQd6el1+fJsoVEMFYmt67ImIBAAAAwEE88CG7d1Kz3t4m9e6r/qNXr95/rZ2bT6v+l9naqfl21X/16tWrd0rvTXP1z8zm6n9Z3dV/9AIAAADwig+fMLtoQDgAAA==
+   H4sIAAAAAAAAA+3RQQ6AIBAEQd7Oy717kGB0R6E2qfs09NZaBwAAAICB9oEN1b07Netd206950vv0atX773WlZtHl95X2bpS8+yl9+qd753pT+99+3+v3uaPZi+99+ne0Vuk91b+cXpnZXN6X1V3eo9eAAAAAL7iAAGGmkxAOAAA
   </data>
  </layer>
  <layer name="Over" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TMQrAIAxAUVe9QOv9L6pCCy6WLnVI34NsGfIRUwIAAAAAAAAAILLc5+xTX+we12759KI9RvdT82iN0DlbNUds/av7P8/jbQEAAABYaXGqPMBAOAAA
+   H4sIAAAAAAAAA+3T2QqCUBhF4YN3+QLV82aTNg82aO/aPmBwCI0uzOB3fbARDl64FJ0DAAAAAAAAAAAAgHZNIucSbRr9+0m6sVLnWtvU9C51lmqZoXdxVkuuXWqaDjo7aidDvaGZuubaouordC21h9Herbp22t5o37urOm/a3WDvQBtp4y/uHVb3xj99om747k/NvtVCZ6ip2WJrX73+53B8WwAAAAAAADR5ApoS3NFAOAAA
   </data>
  </layer>
+ <objectgroup name="Objects" width="60" height="60">
+  <object name="toCaves" type="warp" x="960" y="608" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="902-6"/>
+    <property name="dest_x" value="2080"/>
+    <property name="dest_y" value="2016"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

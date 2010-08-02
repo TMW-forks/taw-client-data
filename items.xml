@@ -5670,4 +5670,14 @@
 	  weight="10">
 	    <sprite>equipment/head/head-corporal.xml</sprite>
     </item>
+    <item id="5114"
+	  image="equipment/head/hitombhead.png"
+	  name="Hitomb headband"
+	  description="Headband made of Copper."
+	  effect="+6% Defense"
+	  type="equip-head"
+	  defense="18"
+	  weight="10">
+	    <sprite>equipment/head/head-hitombhead.xml</sprite>
+    </item>
 </items>

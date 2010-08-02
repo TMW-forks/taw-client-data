@@ -24,7 +24,7 @@
  </layer>
  <layer name="Collision" width="120" height="120">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SUW7jMAwFQJ+9J+/XAgs3kiWLMiVnCAxQtClNv5fjMG+eHwAAAAAAAAAAAAAAAAAACPRpsm9ibr/HAnfR119Pt6XPs55SZ1eTfTf9/bZO9s3M7Tj7XsY6zr6FuR1n34F+0S9/+529vzbZ7/92szO+OxHPzM52Bcfp55Z5qvvRfdnZruDOPHWTbuO7zb6pt+NV738in9Zcsm+90++nyb55lX53yaR1su9ctd/sG0f7zb4vO5uduz33m33LakqZ7JLXebLvWU0plyfyGt3//2TnuLJSRjNza+2mZbLzW10pp5nZtfZzNdnZ7aCUVSm/iHxbd4w+h795R81ovy17yOtcv2sbnYh+Z9yfnesqannUfn9nIvqNeu63qGVQ+/3I9PZ7Z2fL595s5L1XmJ7vbM//vkX0O7fsaZkZt7Y+500y3vdqnrj16Xd+KtMV+r2bdfStme88M8PaXO2YfWPE9yDymTtpmYhsez575/Ynv1Nv0Dv63UvvZHUxo48ZN64muo9PE31rdmY7ieyhNqvd+i0iM/u042p367PPk53bLiIzK+2o7T7P1d+jbv0G0XmV9tS6uTPZue0gOrPanqjJzmwH0blFzMz7vsmM3HqnZV92TrtqzXh0Z22yM3izpzLW5bv7Rb/omPv9/pvse5jf8bHATczvOfse5vacfQcAAAAAAAAAAAAAAAAAAABAyS/UxKAYAOEAAA==
+   H4sIAAAAAAAAA+3SUW7jMAwFQJ+9J9+vAgs3kiWLMiVnCAxQtClNv5ef4zh+AAAAAAAAAAAAAAAAAAAAGnya7JuY2++xwF309dfTbenzrKfU2dVk301/v62TfTNzO86+l7GOs29hbsfZd6Bf9Mvffmfvr032+7/d7IzvTsQzs7NdwXH6uWWe6n50X3a2K7gzT92k2/hus2/q7XjV+5/IpzWX7Fvv9Ptpsm9epd9dMmmd7DtX7Tf7xtF+s+/Lzmbnbs/9Zt+ymlImu+R1nux7VlPK5Ym8Rvf/P9k5rqyU0czcWrtpmez8VlfKaWZ2rf1cTXZ2OyhlVcovIt/WHaPP4W/eUTPab8se8jrX79pGJ6LfGfdn57qKWh6139+ZiH6jnvstahnUfj8yvf3e2dnyuTcbee8Vpuc72/O/bxH9zi17WmbGra3PeZOM972aJ259+p2fynSFfu9mHX1r5jvPzLA2Vztm3xjxPYh85k5aJiLbns/euf3J79Qb9I5+99I7WV3M6GPGjauJ7uPTRN+andlOInuozWq3fovIzD7tuNrd+uzzZOe2i8jMSjtqu89z9feoW79BdF6lPbVu7kx2bjuIzqy2J2qyM9tBdG4RM/O+bzIjt95p2Zed065aMx7dWZvsDN7sqYx1+e5+0S865n6/v5N9D/M7Pha4ifk9Z9/D3J6z7wAAAAAAAAAAAAAAAAAAAAAo+QeFaJiUAOEAAA==
   </data>
  </layer>
  <layer name="Over" width="120" height="120">
@@ -42,51 +42,58 @@
   </object>
   <object name="skeleghost" type="spawn" x="1216" y="992" width="256" height="224">
    <properties>
-    <property name="eA_death" value="90000"/>
+    <property name="eA_death" value="50000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="954"/>
    </properties>
   </object>
   <object name="skeleghost" type="spawn" x="800" y="1504" width="32" height="128">
    <properties>
-    <property name="eA_death" value="90000"/>
+    <property name="eA_death" value="50000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="954"/>
    </properties>
   </object>
   <object name="skeleghost" type="spawn" x="864" y="2560" width="256" height="224">
    <properties>
-    <property name="eA_death" value="90000"/>
+    <property name="eA_death" value="50000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="954"/>
    </properties>
   </object>
   <object name="skeleghost" type="spawn" x="1568" y="2112" width="256" height="224">
    <properties>
-    <property name="eA_death" value="90000"/>
+    <property name="eA_death" value="50000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="954"/>
    </properties>
   </object>
   <object name="skeleghost" type="spawn" x="1952" y="2240" width="256" height="224">
    <properties>
-    <property name="eA_death" value="90000"/>
+    <property name="eA_death" value="50000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="954"/>
    </properties>
   </object>
   <object name="skeleghost" type="spawn" x="2784" y="1920" width="256" height="224">
    <properties>
-    <property name="eA_death" value="90000"/>
+    <property name="eA_death" value="50000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="954"/>
    </properties>
   </object>
   <object name="skeleghost" type="spawn" x="1888" y="1280" width="256" height="224">
    <properties>
-    <property name="eA_death" value="90000"/>
+    <property name="eA_death" value="50000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="954"/>
+   </properties>
+  </object>
+  <object name="toLevel2" type="warp" x="1664" y="2240" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="902-6"/>
+    <property name="dest_x" value="2080"/>
+    <property name="dest_y" value="1472"/>
    </properties>
   </object>
  </objectgroup>

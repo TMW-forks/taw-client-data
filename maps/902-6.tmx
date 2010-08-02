@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="120" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Forgotten caves II"/>
+ </properties>
+ <tileset firstgid="1" name="cave-forgotten" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave-forgotten.png"/>
+ </tileset>
+ <tileset firstgid="129" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="131" name="Mine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine.png"/>
+ </tileset>
+ <layer name="Ground" width="120" height="120" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bz1YTMRTH8SyQB1DwAZTyZ6sUcKMepBQ36vs/jcmx93h7uZOZTjJtYL6LzwZqHfKbJHcyyWkI4RQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEa9ixYbVw1cD+q4iC6jj9Fy40sD14U6bqO76HO02jhp4LpQxzp6in5EbzbINy/NZZeOFue19ypX8h2Wa5rL7hwtzmvkm89zoUiuaS57cpyF9vow+fouwnbNuVS56rlMuw7T9GEZN+y9I7XxW/Ld2W3YrjlXmVzFQ/jXh3PtPfY+88Z/qY0/ONl7+da+tpdsPSDPrj6ca++x91kaN34615h+/snJ3stXro2M/XFtiIee9i65z87M7843P793svf+Drk2Mh6fr7R3rVrL9r+v0bfoe3Sjftc1p9q/415l3OozXev51qy1bP/7Ff2O/kSPA/JNjjsybvWZbl9su3iOOj4vtVZp/xh6n+Xy9b4jZezN6XMypG1PMp+v0Ydr5Jv7rrk/K/X1Yd1/bfulPlzaP8h3Wn3ta9vH3g81xr9d7jHynZ7Oo+aapc15aK7kW5d9pqlVo9p8ds3G/vtd7w/8J32tVh1dO1+yrZfFFM/Cpfm2+K7rJbHrEqk9+971TJlvegd1HqaZN+ZK10OpPeVdz9icx+Sr9yTo9cwaz25zZ/uwvOvROVuLDN3/ZIzNfX4RtvckPIay8R3PeWu/OmdrmXFjvuu65/PLkN+TQL5l7Jzn5WytMmz/e+j5/KojV/ItJ/subJ9rBfVzGdl3YfvcIaXrkvmC+nm81HfTuDxmf0/ue0vXJxOp+Wquu8xN6rt943JJNiXz51Rrp3MhNZUel3WWpbXNsfOdY/OdYr/na5aytTVVi+u8dt2l5n7P10ivEdmaqsVnEG9PJeO0n6k+j5Sy1TWVrC+10jfkvIN9Jpf9nulaGau3zxTo80i2Xpb1pVb6hpx38Go/uda575uVdtJnzLqeg2R9qZUaRs47eM/kcq3sm9397MqhaxiZS+y4nGq/rvXxOb9bWvfkeRSe941D1DD2vLJX13ftH2yx7m8h36797rkzQlNla88re3U9+e6Wb26/7NTzsNTH+lnNqw/mnN1Q3p5kr92885ml+3S6SH3sPauRbVnGuXbTeynt/o2aNZfUx/TZuhn3tZ3uw3b/Rs2ai7n0MPZ1fs/7f8h2f7w5e6p8ybWNnOe8jgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU/oL2GJDIgDhAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA1wBo+KY7AOEAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3S0YqDUAwFQL+9X75Pha5o1caYXJ3AwFJqPD3Z1zRNLwAAAAAAAAAAAAAAAAAAAACAg95TnYOcu76nOg/ui/te2Vnn3kbJ2cG3qc62lbk6R0dHpzqv++bdNrPDtd173pmdbVS/TlaOX2+XmW1kkcm87/zvPe/Lyja6rdm6xVX/Z0d3VPfaxdFeMzrcM7/uqu63gyO9ZnS3Z9z3mvtW3Diyp7rbUWX1F73NfKp7GlVWf9HbRJ/nf5dd71vdzR1kdDkF92ZkeqqMLqfg3oxMT3Z2n1Nw59l5nu7sPqfgzujz5HYa2TWf6l7uYmmuvO/aVPdyFx2nupM76TDzPNWd3MWRObovkqm6lzv4NmfsjO6o7md0az1Guz3j+eiOp+veYfd83XXvr3u+zkbo7nOqs4xklN7mU52nu6WpzuS+5990aapzrmX+9tnTfZv5d6qzLuXe+i3VOautzZ4+O+R233Pu2+XGWxnZvvHW96ozVvc1or3dVfT7OdU93d1VPS9N9W9/gqs6v+o91PSftRd3AAAAAAAAAAAAAAAAAAAAAAAAAOjkD2Nne0oA4QAA
+  </data>
+ </layer>
+ <layer name="Over" width="120" height="120">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3b0Q6CIBQG4G7rBar3f9H0go2ZlDKJg33fxl01xu8BVLpcAAAAAAAAAAAAAAAAAAAAAAAAgBHcp/aY2q13RwDg5K5Te/buREBbxyXtWR4bPw9Hm69V1987cxu5FtfDlt+c1wj3tHXS3FZqy3FtlfHa/Op5BZ+o+zojrNuyBf7VCHM0UKaGgRbcH51LetZlvegnf9e41krPJ7c0tfpba9nIYExHnQHI9+PWzxiWOaR3QbXZHPF9azB8Zw4FoMa8fthr7TfCuNkb1Enj5j7k/KJmnNdu6XzoP9d2KbcR5rwR+hjBMuPSuEWpYWel90vZRa+J6P2LbM448tjJtr0e/98zH/9e65zzvbBc+5EDAAAAAAAAAAAAAAAAAAAAAAAAQHsv4kg8/QDhAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="120" height="120">
+  <object name="ToLevel1" type="warp" x="2080" y="1440" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="902-5"/>
+    <property name="dest_x" value="1664"/>
+    <property name="dest_y" value="2208"/>
+   </properties>
+  </object>
+  <object name="ToHall" type="warp" x="2080" y="2016" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="902-8"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="GhostFlower" type="spawn" x="800" y="1216" width="608" height="416">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="953"/>
+   </properties>
+  </object>
+  <object name="GhostFlower" type="spawn" x="1056" y="2144" width="320" height="288">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="953"/>
+   </properties>
+  </object>
+  <object name="GhostFlower" type="spawn" x="1440" y="2304" width="320" height="288">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="953"/>
+   </properties>
+  </object>
+  <object name="GhostFlower" type="spawn" x="2432" y="1440" width="320" height="288">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="953"/>
+   </properties>
+  </object>
+  <object name="GhostFlower" type="spawn" x="1952" y="1344" width="320" height="288">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="953"/>
+   </properties>
+  </object>
+  <object name="GhostFlower" type="spawn" x="2496" y="2048" width="320" height="288">
+   <properties>
+    <property name="eA_death" value="40000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="953"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
