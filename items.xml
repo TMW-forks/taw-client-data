@@ -4971,7 +4971,7 @@
 	  weight="80"
 	  type="equip-1hand"
 	  weapon_type="1"
-	  weapon-type="special"
+	  weapon-type="staff"
 	  attack-range="10"
 	   max-per-slot="1">
 	<sprite>equipment/weapons/weapon-mining-pick.xml</sprite>
@@ -5188,6 +5188,7 @@
 	  description="Stiff arrow causing deep penetration."
 	  effect="+120 Damage"
 	  type="equip-ammo"
+	missile-particle="graphics/particles/arrow.particle.xml"
 	  weight="3"
         max-per-slot="100"/>
     <item id="5064"
