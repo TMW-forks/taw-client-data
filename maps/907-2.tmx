@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/001-1.png"/>
+  <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Starting island"/>
+ </properties>
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="3" name="Indoors2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoors2.png"/>
+ </tileset>
+ <tileset firstgid="259" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <layer name="Ground" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SwQmEQBAEwDGD0wDkNAK9/BPTl5OAsMrCHlqPgn52Q29dxAYAAAAAAHDDGNe17my//bV8ck+fhijPrTvX9M09U5qjPLfuXNOSe9b0i/LcunNN/u///u///v/O/5/Z/6ADAAAAAAAAPMUBi3QUcABAAAA=
+  </data>
+ </layer>
+ <layer name="Upper" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAIC3AYbSVKsAQAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PsQ0BYRzG4TODmEBMICbABJgAE9Ap6ZQspbgBFLeLt/wKleR8yeV5kl/+yXfNe00DAAAAAAAAv1mmVVqnV/HeplM6F7f9+7r+bdI27dK7eO/SNd2K2/19Xf/26ZCOX7490rO4wHBcRk0zzp3UHlLJPf8/zZ3VHlLRPC1qjwAAAAAAAAAYqA/3e6VsAEAAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQkAAAjAMH8Q/39VT3ATJIHujQAAAAAAAAAA2MupricAAAAAAAAA4KEGf9hlYgBAAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SQQ6AMAgEQML/H90PaCzVSLRDMhdOu4SMiAQAAAAAAABK4mR3tP+jq5m515etTHdm/fXXv+8W3Tmf7rx7/+p0Z377LwAAAAAAAIB7BiZ3QP4AQAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="64" height="64">
+  <object name="Out" type="warp" x="1024" y="1152" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="907-1"/>
+    <property name="dest_y" value="1472"/>
+    <property name="dets_x" value="1216"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

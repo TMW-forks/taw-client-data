@@ -66,7 +66,37 @@
  </layer>
  <layer name="Collision" width="167" height="114">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3T4WrDIBgF0D77nnzsx6BIkmo0XpucC4dB2+hnvPt5vV4/AAAAAAAAiymTngf+7CU9F89xJumZub+epGfnvnqTnp97GpH0GbinEUmfgXsakfQZuKcRSZ+BexqV9Dm4l6uSPhffI5H0mVlfMumzs64Vkn4HrGeVpN8D65mVvX3T52ddiaTPzHdIp3au9HtiXh+PejAzW7O1PsP83tSktn9b663Qz7N7p+/piT7dxdF35W9GrXtFRvxfpO/qaXqytcbZfl7Vyff9RnU/fWdPcTatz5e/H92Xoz2v+H9k3W5ekdFzXbke87uZ6O9Ve41eM31XT7P1/lvvo/xta67q/1VdZ42+tvT6VXxe29Wzna5Zd+Ra5Hp4dAfld3spu7m37t4zI1IzZ8+a5Lq5dSevnb97PdvaY2/v3g61nO+KPZjTz6Nu1uSom+XnZddbcuZsPUnf0VOVd7B1F7U5+0xLZvWxZi/mdnPvs63narrxqTfldz3z1+5Zk/S9UJeee27p7oiZz56xdybm9fNTl2pS/raln0efHz3Xc+beNRnvytTu0TpP+p0xt58t3XjP2efOJv2umN/No8zu39bePNcKSb8DvsNRan5Tm/Q5Wd/opM/DfYxI+gzcU0/Ss3Nfe0nPBVtJzwSfkp6P5/qU9Hw811HSs/Fse0nPBf/ek54FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEn4BAG5D33gpAQA=
+   H4sIAAAAAAAAA+3T4WrsIBgE0H32PvmlPy4swSQajWOTM3Ao7G70M05/Pp/PDwAAAAAAwGK2Sc8Dv/aSnov3uJL0zDxfT9Kz81y9Sc/PM41I+gw804ikz8AzjUj6DDzTiKTPwDONSvocPMtdSZ+LvyOR9JlZXzLps7OuFZJ+B6xnlaTfA+uZlb190+dnXYmkz8zfkE7tXOn3xLw+HvVgZkqztT7D/N7UpLZ/pfVW6OfVvdP39EZnd3H03fY3o9a9IyP+L9J39TY9Ka1xtZ93dfJ7v1HdT9/ZW1xN6/Pb34/uy9Ged/w/sm4378joue5cj/ndTPT3rr1Gr5m+q7cpvf/W+9j+tjV39f+urrNGX1t6/dl8XtvVq52uWXfkWuR6eHQHpe9K2XZzb929Z0bkbMbeNcl1s3Qnn52/ez0r7bG3d2+HWs53xx7M6edRN2ty1M3t59uut+TK2XqSvqO32t5B6S5qc/WZlszqY81ezO3m3mel52q6cdab7Xc989fuWZP0vVCXnntu6e6Ima+esXcm5vXzrEs12f62pZ9Hnx8913Pm3jUZ787U7tE6T/qdMbefLd34ztXnrib9rpjfzaPM7l9pb95rhaTfAWtqyZVnztaCPaOTPg/PMSLpM/BMPUnPznPtJT0XlJKeCc6Sno/3Okt6Pt7rKOnZeLe9pOeC/76TngUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS/gEApMF8eCkBAA==
   </data>
  </layer>
+ <objectgroup name="objects" width="167" height="114">
+  <object name="in" type="warp" x="1472" y="1184" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="907-2"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="1120"/>
+   </properties>
+  </object>
+  <object name="Nettles" type="spawn" x="2368" y="1056" width="160" height="128">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monsster_id" value="952"/>
+   </properties>
+  </object>
+  <object name="Nettles" type="spawn" x="2656" y="800" width="192" height="224">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monsster_id" value="952"/>
+   </properties>
+  </object>
+  <object name="Nettles" type="spawn" x="2336" y="832" width="288" height="224">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monsster_id" value="952"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
