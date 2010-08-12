@@ -1219,6 +1219,54 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
     
     <!-- taw files -->
+    <monster id="949" name="Piko Boar">
+        <sprite>monsters/boar.xml</sprite>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    <monster id="950" name="Pine Tree">
+        <sprite>monsters/pine-tree.xml</sprite>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    <monster id="951" name="Birch Tree">
+        <sprite>monsters/birch-tree.xml</sprite>
+        <attributes
+            hp="20"
+            size="4"
+            speed="2.0"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
     <monster id="952" name="Nettles">
         <sprite>monsters/nettles.xml</sprite>
         <attributes

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Cave of Thiefs"/>
+ </properties>
+ <tileset firstgid="1" name="cave-flat-purple" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave-flat-purple.png"/>
+ </tileset>
+ <tileset firstgid="73" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="75" name="Mine2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Mine2.png"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YyW7CMBQF0NCBRWeprVSkdFqU7mj//+saJKxaVmICJG1IzuJsINjh3TxjsyyKYgkAAAAAAAAAAAAAAAAAAAAAAAAAAABwhGaVkwanA7i/qbmrXDZYVc43+sgmfhb6nOdYrOvxncmjLpt5z3OvokzS3k2zmo0sv1xvNLntYN6zhiziTL5qrrlKcvreXDuWtfW/8rjYY95cTnFWx+yv81j3RXiu98kjVVZe5NF6/HT97yqHkMVT5XPCeYQatM2iy/qH+Z83wn2MKY/74rff267f6f60bs/VlEWo5y5zxp+rexZeK2+V9wHUs6tMHrbI1S/tmTSLMhrnMZozHbPMzN+2J6cizSyu5Udybbx3KqMMto3ZdB156dkh7EGD8F4uC/rJImcMv69DEc4JqbZZ6I1uszh0n7pew+YD+C7Hrsszg/XqcNdJTePz1y5nButVN8JeNZwF4n1/2J/GudTlJYvurPvjpsj/R7Uo6s8Mi5rX6D8P5DFVY/tvDgAAAAAAAABgSn4A9ybxsECcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UMQ0AAAgEMRwiAf8uSNBA8kur4KarAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZdIBwOl0AG98FQAAAAAAAAAAAAAAAAD4sAax7T9AnAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SSQ6DMBAEQN7H/x+UexSIg5d27BqpbogZujmP4zgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAoIGrSd+1q5IZtTudRdrd9M7rbu+nZ9JZpfv4ltXIve+7e92VVpNJy701t7S8K+1pBqP29bpjVr0zaDnprGbrpPa9I/+D1f2aVUmWMm/fz9MuGNtH+r6dlEz6xl3oYt7cryZ9+2paTPobVnGXaemkv2ElJXle5a6LTB/oY1f6mIs+AAAAAAAAAAD+0wsiB1rrQJwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="Out" type="warp" x="832" y="2496" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="907-1"/>
+    <property name="dest_x" value="2336"/>
+    <property name="dest_y" value="1376"/>
+   </properties>
+  </object>
+  <object name="BlackSlimes" type="spawn" x="1120" y="2208" width="256" height="160">
+   <properties>
+    <property name="eA_death" value="32000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="992"/>
+   </properties>
+  </object>
+  <object name="BlackSlimes" type="spawn" x="736" y="1888" width="320" height="224">
+   <properties>
+    <property name="eA_death" value="32000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="992"/>
+   </properties>
+  </object>
+  <object name="BlackSlimes" type="spawn" x="1696" y="1888" width="320" height="224">
+   <properties>
+    <property name="eA_death" value="32000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="992"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

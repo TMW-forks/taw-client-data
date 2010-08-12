@@ -525,9 +525,9 @@
         image="use-food-bottleofwater.png"
         name="Bottle of Water"
         description="A bottle of water."
-        effect="+250 HP"
+        effect="+50 HP"
         type="usable"
-        hp="250"
+        hp="50"
         weight="10"
         max-per-slot="10"/>
     <item id="542"
@@ -5835,7 +5835,7 @@
         effect="+7% Defense"
         type="equip-legs"
         weight="15"
-        defense="4"
+        defense="7"
         max-per-slot="1">
         <sprite gender="male">equipment/leg/leg-pants-nettle-protected-male.xml</sprite>
         <sprite gender="female">equipment/leg/leg-pants-nettle-protected-female.xml</sprite>
