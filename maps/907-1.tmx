@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="167" height="114" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/minimaps/001-1.png"/>
+  <property name="minimap" value="graphics/minimaps/907-1.png"/>
   <property name="music" value="Faith.ogg"/>
   <property name="name" value="Starting island"/>
  </properties>
  <tileset firstgid="1" name="Trans woodland desert" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/trans_woodland-desert.png"/>
  </tileset>
- <tileset firstgid="129" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
  <tileset firstgid="131" name="Woodland_ground" tilewidth="32" tileheight="32">
@@ -67,12 +67,12 @@
    H4sIAAAAAAAAA+3bWUrDQACA4dBqvaF6AK/phiuiLeKKIB5CfXeKDY01ZuvEdPk+mAejSB9+MpPJNEkAAAAAAFhnZ70kOe91/Sngt4fQ5aM2AQBo2UlYc55ad9KxvGfzu/DzvTbpmGdzAABiqfL87b0lXajy/F32bGR/iUVlf4kmzMcsKnuVLKv9QZIMZ8bhIP969vdQZN75uqi/sqHP1XAR+rlsYV6dZ76ep8vsGGl0qT2Ffp5nGirad2mr5VSsLrW5mor2XfJajmXc5UdmaJO66q4lq+5/v4aWjiO1eRTGmzbXTt21ZJX977Tf9wht6pKY0n5jtQltadrliy5XSpX143Y/SXbC2O1X+591z1gcDL5HlvslRevHvYotzsquMcvav5209TlHm+6XNFHUfrq+HPe1uTW9XtYitK0fetzY+tnlmC6JrWydWWdvVI+kYpwRL9vLdC6OJvK6uu5N36FfTcZw8jejzLXxuNEc/yB7piP7Dt1Zdbr215mOunOy75IRQ9N7YlF/vktGDEX3RP2xqPTHsmj7/Ds01eb5dwAAAMC7chaX82sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADt+QKpn1tweCkBAA==
   </data>
  </layer>
- <layer name="Collision" width="167" height="114">
+ <layer name="Collision" width="167" height="114" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3T62qEMBgE0H32Pnnpj0IRo7mZsXoGDoXdNflipl+fz+cLAAAAAADgZrZJzwM/SknPxXv0JD0zzzeS9Ow812jS8/NMM5I+A880I+kz8Ewzkj4DzzQj6TPwTLOSPgfPclXS5+L/SCR9Zu4vmfTZua87JP0OuJ+7JP0euJ9VKe2bPj/3lUj6zPwfibTOlH5HrLF31ytzNtvI86zpTU1G+lf7/ZXpXT99T290dhdH321/07Ju71y9mbF2+q7epjV7Xdx+39vPqzJ7n/SdvUVvWp/f/n5FL6/4H0jf15vcKbPnunI91ndzZI3eHlz1vzJ7zfRdvc3e+2+9j+1vWzO7k1etm74r6u9jLz1d7e10zboz1yLXw9Y72Mu2m6V1S8/MyNmMo2uS6+benXwKf0s929ujtPdoh1r/f2bvwZp+HnWzJkfd3H6+7XpLes42kvQdvdX2Do7u4iw9vWjt0Ko+1uzF2m6WPtt7rqYbZ73Zfjcyf+2eNUnfC3UZueeW7s6YufeMozOxrp9nXarJ9rct/Tz6/Oi5kTOPrsl8V6Z2j9Z50u+Mtf1s6cbf9D7Xm/S7Yn03j7K6f3t78153SPodcE8t6XnmbC0omZ30eXiOGUmfgWcaSXp2nquU9Fywl/RMcJb0fLzXWdLz8V5HSc/Gu5WSngt+/U16FgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEj4Bmit8Wt4KQEA
   </data>
  </layer>
- <objectgroup name="objects" width="167" height="114">
+ <objectgroup name="objects" width="167" height="114" visible="0">
   <object name="in" type="warp" x="1472" y="1184" width="32" height="32">
    <properties>
     <property name="dest_map" value="907-2"/>

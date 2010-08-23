@@ -9,4 +9,5 @@
   <skill id="343" name="Transmutation Magic" fixed="1"/>
   <skill id="344" name="Nature Magic" fixed="1"/>
   <skill id="345" name="Astral Magic" fixed="1"/>
+  <skill id="346" name="Death Magic" fixed="1"/>
 </skills>

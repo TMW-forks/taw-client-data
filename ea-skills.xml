@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skills>
     <set name="Basic">
-        <skill id="1" name="Emote"/>
-        <skill id="2" name="Trade"/>
-        <skill id="3" name="Party"/>
+        <skill id="1" icon="graphics/images/base/emote.png" name="Emote"/>
+        <skill id="2" icon="graphics/images/base/trade.png" name="Trade"/>
+        <skill id="3" icon="graphics/images/base/party.png" name="Party"/>
+    </set>
+    <set name="Fight">
+        <skill id="440" icon="graphics/images/axe.png" name="Axe Mastery"/>
+        <skill id="441" icon="graphics/images/bow.png" name="Bow Mastery"/>
+        <skill id="442" icon="graphics/images/knife.png" name="Knife Mastery"/>
+        <skill id="443" icon="graphics/images/mace.png" name="Mace Mastery"/>
+        <skill id="444" icon="graphics/images/polearm.png" name="Polearm Mastery"/>
+        <skill id="445" icon="graphics/images/shooting.png" name="Shooting Mastery"/>
+        <skill id="446" icon="graphics/images/staff.png" name="Staff Mastery"/>
+        <skill id="447" icon="graphics/images/sword.png" name="Sword Mastery"/>
+        <skill id="448" icon="graphics/images/thrown.png" name="Throw Mastery"/>
+        <skill id="449" icon="graphics/images/unarmed.png" name="Unarmed Mastery"/>
+        <skill id="450" icon="graphics/images/whip.png" name="Whip Mastery"/>
     </set>
     <set name="Magic">
-        <skill id="340" name="Magic"/>
-        <skill id="341" name="Life Magic"/>
-        <skill id="342" name="War Magic"/>
-        <skill id="343" name="Transmutation Magic"/>
-        <skill id="344" name="Nature Magic"/>
-        <skill id="345" name="Astral Magic"/>
+        <skill id="340" icon="graphics/images/magic/base.png" name="Magic"/>
+        <skill id="341" icon="graphics/images/magic/light.png" name="Life Magic"/>
+        <skill id="342" icon="graphics/images/magic/greasyfight.png" name="War Magic"/>
+        <skill id="343" icon="graphics/images/magic/firemagie.png" name="Transmutation Magic"/>
+        <skill id="344" icon="graphics/images/magic/nature.png" name="Nature Magic"/>
+        <skill id="345" icon="graphics/images/magic/psychomagie.png" name="Astral Magic"/>
+        <skill id="346" icon="graphics/images/magic/dark.png" name="Dark Magic"/>
+        <skill id="347" icon="graphics/images/magic/hunting.png" name="Hunter's Magic"/>
+    </set>
+    <set name="Crafting">
+        <skill id="601" icon="graphics/images/craft/alchymie.png" name="Alchemy"/>
+        <skill id="602" icon="graphics/images/craft/hornictvi.png" name="Mining"/>
+        <skill id="603" icon="graphics/images/craft/kovar.png" name="Blacksmith"/>
+        <skill id="604" icon="graphics/images/craft/krejci.png" name="Tailoring"/>
+    </set>
+    <set name="Forms">
+        <skill id="481" icon="graphics/images/magic/bloodform.png" name="Blood Form"/>
+        <skill id="482" icon="graphics/images/magic/spyform.png" name="Spy Form"/>
     </set>
 </skills>

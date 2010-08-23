@@ -13,4 +13,9 @@
 	<emote id="11"><sprite name="Perturbed" variant="11">emote.xml</sprite></emote>
 	<emote id="12"><sprite name="Speech" variant="14">emote.xml</sprite></emote>
 	<emote id="13"><sprite name="Blah Blah Blah" variant="13">emote.xml</sprite></emote>
+	<emote id="14"><sprite name="Kiss" variant="12">emote.xml</sprite></emote>
+	<emote id="15"><sprite name="Love" variant="0">emote-taw.xml</sprite></emote>
+	<emote id="16"><sprite name="Question" variant="1">emote-taw.xml</sprite></emote>
+	<emote id="17"><sprite name="Shout" variant="2">emote-taw.xml</sprite></emote>
+	<emote id="18"><sprite name="Heal me!" variant="3">emote-taw.xml</sprite></emote>
 </emotes>
