@@ -1219,6 +1219,12 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
     
     <!-- taw files -->
+    <monster id="948" name="Helllord">
+        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>equipment/leg/leg-blackjeans-male.xml</sprite>
+        <sprite>equipment/chest/chest-copperterranite-male.xml</sprite>
+        <sprite>equipment/weapons/weapon-sword.xml</sprite>
+    </monster>
     <monster id="949" name="Piko Boar">
         <sprite>monsters/boar.xml</sprite>
         <attributes
@@ -1351,12 +1357,17 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
 
     
+    <monster id="960" name="Tortured Soul">
+	    <sprite>monsters/tortured-soul.xml</sprite>
+    </monster>
     <monster id="961" name="Elven Archer">
 	    <sprite>player-male-tritan-base.xml</sprite>
 	    <sprite>leg-chaps-male.xml</sprite>
 	    <sprite>equipment/chest/forest-armor-male.xml</sprite>
 	    <sprite>hairstyle20.xml|#C8D934</sprite>
     </monster>
+
+	<!-- space for Savanna / Elven village ? -->
         
     <monster id="966" name="Araxamus">
 	    <sprite>monsters/monster-araxamus.xml</sprite>

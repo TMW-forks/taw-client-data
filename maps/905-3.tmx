@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="134" height="84" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
  <tileset firstgid="3" name="CastlePrison1" tilewidth="32" tileheight="32">
@@ -39,7 +39,7 @@
  <tileset firstgid="2819" name="Town3" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Town3.png"/>
  </tileset>
- <tileset firstgid="3075" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="3075" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
  <tileset firstgid="3203" name="floors2" tilewidth="32" tileheight="32">
@@ -118,7 +118,7 @@
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="1024"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3424" y="1024"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3488" y="1024"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3616" y="992" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3616" y="1024" width="32" height="32"/>
   <object name="ToOutside" type="WARP" x="896" y="1184" width="64" height="32">
    <properties>
     <property name="DEST_MAP" value="905-1"/>

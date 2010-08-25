@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="146" height="70" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Woodland mining camp"/>
  </properties>
- <tileset name="Woodland Indoor" firstgid="1" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland Indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png"/>
  </tileset>
- <tileset name="Collision" firstgid="257" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <tileset name="arena" firstgid="259" tilewidth="32" tileheight="32">
+ <tileset firstgid="259" name="arena" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/arena.png"/>
  </tileset>
- <tileset name="Untitled" firstgid="515" tilewidth="32" tileheight="32">
+ <tileset firstgid="515" name="Untitled" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Graveyard_pillar.png"/>
  </tileset>
- <tileset name="Stainglass" firstgid="518" tilewidth="32" tileheight="32">
+ <tileset firstgid="518" name="Stainglass" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/stainglass.png" trans="ff00ff"/>
  </tileset>
- <tileset name="table3" firstgid="534" tilewidth="32" tileheight="32">
+ <tileset firstgid="534" name="table3" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png" trans="ff00ff"/>
  </tileset>
- <tileset name="braziers" firstgid="790" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+ <tileset firstgid="790" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
  </tileset>
- <tileset name="rockwall" firstgid="918" tilewidth="32" tileheight="32">
+ <tileset firstgid="918" name="rockwall" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png"/>
  </tileset>
  <layer name="Ground" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3aT64SQRDH8YGJidvnBYx6APMOI9ED+O8cuhPY6Fvp0v/ewyOYGPeewyLMhE7T3VMNA1WD38Un8IbmTYX5pbt64LppmmsAAAAAAAAAAAAAAAAAAC7ErdnWK/Fa3M54I5az3fgN69pxWj9bnTBHb8U7cZPJ0XvxIZGjmnNZknKbefcYSh0Lj1vXbelXqxPmaOOj+CQ+iy/iq/gmvosfUYb6HNWcy9KVuNM9hlLHwuPWdVv62+psxi7brVW7/3wVWUZqz2Xp3oGs67YUzxs5cU5S1gOva86xdpCj++JB9xhKHQuPW9dtSXONV9211fY3uZ5Hc56VkxwdwrpuS/2aFM8lqWur7W9yPU94rvB/r6N8WX8m5KieZr3qc6Ttb3I9T5zTVF7J0c5VZ1753DJH8XWNe6LNWG0vlZLKUWksOWqaR/JZLGbb/eBjeXzSPV8ExxeJMZY5KmVo7ByVeiNytPNUPotn4rl4IV52f6eEY6xzFM5L8d/92NzeLcxDrneumfs85ej3fP/Yn8SxS83zITnK9dm5OSuXhdL9gvj9Yf/tZd/v4fp5qaMmR4feMyqtT6X/N3SPgRz5qaMmR0NzyGbsGP3R0Dhy5K+O2hwN7fvH7LNLax058lVHbY5K61CcI80+T7tfi7PlLUf02YfnKDUfaXqk0nym6Y085oj56Dw5yq1V4Wv9+3O9eHwucuSnjtocDfVH2rGl96f2damx5MhPHV5yNNQfsa75rkObo9x3/mPPR6nfu/XCGrzliD57/MwdMx9NhZfr56WOsS3b/blLcx+cHE27jrGV5pteau0iR9Ou41w5Yl0jR+fIkYc92DHXz6rPvlTMR9OeB7yIfyv0v8xH5Gj8HGnu/3i8R02O/Cj93sP7dx2nzNHdjnXdU6HZ9+cyZV37MTka6rMfdqzrnopS/zPUN1nXfkyOmI/Ol6NL6rMBAAAAAAAAAAAAAAAAAAAAADiFf+jRRfewnwAA
+   H4sIAAAAAAAAA+3aT64SQRDH8YGJidvnBYx6APMOI9ED+O8cuhPY6Fvp0v/ewyOYGPeewyLMhE7T3VMNA1WD38Un8IbmTYX5pbt64LppmmsAAAAAAAAAAAAAAAAAAC7ErdnWK/Fa3M54I5az3fgN69pxWj9bnTBHb8U7cZPJ0XvxIZGjmnNZknKbefcYSh0Lj1vXbelXqxPmaOOj+CQ+iy/iq/gmvosfUYb6HNWcy9KVuNM9hlLHwuPWdVv62+psxi7brVW7/3wVWUZqz2Xp3oGs67YUzxs5cU5S1gOva86xdpCj++JB9xhKHQuPW9dtSXONV9211fY3uZ5Hc56VkxwdwrpuS/2aFM8lqWur7W9yPU94rvB/r6N8WX8m5KieZr3qc6Ttb3I9T5zTVF7J0c5VZ1753DJH8XWNe6LNWG0vlZLKUWksOWqaR/JZLGbb/eBjeXzSPV8ExxeJMZY5KmVo7ByVeiNytPNUPotn4rl4IV52f6eEY6xzFM5L8d/92NzeLcxDrneumfs85ej3fP/Yn8SxS83zITnK9dm5OSuXhdL9gvj9Yf/tZd/v4fp5qaMmR4feMyqtT6X/N3SPgRz5qaMmR0NzyGbsGP3R0Dhy5K+O2hwN7fvH7LNLax058lVHbY5K61CcI80+T7tfi7PlLUf02YfnKDUfaXqk0nym6Y085oj56Dw5yq1V4Wv9+3O9eHwucuSnjtocDfVH2rGl96f2damx5MhPHV5yNNQfsa75rkObo9x3/mPPR6nfu/XCGrzliD57/MwdMx9NhZfr56WOsS3b/blLcx+cHE27jrGV5pteau0iR9Ou41w5Yl0jR+fIkYc92DHXz6rPvlTMR9OeB7yIfyv0v8xH5Gj8HGnu/3i8R02O/Cj93sP7dx2nzNHdjnXdU6HZ9+cyZV37MTka6rMfdqzrnopS/zPUN1nXfkyOmI/Ol6NL6rMBAAAAAAAAAAAAAAAAAAAAADiFf+jRRfewnwAA
   </data>
  </layer>
  <layer name="Fringe" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Upper" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3XWU7CUBQG4ApGEBRnfTAR3YDLc9iAw/LUveirJ1ESQ2wJze1A+33JeSi9pSfhbzk3ywAAAAAAAAAAAADgx84gy0ZR46jdQdPdsCmmS8eTyM40ai9qf1C8FhYul45nkZ2DqMOoo0HxWshzHNk5iTqNOvO/Von/3utde9fPIzvXv3UjR5VYvNfPoy6WPqOfDrbSft9nPLtfBc9v6vulNizovehc381r/l3rvt+6tguyUnQO/mpLjla91yFPXnbGw/XW029lcjHKyVib3MUsc7/mPPMQ6x9bPgMVMWen9xR5eF4zEy+x/nWDc9SW+WjTlN2H131dXeSonLL78LqvA+gbczYpmI9IQY7omreo96iPphupUNv3710xabqBinV1/27OJgXzESnIEQBdYs4mhVXz0ay+Vthgq3J0VV8rdNht0w3QCXIEAAAAAAAAAAAAAADU6Rs6ggWpsJ8AAA==
+   H4sIAAAAAAAAA+3XWU7CUBQG4ApGEBRnfTAR3YDLc9iAw/LUveirJ1ESQ2wJze1A+33JeSi9pSfhbzk3ywAAAAAAAAAAAADgx84gy0ZR46jdQdPdsCmmS8eTyM40ai9qf1C8FhYul45nkZ2DqMOoo0HxWshzHNk5iTqNOvO/Von/3utde9fPIzvXv3UjR5VYvNfPoy6WPqOfDrbSft9nPLtfBc9v6vulNizovehc381r/l3rvt+6tguyUnQO/mpLjla91yFPXnbGw/XW029lcjHKyVib3MUsc7/mPPMQ6x9bPgMVMWen9xR5eF4zEy+x/nWDc9SW+WjTlN2H131dXeSonLL78LqvA+gbczYpmI9IQY7omreo96iPphupUNv3710xabqBinV1/27OJgXzESnIEQBdYs4mhVXz0ay+Vthgq3J0VV8rdNht0w3QCXIEAAAAAAAAAAAAAADU6Rs6ggWpsJ8AAA==
   </data>
  </layer>
  <layer name="Layer 5" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3WoQ2AQAxA0fOMwOgMgIIZzyC4AObSpKF5z7RJTeVvDQAAAAAAAAAAAAAAAHhzfOwA8CfL5A3u1skbAEBVOpsIOhsAYKSziaCzqebMfoAS9mtuqV8AWXQ2EXQ2AMBIZxNBZwMAAAAAAAAAAAAAAAA8dUCe7e6wnwAA
+   H4sIAAAAAAAAA+3WoQ2AQAxA0fOMwOgMgIIZzyC4AObSpKF5z7RJTeVvDQAAAAAAAAAAAAAAAHhzfOwA8CfL5A3u1skbAEBVOpsIOhsAYKSziaCzqebMfoAS9mtuqV8AWXQ2EXQ2AMBIZxNBZwMAAAAAAAAAAAAAAAA8dUCe7e6wnwAA
   </data>
  </layer>
  <layer name="Collision" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3T7U6DQBAF0Nr3f2jjD2OD3e1+ADsDZ5MTG4o6c7k8vx6PJwAAAAAAAAAAAAAAYf2c35/bz9trq2flvE5EO6sz4bgeZftfxO7RzLPO0qOWmSLOHS0zPfqbo+esnjtCZq0Z9R49uod3WdQyGj21vxvteXyaubbjXc08796MW6+vzqQ1p+31s+Z4N1e0fCKcrJmc2eHS52yZHXn0aHye6JmV3ouRdyhqFtF6FGWOvXs0+35EziHi84syx949mjlZe1TKqXavHpXn/7TX6Pe1ZxShRz3nqnPoUe7nF2WOPWed2av39/Uo1hx6lPv5RZlDj+YzKeVUu3dFj17vX53fUe9Hht322PPoOT59lyXrmbN69iv3aHttdX4z+bZ8n8XoWTmHHsUzevTo2Hwz7Fbas7R77V70aGbP1XNnoUfX2TFjvtky7t0r445Z8tUj9Oj/3LV9Mu4YJd+79Khlr4w7Zsk3c49a9149FwAAAAAAAAAAAAAAuXwDO1p09rCfAAA=
+   H4sIAAAAAAAAA+3T7U6DQBAF0Nr3f2jjD2OD3e1+ADsDZ5MTG4o6c7k8vx6PJwAAAAAAAAAAAAAAYf2c35/bz9trq2flvE5EO6sz4bgeZftfxO7RzLPO0qOWmSLOHS0zPfqbo+esnjtCZq0Z9R49uod3WdQyGj21vxvteXyaubbjXc08796MW6+vzqQ1p+31s+Z4N1e0fCKcrJmc2eHS52yZHXn0aHye6JmV3ouRdyhqFtF6FGWOvXs0+35EziHi84syx949mjlZe1TKqXavHpXn/7TX6Pe1ZxShRz3nqnPoUe7nF2WOPWed2av39/Uo1hx6lPv5RZlDj+YzKeVUu3dFj17vX53fUe9Hht322PPoOT59lyXrmbN69iv3aHttdX4z+bZ8n8XoWTmHHsUzevTo2Hwz7Fbas7R77V70aGbP1XNnoUfX2TFjvtky7t0r445Z8tUj9Oj/3LV9Mu4YJd+79Khlr4w7Zsk3c49a9149FwAAAAAAAAAAAAAAuXwDO1p09rCfAAA=
   </data>
  </layer>
  <objectgroup name="Object Group 5" width="0" height="0">
@@ -96,7 +95,7 @@
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="eA_spawn" value="900000"/>
-    <property name="max_beings" value="4"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="41"/>
    </properties>
   </object>
@@ -104,7 +103,7 @@
    <properties>
     <property name="eA-death" value="20000"/>
     <property name="eA_spawn" value="900000"/>
-    <property name="max_beings" value="5"/>
+    <property name="max_beings" value="4"/>
     <property name="monster_id" value="42"/>
    </properties>
   </object>
@@ -136,6 +135,86 @@
     <property name="dest_map" value="027-5"/>
     <property name="dest_x" value="3984"/>
     <property name="dest_y" value="1232"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="1088" y="1024" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="896" y="1280" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="1088" y="1280" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="992" y="800" width="64" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="800" y="800" width="96" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="384" y="832" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="384" y="1088" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="TorturedSoul" type="spawn" x="1280" y="1056" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="20000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="960"/>
+   </properties>
+  </object>
+  <object name="Skulllord" type="spawn" x="736" y="640" width="288" height="64">
+   <properties>
+    <property name="eA_death" value="25000"/>
+    <property name="eA_spawn" value="28000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="985"/>
+   </properties>
+  </object>
+  <object name="helllord" type="spawn" x="736" y="1024" width="288" height="416">
+   <properties>
+    <property name="eA-death" value="20000"/>
+    <property name="eA_spawn" value="110000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="948"/>
    </properties>
   </object>
  </objectgroup>

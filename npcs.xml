@@ -158,6 +158,13 @@
 <npc id="940"><sprite variant="47">npcs/npc-hitomb.xml</sprite></npc><!-- Semi-naked Blacksmith -->
 <npc id="941"><sprite variant="49">npcs/npc-hitomb.xml</sprite></npc><!-- Necromancer -->
 <npc id="942"><sprite variant="32">npcs/npc-hitomb.xml</sprite></npc><!-- Korpiklaan -->
+<npc id="943"><sprite variant="15">npcs/npc-hitomb.xml</sprite></npc><!-- Pub Master -->
+<npc id="944"><sprite variant="30">npcs/npc-hitomb.xml</sprite></npc><!-- Cave Archer -->
+<npc id="945"><sprite variant="31">npcs/npc-hitomb.xml</sprite></npc><!-- Traveller (sitting) -->
 <npc id="946"><sprite>npcs/npc-portal-blue.xml</sprite></npc><!-- Blue portal -->
 <npc id="947"><sprite>npcs/npc-marisa.xml</sprite></npc><!-- Marisa -->
+<npc id="948"><sprite variant="14">npcs/npc-hitomb.xml</sprite></npc><!-- Dead Nurse -->
+<npc id="949"><sprite variant="28">npcs/npc-hitomb.xml</sprite></npc><!-- Sitting hairy man  -->
+<npc id="950"><sprite variant="46">npcs/npc-hitomb.xml</sprite></npc><!-- Johnny Tornado -->
+<npc id="951"><sprite variant="0">npcs/npc-hitomb.xml</sprite></npc><!-- Johnny Tornado -->
 </npcs>
