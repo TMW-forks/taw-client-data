@@ -414,13 +414,13 @@
         effect="+50 Damage, 5 Range"
         type="equip-2hand"
         weapon_type="10"
+        missile-particle="graphics/particles/arrow.particle.xml"
         weapon-type="bow"
-        weight="60"
-        max-per-slot="1"
-        damage-min="50"
-        damage-delta="0"
-        attack-range="160"
-        view="1200"/>
+        attack-action="attack_bow"
+        max-per-slot="1">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+    </item>
     <item id="531"
         image="armor-hands-minergloves.png"
         name="Miner Gloves"
@@ -568,12 +568,13 @@
         type="equip-2hand"
         weapon_type="10"
         weight="80"
-        max-per-slot="1"
+        missile-particle="graphics/particles/arrow.particle.xml"
         weapon-type="bow"
-        attack-min="70"
-        attack-delta="0"
-        attack-range="160"
-        view="1200"/>
+        attack-action="attack_bow"
+        max-per-slot="1">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+    </item>
     <item id="546"
         image="armor-chest-desertshirt.png"
         name="Desert Shirt"
@@ -849,12 +850,17 @@
         image="weapon-bow-desertbow.png"
         name="Desert Bow"
         description="A tonorian short bow."
-        effect="??? Damage, ??? Range"
+        effect="85 Damage, 4 Range"
         type="equip-2hand"
-        weapon-type="bow"
+        weapon_type="10"
         weight="100"
-        attack-range="32"
-        max-per-slot="1"/>
+        missile-particle="graphics/particles/arrow.particle.xml"
+        weapon-type="bow"
+        attack-action="attack_bow"
+        max-per-slot="1">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+    </item>
     <item id="576"
         image="weapon-sword-beheader.png"
         name="Beheader"
@@ -869,12 +875,13 @@
         image="weapon-thrown-bonedarts.png"
         name="Bone Darts"
         description="Darts made of bones."
-        effect="??? Damage, ??? Range"
+        effect="90 Damage, 2 Range"
         type="equip-1hand"
         weapon-type="thrown"
+        attack-action="attack_thrown"
         weight="100"
-        attack-range="32"
-        max-per-slot="1"/>
+        attack-range="64"
+        max-per-slot="100"/>
     <item id="578"
         image="weapon-sword-sandcutter.png"
         name="Sand Cutter"
