@@ -101,7 +101,7 @@
 
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
 
-
+<!--
     <item id="30"
         weapon_type="1">
         <sprite>weapon-dagger.xml</sprite>
@@ -124,7 +124,7 @@
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
     <item id="34"
-        weapon_type="1"> <!-- magic fist -->
+        weapon_type="1">
         <sprite>weapon-fist.xml</sprite>
     </item>
     <item id="35"
@@ -137,7 +137,7 @@
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
-
+-->
     <item id="501"
         image="use-potion-a.png|G:#22ff22"
         name="Cactus Drink"
@@ -310,8 +310,9 @@
         effect="+15 Damage, 1 Range"
         type="equip-1hand"
         weapon_type="1"
-        weight="20"
+        weight="200"
         weapon-type="knife"
+        attack-action="attack"
         attack-min="5"
         attack-delta="10"
         attack-range="32"

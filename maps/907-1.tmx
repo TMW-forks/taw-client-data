@@ -72,7 +72,7 @@
    H4sIAAAAAAAAA+3T62qEMBgE0H32Pnnpj0IRo7mZsXoGDoXdNflipl+fz+cLAAAAAADgZrZJzwM/SknPxXv0JD0zzzeS9Ow812jS8/NMM5I+A880I+kz8Ewzkj4DzzQj6TPwTLOSPgfPclXS5+L/SCR9Zu4vmfTZua87JP0OuJ+7JP0euJ9VKe2bPj/3lUj6zPwfibTOlH5HrLF31ytzNtvI86zpTU1G+lf7/ZXpXT99T290dhdH321/07Ju71y9mbF2+q7epjV7Xdx+39vPqzJ7n/SdvUVvWp/f/n5FL6/4H0jf15vcKbPnunI91ndzZI3eHlz1vzJ7zfRdvc3e+2+9j+1vWzO7k1etm74r6u9jLz1d7e10zboz1yLXw9Y72Mu2m6V1S8/MyNmMo2uS6+benXwKf0s929ujtPdoh1r/f2bvwZp+HnWzJkfd3H6+7XpLes42kvQdvdX2Do7u4iw9vWjt0Ko+1uzF2m6WPtt7rqYbZ73Zfjcyf+2eNUnfC3UZueeW7s6YufeMozOxrp9nXarJ9rct/Tz6/Oi5kTOPrsl8V6Z2j9Z50u+Mtf1s6cbf9D7Xm/S7Yn03j7K6f3t78153SPodcE8t6XnmbC0omZ30eXiOGUmfgWcaSXp2nquU9Fywl/RMcJb0fLzXWdLz8V5HSc/Gu5WSngt+/U16FgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEj4Bmit8Wt4KQEA
   </data>
  </layer>
- <objectgroup name="objects" width="167" height="114" visible="0">
+ <objectgroup name="objects" width="167" height="114">
   <object name="in" type="warp" x="1472" y="1184" width="32" height="32">
    <properties>
     <property name="dest_map" value="907-2"/>
@@ -83,21 +83,21 @@
   <object name="Nettles" type="spawn" x="2368" y="1056" width="160" height="128">
    <properties>
     <property name="eA_death" value="20000"/>
-    <property name="max_beings" value="3"/>
+    <property name="max_beings" value="5"/>
     <property name="monster_id" value="952"/>
    </properties>
   </object>
   <object name="Nettles" type="spawn" x="2656" y="800" width="192" height="224">
    <properties>
     <property name="eA_death" value="20000"/>
-    <property name="max_beings" value="4"/>
+    <property name="max_beings" value="7"/>
     <property name="monster_id" value="952"/>
    </properties>
   </object>
   <object name="Nettles" type="spawn" x="2336" y="832" width="288" height="224">
    <properties>
     <property name="eA_death" value="20000"/>
-    <property name="max_beings" value="5"/>
+    <property name="max_beings" value="8"/>
     <property name="monster_id" value="952"/>
    </properties>
   </object>
@@ -111,28 +111,28 @@
   <object name="Birches" type="spawn" x="1824" y="896" width="320" height="448">
    <properties>
     <property name="eA_death" value="40000"/>
-    <property name="max_beings" value="1"/>
+    <property name="max_beings" value="4"/>
     <property name="monster_id" value="951"/>
    </properties>
   </object>
-  <object name="Birches" type="spawn" x="2336" y="288" width="320" height="288">
+  <object name="Birches" type="spawn" x="2336" y="320" width="544" height="256">
    <properties>
     <property name="eA_death" value="40000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="6"/>
     <property name="monster_id" value="951"/>
    </properties>
   </object>
   <object name="Birches" type="spawn" x="2816" y="608" width="256" height="192">
    <properties>
     <property name="eA_death" value="40000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="951"/>
    </properties>
   </object>
   <object name="Birches" type="spawn" x="1088" y="896" width="192" height="96">
    <properties>
     <property name="eA_death" value="40000"/>
-    <property name="max_beings" value="1"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="951"/>
    </properties>
   </object>
@@ -146,21 +146,21 @@
   <object name="PineTree" type="spawn" x="2624" y="864" width="192" height="128">
    <properties>
     <property name="eA_death" value="30000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="950"/>
    </properties>
   </object>
   <object name="PineTree" type="spawn" x="2304" y="864" width="192" height="128">
    <properties>
     <property name="eA_death" value="30000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="950"/>
    </properties>
   </object>
   <object name="PineTree" type="spawn" x="2496" y="992" width="192" height="128">
    <properties>
     <property name="eA_death" value="30000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="3"/>
     <property name="monster_id" value="950"/>
    </properties>
   </object>
@@ -178,7 +178,7 @@
     <property name="dest_y" value="2464"/>
    </properties>
   </object>
-  <object name="Boars" type="spawn" x="2272" y="320" width="608" height="384">
+  <object name="Boars" type="spawn" x="2272" y="352" width="608" height="384">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="max_beings" value="4"/>
