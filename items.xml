@@ -5858,13 +5858,13 @@
     <item id="5134"
 	  image="equipment/jewels/amulet-beginner-protector.png"
 	  name="Beginner protector"
-	  description="This amulet helps begginers to stay alive."
+	  description="This amulet helps beginners to stay alive."
 	  type="equip-neck"
 	  weight="1"/>
     <item id="5135"
 	  image="equipment/jewels/amulet-beginner-guardian.png"
 	  name="Beginner guardian"
-	  description="This amulet helps begginers to stay alive."
+	  description="This amulet helps beginners to stay alive."
 	  type="equip-neck"
 	  weight="1"/>
     <item id="5136"
@@ -5873,4 +5873,26 @@
 	  description="A wooden plank."
 	  type="generic"
 	  weight="1"/>
+    <item id="5137"
+        image="equipment/chest/wedding-dress.png"
+        name="Wedding Dress"
+        description="Nice dress for our loved prinecesess :)"
+        effect="+3% Defense"
+        type="equip-torso"
+        weight="16"
+        defense="1"
+        max-per-slot="1">
+        <sprite>equipment/chest/wedding-dress.xml</sprite>
+    </item>
+    <item id="5138"
+        image="equipment/head/head-weddingcirclet.png"
+        name="Wedding Circlet"
+        description=""
+        effect="+1% Defense"
+        type="equip-head"
+        weight="4"
+        defense="1"
+        max-per-slot="1">
+        <sprite>equipment/head/head-weddingcirclet.xml</sprite>
+    </item>
 </items>

@@ -1219,6 +1219,46 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
     
     <!-- taw files -->
+    <monster id="944" name="Buglar" targetCursor="large">
+        <sprite>player_male_base.xml</sprite>
+        <sprite>head-standardheadband.xml|#5e5c51</sprite>
+        <sprite>chest-cotton-male.xml|#76675a</sprite>
+        <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+    <monster id="945" name="Buglar" targetCursor="large">
+        <sprite>player_male_base.xml</sprite>
+        <sprite>head-serf.xml</sprite>
+        <sprite>chest-cotton-male.xml|#76675a</sprite>
+        <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+    <monster id="946" name="Buglars Head" targetCursor="large">
+        <sprite>player_male_base.xml</sprite>
+        <sprite>leg-shorts-male.xml|#745549</sprite>
+        <sprite>chest-cotton-male.xml|#b85a35</sprite>
+        <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+    <monster id="947" name="Buglar" targetCursor="large">
+        <sprite>player_male_base.xml</sprite>
+        <sprite>head-bandana.xml|#684724</sprite>
+        <sprite>leg-shorts-male.xml|#745549</sprite>
+        <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+    <monster id="947" name="Buglar" targetCursor="large">
+        <sprite>player_male_base.xml</sprite>
+        <sprite>head-bandana.xml|#684724</sprite>
+        <sprite>leg-shorts-male.xml|#745549</sprite>
+        <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
     <monster id="948" name="Helllord">
         <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
         <sprite>equipment/leg/leg-blackjeans-male.xml</sprite>
