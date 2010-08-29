@@ -343,14 +343,14 @@
     <property name="monster_id" value="996"/>
    </properties>
   </object>
-  <object name="Razors" type="spawn" x="3935" y="1183" width="129" height="160">
+  <object name="Razors" type="spawn" x="192" y="1472" width="129" height="160">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="996"/>
    </properties>
   </object>
-  <object name="Razors" type="spawn" x="3653" y="640" width="316" height="234">
+  <object name="Razors" type="spawn" x="3648" y="640" width="256" height="224">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="max_beings" value="3"/>
@@ -399,7 +399,7 @@
     <property name="monster_id" value="959"/>
    </properties>
   </object>
-  <object name="Razors" type="spawn" x="1029" y="1252" width="156" height="154">
+  <object name="Razors" type="spawn" x="1007" y="1226" width="156" height="154">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="max_beings" value="3"/>
