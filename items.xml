@@ -5915,8 +5915,8 @@
         weight="160"
         defense="30"
         max-per-slot="1">
-        <sprite gender="male">chest-copperterranite-male.xml</sprite>
-        <sprite gender="female">chest-copperterranite-female.xml</sprite>
+        <sprite gender="male">equipment/chest/chest-copperterranite-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-copperterranite-female.xml</sprite>
     </item>
     <item id="5141"
         image="armor-chest-terranite-darkblue.png"
@@ -5927,8 +5927,8 @@
         weight="160"
         defense="30"
         max-per-slot="1">
-        <sprite gender="male">chest-darkblueterranite-male.xml</sprite>
-        <sprite gender="female">chest-darkblueterranite-female.xml</sprite>
+        <sprite gender="male">equipment/chest/chest-darkblueterranite-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-darkblueterranite-female.xml</sprite>
     </item>
     <item id="5142"
         image="armor-chest-terranite-gold.png"
@@ -5939,8 +5939,8 @@
         weight="160"
         defense="30"
         max-per-slot="1">
-        <sprite gender="male">chest-goldterranite-male.xml</sprite>
-        <sprite gender="female">chest-goldterranite-female.xml</sprite>
+        <sprite gender="male">equipment/chest/chest-goldterranite-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-goldterranite-female.xml</sprite>
     </item>
     <item id="5143"
         image="armor-chest-terranite-gold.png"
@@ -5951,8 +5951,8 @@
         weight="160"
         defense="30"
         max-per-slot="1">
-        <sprite gender="male">chest-gterranite-male.xml</sprite>
-        <sprite gender="female">chest-gterranite-female.xml</sprite>
+        <sprite gender="male">equipment/chest/chest-gterranite-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-gterranite-female.xml</sprite>
     </item>
     <item id="5144"
         image="armor-chest-terranite-ruby.png"
@@ -5963,8 +5963,8 @@
         weight="160"
         defense="30"
         max-per-slot="1">
-        <sprite gender="male">chest-rubyterranite-male.xml</sprite>
-        <sprite gender="female">chest-rubyterranite-female.xml</sprite>
+        <sprite gender="male">equipment/chest/chest-rubyterranite-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-rubyterranite-female.xml</sprite>
     </item>
     <item id="5145"
         image="armor-chest-terranite-silver.png"
@@ -5975,8 +5975,8 @@
         weight="160"
         defense="30"
         max-per-slot="1">
-        <sprite gender="male">chest-silverterranite-male.xml</sprite>
-        <sprite gender="female">chest-silverterranite-female.xml</sprite>
+        <sprite gender="male">equipment/chest/chest-silverterranite-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-silverterranite-female.xml</sprite>
     </item>
     <item id="5146"
         image="armor-chest-terranite-tyrkys.png"
@@ -5987,7 +5987,7 @@
         weight="160"
         defense="30"
         max-per-slot="1">
-        <sprite gender="male">chest-tyrkysterranite-male.xml</sprite>
-        <sprite gender="female">chest-tyrkysterranite-female.xml</sprite>
+        <sprite gender="male">equipment/chest/chest-tyrkysterranite-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-tyrkysterranite-female.xml</sprite>
     </item>
 </items>
