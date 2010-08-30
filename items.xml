@@ -5467,14 +5467,15 @@
         description="This crossbow is bleeding. Something tells you that it's blood of innocent lambs. Don't you hear their scream?"
         effect="+210 Damage, 7 Range"
         type="equip-2hand"
-        weapon_type="10"
         weight="80"
         max-per-slot="1"
-        weapon-type="bow"
+        weapon-type="crossbow"
         attack-min="70"
         attack-delta="0"
-        attack-range="160"
-        view="1200"/>
+	attack-action="attack_bow"
+        attack-range="160">
+        <sprite>equipment/weapons/weapon-crossbow.xml</sprite>
+	</item>
      <item id="5093"
 	  image="weapon-arrow-bloody.png"
 	  name="Blood Meat Arrow"
@@ -5553,12 +5554,14 @@
         image="weapon-crossbow.png"
         name="Crossbow"
         description="Heavy crossbow"
-        effect="??? Damage, ??? Range"
+        effect="110 Damage, 5 Range"
         type="equip-2hand"
         weapon-type="bow"
+	attack-action="attack_bow"
         weight="100"
-        attack-range="32"
-        max-per-slot="1"/>
+        attack-range="160">
+        <sprite>equipment/weapons/weapon-crossbow.xml</sprite>
+	</item>
     <item id="5103"
 	  image="generic/tribute-moldy-leaf.png"
 	  name="Moldy Leaf"
