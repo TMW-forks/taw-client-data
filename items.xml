@@ -5990,4 +5990,15 @@
         <sprite gender="male">equipment/chest/chest-tyrkysterranite-male.xml</sprite>
         <sprite gender="female">equipment/chest/chest-tyrkysterranite-female.xml</sprite>
     </item>
+    <item id="5147"
+        image="equipment/head/hitomb-lord.png"
+        name="Hitomb Lord Helmet"
+        description="Durable helmet made of carbon."
+        effect="+20% Defense"
+        type="equip-head"
+        weight="21"
+        defense="20"
+        max-per-slot="1">
+        <sprite>equipment/head/hitomb-lord.xml</sprite>
+    </item>
 </items>

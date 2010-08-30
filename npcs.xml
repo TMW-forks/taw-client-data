@@ -166,5 +166,8 @@
 <npc id="948"><sprite variant="14">npcs/npc-hitomb.xml</sprite></npc><!-- Dead Nurse -->
 <npc id="949"><sprite variant="28">npcs/npc-hitomb.xml</sprite></npc><!-- Sitting hairy man  -->
 <npc id="950"><sprite variant="46">npcs/npc-hitomb.xml</sprite></npc><!-- Johnny Tornado -->
-<npc id="951"><sprite variant="0">npcs/npc-hitomb.xml</sprite></npc><!-- Johnny Tornado -->
+<npc id="951"><sprite variant="0">npcs/npc-hitomb.xml</sprite></npc><!-- Bauch Master -->
+<npc id="952"><sprite variant="4">npcs/npc-hitomb.xml</sprite></npc><!-- Dead woman in bed -->
+<npc id="953"><sprite variant="5">npcs/npc-hitomb.xml</sprite></npc><!-- Evil Santa -->
+<npc id="954"><sprite variant="29">npcs/npc-hitomb.xml</sprite></npc><!-- Evil Snowman -->
 </npcs>
