@@ -6004,4 +6004,14 @@
         max-per-slot="1">
         <sprite>equipment/head/hitomb-lord.xml</sprite>
     </item>
+    <item id="5148"
+        image="armor-head-moubootaurhead-creepy.png"
+        name="Undead Moubootaur Head"
+        description="The head of an undead Moubootaur."
+        effect="+4% Defense"
+        type="equip-head"
+        defense="3"
+        weight="25">
+        <sprite>head-moubootaurhead-creepy.xml</sprite>
+    </item>
 </items>
