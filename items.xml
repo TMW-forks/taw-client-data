@@ -6014,4 +6014,36 @@
         weight="25">
         <sprite>head-moubootaurhead-creepy.xml</sprite>
     </item>
+    <item id="5149"
+        image="use-food-lollipop-skull.png"
+        name="Skull Lollipop"
+        description="A skull lollipop. Yummy!"
+        type="usable"
+        effect="+200 HP"
+        hp="200"
+        weight="1"
+        max-per-slot="200"/>
+    <item id="5150"
+        image="use-food-lollipop-pumpkin.png"
+        name="Pumpkin Lollipop"
+        description="A pumpkin lollipop. Happy Halloween!"
+        type="usable"
+        effect="+250 HP"
+        hp="250"
+        weight="2"
+        max-per-slot="200"/>
+    <item id="5151"
+        image="generic-blood.png"
+        name="Blood"
+        description="A drop of blood."
+        effect=""
+        type="generic"
+        weight="1"/>
+    <item id="5152"
+        image="generic-mouboosoul"
+        name="Mouboo Soul"
+        description="The soul of an undead Mouboo."
+        effect=""
+        type="generic"
+        weight="1"/>
 </items>

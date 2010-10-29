@@ -174,5 +174,26 @@
     <property name="monster_id" value="36"/>
    </properties>
   </object>
+  <object name="VampireBat" type="spawn" x="892" y="1312" width="140" height="196">
+   <properties>
+    <property name="eA_death" value="250"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="999"/>
+   </properties>
+  </object>
+  <object name="HalloweenBat" type="spawn" x="1506" y="1125" width="215" height="438">
+   <properties>
+    <property name="eA_death" value="250"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="998"/>
+   </properties>
+  </object>
+  <object name="HalloweenBat" type="spawn" x="2797" y="813" width="242" height="71">
+   <properties>
+    <property name="eA_death" value="250"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="998"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
