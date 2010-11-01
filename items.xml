@@ -6040,7 +6040,7 @@
         type="generic"
         weight="1"/>
     <item id="5152"
-        image="generic-mouboosoul"
+        image="generic-mouboosoul.png"
         name="Mouboo Soul"
         description="The soul of an undead Mouboo."
         effect=""
