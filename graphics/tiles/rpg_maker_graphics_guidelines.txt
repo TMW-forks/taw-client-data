@@ -1,0 +1,144 @@
+Following tilesets have been authorized for use on The Alternate
+World only, by the respective artist:
+
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Snowy1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Snowy2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Snowy3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Camp.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CampTracks1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CampTracks2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Carpets.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Carpetsblue.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Carpetsdarkgreen.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Carpetsgreen.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Carpetslightblue.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Carpetslila.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Carpetsorange.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CastlePrison.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CastlePrison1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CastleTown1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CastleTown2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CastleTown3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/CastleTown4.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Farm1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/FashionTailor.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/FishingBoat.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Floors.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Floors1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/floors2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Floors3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/FloorsWater.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/GardenForest1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/GardenForest2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/GardenForest3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/GardenForest4.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors4.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors5.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors6.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors7.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors8.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Indoors9.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/IndoorsWaffen.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/IndoorsWaffen1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior4.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior5.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior6.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior7.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interior8.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiorblue.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiordarkblue.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiordarkgreen.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiordarkred.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiorgoldblue.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiorgreen.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiorlightblue.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiorolivgreen.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiororange.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiorred.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Interiorviolett.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Market1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Market2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Market3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Market4_to_color.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Market5.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Market5_to_color.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Market6_to_color.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Mine.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Mine2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/MountainFarm1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/MountainFarm2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Outdoor.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Plants.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Plants1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Ruins.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/steinhausgreyblue1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/steinhausgreyblue2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/steinhausgreyblue3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/steinhauslightgrey1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/steinhauslightgrey2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/steinhauslightgrey3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/stonebrown1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/stonebrown2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/stonebrown3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/stonehousegreen1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/stonehousegreen2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/stonehousegreen3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Temple.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town%20white.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town3.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town3a.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town4a.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town4b.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town4c.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town4d.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town5.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town6.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town7.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town8.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Town9.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Townbeige.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/TownChurch.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/TownHarbor.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Townlightgrey.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/TownPrison.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/TownZgrey.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/TownZyellow.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/WallsFloors.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/WallsFloors2.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/WallsMountain.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Windows.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/Wood1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/WoodHarborS.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/WoodMountain1.png
+	http://gitorious.org/the-alternate-world/client/blobs/master/graphics/tiles/WoodMountain2.png
+	
+	
+######################################################################
+
+Hey Diana,
+
+Sorry for the late reply, I've been very preoccupied lately. About the tilesets, if your project 
+isn't commercial and you're not planning to make money from the game then by all means use the 
+sets as they are. That's what they're there for! Just keep me informed about your project so that I 
+can see them in action.
+
+Rich
+
+######################################################################
+
+
+All the graphics listed above don't run under the General Public License, copying them without permissions
+from the respective owner isn't allowed.
+
+
+Thanks for borrowing us these great graphics goes to the RPG Maker team, especially 'Rich' who gave us
+the permission to use them.
