@@ -136,7 +136,7 @@ Rich
 ######################################################################
 
 
-All the graphics listed above don't run under the General Public License, copying them without permissions
+All the graphics listed above don't run under the GNU General Public License, copying them without permissions
 from the respective owner isn't allowed.
 
 
